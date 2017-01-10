@@ -1,1 +1,123 @@
-.tuku-wrap{background:url(../images/index-img-bg_7d8ded2.jpg) no-repeat center top;height:547px}.tuku-wrap .main{width:1200px;margin:0 auto;position:relative}.tuku-wrap .main.to{opacity:0;filter:Aplha(opacity=0)}.tuku-wrap .main.show{filter:alpha(opacity=100);opacity:1;-webkit-animation:goto .3s ease-out both;-moz-animation:goto .3s ease-out both;-ms-animation:goto .3s ease-out both;animation:goto .3s ease-out both}.tuku-wrap .title{width:1199px;height:48px;background-repeat: no-repeat;}.tuku-wrap .tk_more{display:block;width:140px;height:40px;float:left;margin-left:280px;background-repeat: no-repeat;}.tuku-wrap .tk_more:hover{background-repeat: no-repeat;}.tuku-wrap .tk_upload{display:block;width:140px;height:40px;float:right;background-repeat: no-repeat;}.tuku-wrap .tk_upload:hover{background-repeat: no-repeat;}.tuku_nav{width:416px;height:48px;float:left;margin-left:212px;overflow:hidden}.tuku_nav li{float:left}.tuku_nav a{display:block;float:left;height:48px;background:url(../images/tuku/nav_b9fc71b.png) no-repeat}.tuku_nav .tk_nav1{background-position:0 0;width:72px;margin-right:20px}.tuku_nav .tk_nav1:hover,.tuku_nav .tk_nav1.active{background:url(../images/tuku/nav-hover_96b537e.png) no-repeat -116px 0}.tuku_nav .tk_nav2{background-position:-91px 0;width:72px;margin-right:20px}.tuku_nav .tk_nav2:hover,.tuku_nav .tk_nav2.active{background:url(../images/tuku/nav-hover_96b537e.png) no-repeat -207px 0}.tuku_nav .tk_nav3{background-position:-181px 0;width:96px;margin-right:20px}.tuku_nav .tk_nav3:hover,.tuku_nav .tk_nav3.active{background:url(../images/tuku/nav-hover_96b537e.png) no-repeat 0 0}.tuku_nav .tk_nav4{background-position:-296px 0;width:115px}.tuku_nav .tk_nav4:hover,.tuku_nav .tk_nav4.active{background:url(../images/tuku/nav-hover_96b537e.png) no-repeat -296px 0}.tk_content{margin-top:20px;overflow:hidden}.tk_content li{float:left;width:280px;height:200px;margin:10px;position:relative;overflow:hidden;background:#e9e2da}.tk_content li img{display:block;margin:0 auto;height:100%}.tk_content .tuku_mask{background:url(../images/tuku/mask_9b58e2f.png) repeat;width:100%;position:absolute;left:0;top:0;height:170px;padding-top:30px;z-index:6}.tk_content .tuku_mask i{display:block;width:49px;height:76px;margin:0 auto;background-repeat: no-repeat;}.tk_content .tuku_mask p{width:90%;left:5%;text-align:center;color:#fff;font-size:14px;position:absolute;bottom:15px}.uploadcode{position:absolute;width:140px;height:167px;right:0;top:45px;display:none;z-index:9;background-repeat: no-repeat;}.card_border{overflow:hidden;pointer-events:none;position:absolute;width:270px;height:190px;left:50%;top:50%;margin-top:-95px;margin-left:-135px;z-index:5;opacity:1}.card_border.fadeout{opacity:0}.card_border.fadeout .border_top,.card_border.fadeout .border_left,.card_border.fadeout .border_bottom,.card_border.fadeout .border_right{-webkit-transition:none;-moz-transition:none;-ms-transition:none;-o-transition:none;transition:none}.card_border.animate .border_top,.card_border.animate .border_left,.card_border.animate .border_bottom,.card_border.animate .border_right{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.card_border .border{-webkit-transition:transform .15s linear;-moz-transition:transform .15s linear;-ms-transition:transform .15s linear;-o-transition:transform .15s linear;transition:transform .15s linear;background:#fff}.card_border .border_top,.card_border .border_bottom{position:absolute;width:100%;height:2px;left:0}.card_border .border_left,.card_border .border_right{position:absolute;height:100%;width:2px;top:0}.card_border .border_top{top:0;-webkit-transform:translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0);-ms-transform:translate3d(100%,0,0);-o-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0);transition-delay:0s}.card_border .border_left{left:0;-webkit-transform:translate3d(0,-100%,0);-moz-transform:translate3d(0,-100%,0);-ms-transform:translate3d(0,-100%,0);-o-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);transition-delay:.15s}.card_border .border_bottom{bottom:0;-webkit-transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);-ms-transform:translate3d(-100%,0,0);-o-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0);transition-delay:.3s}.card_border .border_right{right:0;-webkit-transform:translate3d(0,100%,0);-moz-transform:translate3d(0,100%,0);-ms-transform:translate3d(0,100%,0);-o-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);transition-delay:.45s}.uploadcode{background-position:0px 0px}.tk_content .tuku_mask i{background-position:-140px 0px}.tuku-wrap .title{background-position:-189px 0px}.tuku-wrap .tk_more{background-position:-189px -48px}.tuku-wrap .tk_more:hover{background-position:-329px -48px}.tuku-wrap .tk_upload{background-position:-469px -48px}.tuku-wrap .tk_upload:hover{background-position:-609px -48px}.uploadcode,.tk_content .tuku_mask i,.tuku-wrap .title,.tuku-wrap .tk_more,.tuku-wrap .tk_more:hover,.tuku-wrap .tk_upload,.tuku-wrap .tk_upload:hover{background-image: url(../images/tuku/tuku_z_fec03d1.png)}
+.tuku-wrap{background:url(../images/index-img-bg_7d8ded2.jpg) no-repeat center top;height:547px}
+.tuku-wrap .main{width:1200px;margin:0 auto;position:relative}
+.tuku-wrap .main.to{opacity:0;filter:Aplha(opacity=0)}
+.tuku-wrap .main.show{
+	filter:alpha(opacity=100);
+	opacity:1;
+	-webkit-animation:goto .3s ease-out both;
+	-moz-animation:goto .3s ease-out both;
+	-ms-animation:goto .3s ease-out both;
+	animation:goto .3s ease-out both
+}
+.tuku-wrap .title{width:1199px;height:48px;background-repeat: no-repeat;}
+.tuku-wrap .tk_more{display:block;width:140px;height:40px;float:left;margin-left:280px;background-repeat: no-repeat;}
+.tuku-wrap .tk_more:hover{background-repeat: no-repeat;}
+.tuku-wrap .tk_upload{display:block;width:140px;height:40px;float:right;background-repeat: no-repeat;}
+.tuku-wrap .tk_upload:hover{background-repeat: no-repeat;}
+.tuku_nav{width:416px;height:48px;float:left;margin-left:212px;overflow:hidden}
+.tuku_nav li{float:left}.tuku_nav a{display:block;float:left;height:48px;background:url(../images/tuku/nav_b9fc71b.png) no-repeat}
+.tuku_nav .tk_nav1{background-position:0 0;width:72px;margin-right:20px}
+.tuku_nav .tk_nav1:hover,.tuku_nav .tk_nav1.active{background:url(../images/tuku/nav-hover_96b537e.png) no-repeat -116px 0}
+.tuku_nav .tk_nav2{background-position:-91px 0;width:72px;margin-right:20px}
+.tuku_nav .tk_nav2:hover,.tuku_nav .tk_nav2.active{background:url(../images/tuku/nav-hover_96b537e.png) no-repeat -207px 0}
+.tuku_nav .tk_nav3{background-position:-181px 0;width:96px;margin-right:20px}
+.tuku_nav .tk_nav3:hover,.tuku_nav .tk_nav3.active{background:url(../images/tuku/nav-hover_96b537e.png) no-repeat 0 0}
+.tuku_nav .tk_nav4{background-position:-296px 0;width:115px}
+.tuku_nav .tk_nav4:hover,.tuku_nav .tk_nav4.active{background:url(../images/tuku/nav-hover_96b537e.png) no-repeat -296px 0}
+.tk_content{margin-top:20px;overflow:hidden}
+.tk_content li{float:left;width:280px;height:200px;margin:10px;position:relative;overflow:hidden;background:#e9e2da}
+.tk_content li img{display:block;margin:0 auto;height:100%}
+.tk_content .tuku_mask{
+	background:url(../images/tuku/mask_9b58e2f.png) repeat;
+	width:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	height:170px;
+	padding-top:30px;
+	z-index:6
+}
+.tk_content .tuku_mask i{display:block;width:49px;height:76px;margin:0 auto;background-repeat: no-repeat;}
+.tk_content .tuku_mask p{width:90%;left:5%;text-align:center;color:#fff;font-size:14px;position:absolute;bottom:15px}
+.uploadcode{position:absolute;width:140px;height:167px;right:0;top:45px;display:none;z-index:9;background-repeat: no-repeat;}
+.card_border{
+	overflow:hidden;
+	pointer-events:none;
+	position:absolute;
+	width:270px;
+	height:190px;
+	left:50%;
+	top:50%;
+	margin-top:-95px;
+	margin-left:-135px;
+	z-index:5;
+	opacity:1
+}
+.card_border.fadeout{opacity:0}
+.card_border.fadeout .border_top,.card_border.fadeout .border_left,.card_border.fadeout .border_bottom,.card_border.fadeout .border_right{
+	-webkit-transition:none;
+	-moz-transition:none;
+	-ms-transition:none;
+	-o-transition:none;
+	transition:none
+}
+.card_border.animate .border_top,.card_border.animate .border_left,.card_border.animate .border_bottom,.card_border.animate .border_right{
+	-webkit-transform:translate3d(0,0,0);
+	-moz-transform:translate3d(0,0,0);
+	-ms-transform:translate3d(0,0,0);
+	-o-transform:translate3d(0,0,0);
+	transform:translate3d(0,0,0)
+}
+.card_border .border{
+	-webkit-transition:transform .15s linear;
+	-moz-transition:transform .15s linear;
+	-ms-transition:transform .15s linear;
+	-o-transition:transform .15s linear;
+	transition:transform .15s linear;
+	background:#fff
+}
+.card_border .border_top,.card_border .border_bottom{position:absolute;width:100%;height:2px;left:0}
+.card_border .border_left,.card_border .border_right{position:absolute;height:100%;width:2px;top:0}
+.card_border .border_top{
+	top:0;-webkit-transform:translate3d(100%,0,0);
+	-moz-transform:translate3d(100%,0,0);
+	-ms-transform:translate3d(100%,0,0);
+	-o-transform:translate3d(100%,0,0);
+	transform:translate3d(100%,0,0);
+	transition-delay:0s
+}
+.card_border .border_left{
+	left:0;
+	-webkit-transform:translate3d(0,-100%,0);
+	-moz-transform:translate3d(0,-100%,0);
+	-ms-transform:translate3d(0,-100%,0);
+	-o-transform:translate3d(0,-100%,0);
+	transform:translate3d(0,-100%,0);
+	transition-delay:.15s
+}
+.card_border .border_bottom{
+	bottom:0;
+	-webkit-transform:translate3d(-100%,0,0);
+	-moz-transform:translate3d(-100%,0,0);
+	-ms-transform:translate3d(-100%,0,0);
+	-o-transform:translate3d(-100%,0,0);
+	transform:translate3d(-100%,0,0);
+	transition-delay:.3s
+}
+.card_border .border_right{
+	right:0;
+	-webkit-transform:translate3d(0,100%,0);
+	-moz-transform:translate3d(0,100%,0);
+	-ms-transform:translate3d(0,100%,0);
+	-o-transform:translate3d(0,100%,0);
+	transform:translate3d(0,100%,0);
+	transition-delay:.45s
+}
+.uploadcode{background-position:0px 0px}
+.tk_content .tuku_mask i{background-position:-140px 0px}
+.tuku-wrap .title{background-position:-189px 0px}
+.tuku-wrap .tk_more{background-position:-189px -48px}
+.tuku-wrap .tk_more:hover{background-position:-329px -48px}
+.tuku-wrap .tk_upload{background-position:-469px -48px}
+.tuku-wrap .tk_upload:hover{background-position:-609px -48px}
+.uploadcode,.tk_content .tuku_mask i,.tuku-wrap .title,.tuku-wrap .tk_more,.tuku-wrap .tk_more:hover,.tuku-wrap .tk_upload,.tuku-wrap .tk_upload:hover{background-image: url(../images/tuku/tuku_z_fec03d1.png)}

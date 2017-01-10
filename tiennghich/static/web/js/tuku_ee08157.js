@@ -1,8 +1,7 @@
-var tuku_url="https://ssl.hi.163.com/";
 $(function(){
 	function t(t){
 		$.ajax({
-			url:tuku_url+"md/public/photo_channels/"+t+"/albums/editor_pick",
+			// url:tuku_url+"md/public/photo_channels/"+t+"/albums/editor_pick",
 			type:"get",dataType:"jsonp",data:{page_size:8},
 			success:function(a){
 				var e=baidu.template("tk"+t,a);
