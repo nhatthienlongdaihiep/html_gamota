@@ -101,7 +101,8 @@ nie.define("qnm",function(){
 		wmode:"opaque"
 	}):flashLoad(),ADBase.config({
 		pos:"qiannvyouhuntongmingshouyou-lunhuan-1065",callback:function(t,e){
-			if(0==t)return!1;for(var i=e["qiannvyouhuntongmingshouyou-lunhuan-1065"],a="",s=0;s<i.length;s++){
+			if(0==t)return!1;
+			for(var i=e["qiannvyouhuntongmingshouyou-lunhuan-1065"],a="",s=0;s<i.length;s++){
 				var o=10-s,r=i[s];
 				a+='<a href="'+r.url+'" style="z-index:'+o+'" target="_blank" title="'+r.title+'"><img width="420" height="240" src="'+r.src+'" /></a>'
 			}
