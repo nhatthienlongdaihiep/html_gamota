@@ -1,0 +1,162 @@
+.vote-wrap{margin-bottom:15px;}
+.vote-box{width:600px;*zoom:1; margin:0 auto;padding-left:20px;}
+.vote-box a{color: #0E90D2;}
+.vote-box:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.vote-box li{float:left;width: 100px;}
+.vote-box .top{height:100px;position: relative;left:17px;}
+.vote-box .bottom{text-align: center;}
+.vote-box  img{position: absolute;bottom: 0;width: 50px;border:none;}
+.vote-box .top .percent{width: 25px;height: 70px;position: absolute; left: 40px;bottom: 5px;}
+.vote-box .percent-inner{width: 100%;position: absolute;bottom: 0;line-height: 100%;text-align: center;background-color: #28A3D9;box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);background:url(../comm/images/vote/vote.jpg) -82px 0 repeat-y;}
+.vote-box .percent-inner .num{position: absolute;position: absolute;left: 50%;}
+.vote-box .percent-inner .fan{color: #666;}
+.vote-box .percent-inner .add{display:none; color:#42a1df; font-size:16px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; position:absolute; bottom:0; left:4px;}
+.vote-box .bottom a{text-decoration:none;display:block;margin: 2px auto;width:82px;height:32px;line-height:32px;background:url(../comm/images/vote/vote.jpg) 0 0 no-repeat;color: #fff;font-size:14px;}
+.vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_hover.jpg);}
+.vote-box .ding{width: 35px;bottom: 5px;}
+.vote-box .geili{width: 40px;bottom: 6px;}
+.vote-box .guli{width: 55px;left: -15px;bottom: -8px;}
+.vote-box .luguo{bottom: -5px;left: -5px;}
+.vote-box .bukex{width: 30px;bottom: 5px;}
+.vote-box .jiong{bottom: -5px; left: -12px;}
+.vote-box .percent-inner .fan,.vote-box .percent-inner .num{color: #42a1df;bottom: 105%!important;font-size: 14px;font-family:microsoft yahei;}
+h4.art-desc,.art-list{width: 600px;margin: 0 auto;padding-left: 20px;}
+h4.art-desc{margin-top:20px;margin-bottom:10px;}
+.art-list li{line-height:22px;height:22px;font-size:12px;}
+.art-list li a{display:inline-block;*zoom:1;width:320px;height:22px;vertical-align: bottom;overflow:hidden;}
+.art-date{padding:10px;color:#777;font-size:12px;}
+.art-click-num{color:#444;}
+.art-click-num i{color:#23B0EB;font-style: normal;}
+
+.ff .vote-box .bottom a {background-image:url(../comm/images/vote/vote_ff.jpg); color:#ffffff;}
+.ff .vote-box .percent-inner {background-image:url(../comm/images/vote/vote_ff.jpg);}
+.ff .vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_ff_hover.jpg);}
+.ff .vote-box .percent-inner .fan {color:#0c8de9;}
+.ff .vote-box .percent-inner .num {color:#0c8de9;}
+.ff .vote-box .percent-inner .add{color:#0c8de9;}
+
+.jl .vote-box .bottom a {background-image:url(../comm/images/vote/vote_jl.jpg); color:#ffffff;}
+.jl .vote-box .percent-inner {background-image:url(../comm/images/vote/vote_jl.jpg);}
+.jl .vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_jl_hover.jpg);}
+.jl .vote-box .percent-inner .fan {color:#9d6520;}
+.jl .vote-box .percent-inner .num {color:#9d6520;}
+.jl .vote-box .percent-inner .add{color:#9d6520;}
+
+.wh .vote-box .bottom a {background-image:url(../comm/images/vote/vote_wh.jpg); color:#ffffff;}
+.wh .vote-box .percent-inner {background-image:url(../comm/images/vote/vote_wh.jpg);}
+.wh .vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_wh_hover.jpg);}
+.wh .vote-box .percent-inner .fan {color:#3591ec;}
+.wh .vote-box .percent-inner .num {color:#3591ec;}
+.wh .vote-box .percent-inner .add{color:#3591ec;}
+
+.wj .vote-box .bottom a {background-image:url(../comm/images/vote/vote_wj.jpg); color:#ffffff;}
+.wj .vote-box .percent-inner {background-image:url(../comm/images/vote/vote_wj.jpg);}
+.wj .vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_wj_hover.jpg);}
+.wj .vote-box .percent-inner .fan {color:#017c87;}
+.wj .vote-box .percent-inner .num {color:#017c87;}
+.wj .vote-box .percent-inner .add{ color:#017c87;}
+
+.x3 .vote-box .bottom a {background-image:url(../comm/images/vote/vote_x3.jpg); color:#ffffff;}
+.x3 .vote-box .percent-inner {background-image:url(../comm/images/vote/vote_x3.jpg);}
+.x3 .vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_x3_hover.jpg);}
+.x3 .vote-box .percent-inner .fan {color:#004f5b;}
+.x3 .vote-box .percent-inner .num {color:#004f5b;}
+.x3 .vote-box .percent-inner .add{ color:#004f5b;}
+
+.xc .vote-box .bottom a {background-image:url(../comm/images/vote/vote_xc.jpg); color:#ffffff;}
+.xc .vote-box .percent-inner {background-image:url(../comm/images/vote/vote_xc.jpg);}
+.xc .vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_xc_hover.jpg);}
+.xc .vote-box .percent-inner .fan {color:#0c55bb;}
+.xc .vote-box .percent-inner .num {color:#0c55bb;}
+.xc .vote-box .percent-inner .add{ color:#0c55bb;}
+
+.xdw .vote-box .bottom a {background-image:url(../comm/images/vote/vote_xdw.jpg); color:#ffffff;}
+.xdw .vote-box .percent-inner {background-image:url(../comm/images/vote/vote_xdw.jpg);}
+.xdw .vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_xdw_hover.jpg);}
+.xdw .vote-box .percent-inner .fan {color:#de5c16;}
+.xdw .vote-box .percent-inner .num {color:#de5c16;}
+.xdw .vote-box .percent-inner .add{ color:#de5c16;}
+
+.xy3 .vote-box .bottom a {background-image:url(../comm/images/vote/vote_xy3.jpg);color:#ffffff;}
+.xy3 .vote-box .percent-inner {background-image:url(../comm/images/vote/vote_xy3.jpg);}
+.xy3 .vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_xy3_hover.jpg);}
+.xy3 .vote-box .percent-inner .fan {color:#0193cd;}
+.xy3 .vote-box .percent-inner .num {color:#0193cd;}
+.xy3 .vote-box .percent-inner .add{ color:#0193cd;}
+
+.zh .vote-box .bottom a {background-image:url(../comm/images/vote/vote_zh.jpg);color:#ffffff;}
+.zh .vote-box .percent-inner {background-image:url(../comm/images/vote/vote_zh.jpg);}
+.zh .vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_zh_hover.jpg);}
+.zh .vote-box .percent-inner .fan {color:#cf0200;}
+.zh .vote-box .percent-inner .num {color:#cf0200;}
+.zh .vote-box .percent-inner .add{ color:#cf0200;}
+
+.xy2 .vote-box .bottom a {background-image:url(../comm/images/vote/vote_xy2.jpg);color:#ffffff;}
+.xy2 .vote-box .percent-inner {background-image:url(../comm/images/vote/vote_xy2.jpg);}
+.xy2 .vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_xy2_hover.jpg);}
+.xy2 .vote-box .percent-inner .fan {color:#b80000;}
+.xy2 .vote-box .percent-inner .num {color:#b80000;}
+.xy2 .vote-box .percent-inner .add{ color:#b80000;}
+
+/*
+.qn .vote-box .bottom a {background-image:url(http://res.nie.netease.com/comm/images/vote/vote_qn.jpg);color:#ffffff;}
+.qn .vote-box .percent-inner {background-image:url(http://res.nie.netease.com/comm/images/vote/vote_qn.jpg);}
+.qn .vote-box .bottom a:hover{ background:url(http://res.nie.netease.com/comm/images/vote/vote_qn_hover.jpg);}
+*/
+.vote-box .bottom a {background-image:url(vote.jpg);color:#ffffff;}
+.vote-box .percent-inner {background-image:url(vote.jpg);}
+.vote-box .bottom a:hover{ background:url(vote_hover.jpg);}
+.qn .vote-box .percent-inner .fan {color:#64277a;}
+.qn .vote-box .percent-inner .num {color:#64277a;}
+.qn .vote-box .percent-inner .add{ color:#64277a;}
+#NIE-art ul li{padding-left:0;}
+#NIE-art ul li a{text-decoration:none; color:#fff;}
+
+.dtws2 .vote-box .bottom a {background-image:url(../comm/images/vote/vote_dtws2.jpg);color:#ffffff;}
+.dtws2 .vote-box .percent-inner {background-image:url(../comm/images/vote/vote_dtws2.jpg);}
+.dtws2 .vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_dtws2_hover.jpg);}
+.dtws2 .vote-box .percent-inner .fan {color:#a91718;}
+.dtws2 .vote-box .percent-inner .num {color:#a91718;}
+.dtws2 .vote-box .percent-inner .add{ color:#a91718;}
+
+.lj .vote-box .bottom a {background-image:url(../comm/images/vote/vote_lj.jpg);color:#ffffff;}
+.lj .vote-box .percent-inner {background-image:url(../comm/images/vote/vote_lj.jpg);}
+.lj .vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_lj_hover.jpg);}
+.lj .vote-box .percent-inner .fan {color:#006bb6;}
+.lj .vote-box .percent-inner .num {color:#006bb6;}
+.lj .vote-box .percent-inner .add{ color:#006bb6;}
+
+.xyq .vote-box .bottom a {background-image:url(../comm/images/vote/vote_xyq.jpg);color:#ffffff;}
+.xyq .vote-box .percent-inner {background-image:url(../comm/images/vote/vote_xyq.jpg);}
+.xyq .vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_xyq_hover.jpg);}
+.xyq .vote-box .percent-inner .fan {color:#42a1df;}
+.xyq .vote-box .percent-inner .num {color:#42a1df;}
+.xyq .vote-box .percent-inner .add{ color:#42a1df;}
+
+.y3 .vote-box .bottom a {background-image:url(../comm/images/vote/vote_y3.jpg);color:#ffffff;}
+.y3 .vote-box .percent-inner {background-image:url(../comm/images/vote/vote_y3.jpg);}
+.y3 .vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_y3_hover.jpg);}
+.y3 .vote-box .percent-inner .fan {color:#03e9fe;}
+.y3 .vote-box .percent-inner .num {color:#03e9fe;}
+.y3 .vote-box .percent-inner .add{ color:#03e9fe;}
+
+.yxxc .vote-box .bottom a {background-image:url(../comm/images/vote/vote_yxxc.jpg);color:#ffffff;}
+.yxxc .vote-box .percent-inner {background-image:url(../comm/images/vote/vote_yxxc.jpg);}
+.yxxc .vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_yxxc_hover.jpg);}
+.yxxc .vote-box .percent-inner .fan {color:#257866;}
+.yxxc .vote-box .percent-inner .num {color:#257866;}
+.yxxc .vote-box .percent-inner .add{ color:#257866;}
+
+.zd .vote-box .bottom a {background-image:url(../comm/images/vote/vote_zd.jpg);color:#ffffff;}
+.zd .vote-box .percent-inner {background-image:url(../comm/images/vote/vote_zd.jpg);}
+.zd .vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_zd_hover.jpg);}
+.zd .vote-box .percent-inner .fan {color:#aa3000;}
+.zd .vote-box .percent-inner .num {color:#aa3000;}
+.zd .vote-box .percent-inner .add{ color:#aa3000;}
+
+.tx3 .vote-box .bottom a {background-image:url(../comm/images/vote/vote_tx3.jpg);color:#ffffff;}
+.tx3 .vote-box .percent-inner {background-image:url(../comm/images/vote/vote_tx3.jpg);}
+.tx3 .vote-box .bottom a:hover{ background:url(../comm/images/vote/vote_tx3_hover.jpg);}
+.tx3 .vote-box .percent-inner .fan {color:#e84c00;}
+.tx3 .vote-box .percent-inner .num {color:#e84c00;}
+.tx3 .vote-box .percent-inner .add{ color:#e84c00;}

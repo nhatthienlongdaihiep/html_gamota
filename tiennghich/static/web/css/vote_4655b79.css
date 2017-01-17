@@ -1,0 +1,7 @@
+.inner .vote-wrap{margin-bottom:40px}
+.inner .vote-box .bottom a{background-repeat: no-repeat;}
+.inner .vote-box .bottom a:hover{background-repeat: no-repeat;}
+.inner .vote-box .percent-inner{background:url(../images/vote/number_fdbb471.jpg) repeat-y}
+.inner .vote-box .bottom a{background-position:0px 0px}
+.inner .vote-box .bottom a:hover{background-position:0px -32px}
+.inner .vote-box .bottom a,.inner .vote-box .bottom a:hover{background-image: url(../images/spriter/vote_z_fcadef7.png)}
