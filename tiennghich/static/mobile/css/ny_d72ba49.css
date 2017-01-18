@@ -1,0 +1,45 @@
+.list .wrap{background:#e0eaf6 url(../images/bg-news_6c36e7c.jpg) no-repeat;background-size:100%}
+.list-top{padding:.17rem}
+.banner-change{position:absolute;right:.17rem;z-index:9;top:.17rem}
+.ban-btn{display:inline-block;float:left;width:1.42rem;height:.52rem}
+.ban-btn:hover,.ban-btn.cur{width:1.42rem;height:.6rem}
+.ban-btn.ban-btn1{background:url(../images/ban-btn1_4ebaac3.png) no-repeat;background-size:100%}
+.ban-btn.ban-btn1:hover,.ban-btn.ban-btn1.cur{background:url(../images/ban-btn1_1_09ece39.png) no-repeat;background-size:100%}
+.ban-btn.ban-btn2{background:url(../images/ban-btn2_6ff85fd.png) no-repeat;background-size:100%}
+.ban-btn.ban-btn2:hover,.ban-btn.ban-btn2.cur{background:url(../images/ban-btn2_1_0d96171.png) no-repeat;background-size:100%}
+.banner-box{position:relative;overflow:hidden}
+.banner{position:relative;width:1000%;height:3.48rem;transition-property:transform;-webkit-transition-property:-webkit-transform}
+.banner li{float:left;width:10%;height:100%;overflow:hidden}
+.banner .fill-in-first{position:absolute;left:-10%}
+.banner li.current{}
+.banner li img{width:100%}
+.banner-box .index{position:absolute;left:0;bottom:.35rem;width:100%;text-align:center;font-size:0;line-height:0;z-index:5}
+.banner-box .index li{display:inline-block;width:.25rem;height:.25rem;font-size:0}
+.banner-box .index a{display:block;width:100%;height:100%;background:url(../images/icon-index_e64618d.png) no-repeat;background-size:200% 100%}
+.banner-box .index .current a{background-position:100% 0}
+.news-nav{padding-left:.47rem;background:url(../images/bg-news_a76046b.png) no-repeat 0 center;background-size:100% auto;overflow:hidden}
+.news-nav li{float:left;margin-right:.39rem}
+.news-nav li a{display:block;width:1rem;height:1rem;font:400 .36rem/1rem Kaiti;color:#7a7a7a;background:url(../images/icon-news_e5d2b84.png) no-repeat;background-size:200% 100%;text-align:center}
+.news-nav li.current a{color:#fff;background-position:100% 0}
+.news-list{padding:.2rem .41rem}
+.news-list li{display:block;position:relative;padding-right:.88rem;border-bottom:2px dotted #9db2cd;font:400 .28rem/0.66rem KaiTi}
+.news-list li:last-child{border:0}
+.news-list a{display:block;color:#000;text-decoration:none;overflow:hidden;white-space:nowrap;word-wrap:normal;text-overflow:ellipsis}
+.news-list .title b{font-weight:400;margin-right:6px}
+.news-list .date{position:absolute;top:0;right:0}
+.more{display:block;width:6.37rem;height:.69rem;margin:0 auto;font:400 .34rem/0.69rem Kaiti;color:#392a0a;text-align:center;background:url(../images/icon-more_3a51c21.png) no-repeat;background-size:100% 100%}
+#article{padding:.5rem .38rem .2rem;color:#333}
+.artTitle{font:400 .36rem/0.68rem 'Microsoft Yahei'}
+.data_html .artTitle{text-align:center}
+.artDate{font:400 .2rem/0.7rem 'Microsoft Yahei';color:#b49655;border-bottom:1px solid #000}
+.artText{font:400 .24rem/0.6rem 'Microsoft Yahei';overflow:hidden}
+.artText img{max-width:100%!important;height:auto!important;vertical-align:middle}
+.artText a{color:#d89a0b;text-decoration:underline;font-size:.28rem}
+.artText p{font-size:.28rem}
+.artText .red{color:#ef1600}
+.artText .table-pic{width:100%;text-align:center;font:400 .16rem/0.5rem 'Microsoft Yahei';background:#222;margin-bottom:.2rem;color:#fff}
+.artText table,.artText .table3{border-collapse:collapse;width:100%!important;margin:auto}
+.artText .table3 td,.artText .table3 th{padding:.1rem;border:1px solid #628db9;text-align:center;white-space:normal;word-wrap:break-word;word-break:break-all}
+.artText .table3 thead,.artText .table3 th{font-weight:700;color:#1b436c;background:#95b7dc}
+.artText #flashvideo{width:auto!important;height:auto!important;margin-bottom:.2rem!important}
+.artText video{width:100%;height:auto}
