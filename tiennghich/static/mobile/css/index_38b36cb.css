@@ -14,7 +14,7 @@ input{-webkit-appearance:none;outline:0}
 .hide{display:none}
 body,html{
 	width:100%;
-	font-family:"Microsoft YaHei","Helvetica Neue",Arial,HelveticaNeue,Helvetica,"BBAlpha Sans",sans-serif;
+	font-family:Arial,sans-serif;
 	font-weight:400;display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-align:center}
 *{-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none}
 body{opacity:1;-webkit-transition:opacity 500ms ease-in;transition:opacity 500ms ease-in}

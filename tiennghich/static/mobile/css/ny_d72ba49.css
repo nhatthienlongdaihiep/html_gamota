@@ -19,25 +19,25 @@
 .banner-box .index .current a{background-position:100% 0}
 .news-nav{padding-left:.47rem;background:url(../images/bg-news_a76046b.png) no-repeat 0 center;background-size:100% auto;overflow:hidden}
 .news-nav li{float:left;margin-right:.39rem}
-.news-nav li a{display:block;width:1rem;height:1rem;font:400 .36rem/1rem Kaiti;color:#7a7a7a;background:url(../images/icon-news_e5d2b84.png) no-repeat;background-size:200% 100%;text-align:center}
+.news-nav li a{display:block;width:1rem;height:1rem;font:400 .36rem/1rem Arial;color:#7a7a7a;background:url(../images/icon-news_e5d2b84.png) no-repeat;background-size:200% 100%;text-align:center}
 .news-nav li.current a{color:#fff;background-position:100% 0}
 .news-list{padding:.2rem .41rem}
-.news-list li{display:block;position:relative;padding-right:.88rem;border-bottom:2px dotted #9db2cd;font:400 .28rem/0.66rem KaiTi}
+.news-list li{display:block;position:relative;padding-right:.88rem;border-bottom:2px dotted #9db2cd;font:400 .28rem/0.66rem Arial}
 .news-list li:last-child{border:0}
 .news-list a{display:block;color:#000;text-decoration:none;overflow:hidden;white-space:nowrap;word-wrap:normal;text-overflow:ellipsis}
 .news-list .title b{font-weight:400;margin-right:6px}
 .news-list .date{position:absolute;top:0;right:0}
-.more{display:block;width:6.37rem;height:.69rem;margin:0 auto;font:400 .34rem/0.69rem Kaiti;color:#392a0a;text-align:center;background:url(../images/icon-more_3a51c21.png) no-repeat;background-size:100% 100%}
+.more{display:block;width:6.37rem;height:.69rem;margin:0 auto;font:400 .34rem/0.69rem Arial;color:#392a0a;text-align:center;background:url(../images/icon-more_3a51c21.png) no-repeat;background-size:100% 100%}
 #article{padding:.5rem .38rem .2rem;color:#333}
-.artTitle{font:400 .36rem/0.68rem 'Microsoft Yahei'}
+.artTitle{font:400 .36rem/0.68rem Arial}
 .data_html .artTitle{text-align:center}
-.artDate{font:400 .2rem/0.7rem 'Microsoft Yahei';color:#b49655;border-bottom:1px solid #000}
-.artText{font:400 .24rem/0.6rem 'Microsoft Yahei';overflow:hidden}
+.artDate{font:400 .2rem/0.7rem Arial;color:#b49655;border-bottom:1px solid #000}
+.artText{font:400 .24rem/0.6rem Arial;overflow:hidden}
 .artText img{max-width:100%!important;height:auto!important;vertical-align:middle}
 .artText a{color:#d89a0b;text-decoration:underline;font-size:.28rem}
 .artText p{font-size:.28rem}
 .artText .red{color:#ef1600}
-.artText .table-pic{width:100%;text-align:center;font:400 .16rem/0.5rem 'Microsoft Yahei';background:#222;margin-bottom:.2rem;color:#fff}
+.artText .table-pic{width:100%;text-align:center;font:400 .16rem/0.5rem Arial;background:#222;margin-bottom:.2rem;color:#fff}
 .artText table,.artText .table3{border-collapse:collapse;width:100%!important;margin:auto}
 .artText .table3 td,.artText .table3 th{padding:.1rem;border:1px solid #628db9;text-align:center;white-space:normal;word-wrap:break-word;word-break:break-all}
 .artText .table3 thead,.artText .table3 th{font-weight:700;color:#1b436c;background:#95b7dc}
