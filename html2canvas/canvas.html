@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Canvas</title>
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/html2canvas.min.js"></script>
+	<script>
+		$(function(){
+			$("#btnView").click(function(){
+				html2canvas($("#num"),{
+					onrendered: function(canvas){
+						document.body.appendChild(canvas);
+						$("#img_out").append(canvas);
+					}
+				});
+				return false;
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="num" style="text-align:center; margin-top:50px;">
+		<input type="text" name="num_1" id="num_1" size="5">
+		<input type="text" name="num_2" id="num_2" size="5">
+		<input type="text" name="num_3" id="num_3" size="5">
+		<br><br>
+		<input type="submit" name="change" class="change" onclick="change_num()" value="OK">
+	</div>
+	<br>
+	<div style="text-align:center">
+		<input type="button" id="btnView" value="View Image"/><br><br>	
+		<div id="img_out"></div><br><br>
+	</div>
+</body>
+</html>

@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Đảo Vị Trí Số</title>
 	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/html2canvas.min.js"></script>
 	<script>
 		/*$(document).ready(function(){
 			$("#change").click(function(){
