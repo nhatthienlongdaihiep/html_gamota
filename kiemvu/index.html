@@ -2,22 +2,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Kiếm Vũ 3D mobile</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta content="width=device-width, initial-scale=1" name="viewport">
-<link href="static/web/images/favicon.png" rel="shortcut icon" type="image/png">
-<meta name="keywords" content="Kiếm Vũ 3D mobile" />
-<meta name="description" content="Tải v&agrave; chơi Ỷ Thi&ecirc;n Đồ Long K&yacute; 3D mobile: Game mobile nhập vai hay nhất 2016. C&ugrave;ng ch&igrave;m đắm v&agrave; thế giới v&otilde; hiệp với mobile game 3D đ&igrave;nh đ&aacute;m mới ra ra mắt.
-" />
-<meta property="og:title" content="Kiếm Vũ 3D mobile" />
-<meta property="og:description" content="Tải v&agrave; chơi Ỷ Thi&ecirc;n Đồ Long K&yacute; 3D mobile: Game mobile nhập vai hay nhất 2016. C&ugrave;ng ch&igrave;m đắm v&agrave; thế giới v&otilde; hiệp với mobile game 3D đ&igrave;nh đ&aacute;m mới ra ra mắt.
-" />
-<script type="text/javascript" src="static/web/js/jquery.min.js"></script>
-<link href="static/web/images/favicon.png" rel="shortcut icon" type="image/x-icon">
-<!-- <script type="text/javascript" src="static/web/js/app-dist.js"></script>
-<link rel="stylesheet" href="static/web/css/app-dist.css"> -->
-<link href="static/web/css/master.css" rel="stylesheet" type="text/css"/>
+	<meta charset="UTF-8">
+	<title>Kiếm Vũ Mobi – Tuyệt Tác Kiếm Hiệp 2017</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="static/web/images/favicon.png" rel="shortcut icon" type="image/png">
+	<meta name="keywords" content="Kiếm Vũ Mobi – Tuyệt Tác Kiếm Hiệp 2017" />
+	<meta name="description" content="" />
+	<meta property="og:title" content="Kiếm Vũ Mobi – Tuyệt Tác Kiếm Hiệp 2017" />
+	<meta property="og:description" content="" />
+	<script type="text/javascript" src="static/web/js/jquery.min.js"></script>
+	<link href="static/web/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+	<link href="static/web/css/master.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <!--bar-->
@@ -55,10 +51,7 @@
 				<div class="top_down top_down2">
 					<a class="down_iphone" href="#" >Tải Iphone</a>
 					<a class="down_android" href="#"  target="_blank">Tải Android</a>
-					<div class="wbBox">
-						<a class="weibo_qq" href="#" target="_blank">QQ</a>
-						<a class="weibo_sina" href="#" target="_blank">Sina</a>
-					</div>
+					<a class="down_pc" href="#"  target="_blank">Tải PC</a>
 				</div>
 				<a class="btn_gift btn_gift2" href="#" target="_blank">Gift</a>
 			</div>
@@ -305,7 +298,7 @@
 
 $(function(){
 	//addSWF ( "http://manuallyclientyd.dl.wanmei.com/client/ytflash0926.swf" , "mainSwf" , 2000, 992);
-	var sFlv = [
+	/*var sFlv = [
 		'http://apkdownload.laohu.com/tmp/video/emei2M.flv',
 		'http://apkdownload.laohu.com/tmp/video/wudang2M.flv',
 		'http://apkdownload.laohu.com/tmp/video/shaolin2M.flv',
@@ -322,9 +315,9 @@ $(function(){
 		'<iframe style="width:800px;height:450px" src="http://player.youku.com/embed/XMTU2NTE3NzUwNA" frameborder=0 allowfullscreen></iframe>',
 		'<iframe style="width:800px;height:450px" src="http://player.youku.com/embed/XMTU2NTE3MDMyOA" frameborder=0 allowfullscreen></iframe>',
 		'<iframe style="width:800px;height:450px" src="http://player.youku.com/embed/XMTU3MjcxOTk0NA" frameborder=0 allowfullscreen></iframe>'
-	];
+	];*/
 	//video
-	var browser2={
+	/*var browser2={
 		versions:function(){
 			var u = navigator.userAgent, app = navigator.appVersion;
 			return {
@@ -353,7 +346,7 @@ $(function(){
 	});
 	$('.close_btn').click(function(){
 		$.simpleDialog.close('video_pop');
-	});
+	});*/
 	//bar
 	$('.btn_top').click(function(){
 		$('html,body').animate({'scroll-top':0},300);
@@ -407,9 +400,9 @@ $(function(){
 	tabClick($('.tab_menpai li'),$('.tab_cont_menpai'));
 	tabClick($('.tab_gonglue li'),$('.tab_cont_gonglue'));
 	
-	$(".btn_v_menpai").css({"left":"1px"});
-	var mobile = !!navigator.userAgent.match(/AppleWebKit.*Mobile.*/);
-    if(mobile){
+	// $(".btn_v_menpai").css({"left":"1px"});
+	// var mobile = !!navigator.userAgent.match(/AppleWebKit.*Mobile.*/);
+    /*if(mobile){
     	$("#v_shaolin,#v_emei,#v_wudang").hide();
     	$(".btn_v_menpai").eq(0).html('<img src="http://yt.laohu.com/_s/v1/emeijt.jpg" width="204" height="128">');
 		$(".btn_v_menpai").eq(1).html('<img src="http://yt.laohu.com/_s/v1/shaolinjt.jpg" width="204" height="128">');
@@ -457,7 +450,7 @@ $(function(){
 			   id : 'video_pop'
 			});		
 		});
-	});
+	});*/
 });
 </script> 
 
@@ -490,9 +483,5 @@ $(function(){
   video_hero();
 </script> -->
 
-<div style="display:none;">
-<!-- <script src='http://w.cnzz.com/q_stat.php?id=1000331158&l=3' language='JavaScript'></script>
-<script src='http://w.cnzz.com/q_stat.php?id=1255944179&l=3' language='JavaScript'></script> -->
-</div>
 </body>
 </html>

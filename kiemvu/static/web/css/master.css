@@ -35,7 +35,6 @@ a:hover{ text-decoration:underline}
 .nav a:hover{ background-position:0 -74px!important;}
 /* top */
 .main_header{ position:relative; height:692px;}
-.mainSwf{ position:absolute; width:1187px; height:663px; z-index:1;left:-400px;top:-75px;}
 .logoImg{ position:absolute; width:262px; left:790px; top:18px; z-index:2;}
 
 @font-face{
@@ -49,15 +48,15 @@ a:hover{ text-decoration:underline}
 
 @font-face{
 	font-family:'SVN_DOPE';
-	src:url('../fonts/SVN_DOPE/SVN-DOPE SCRIPT_0.TTF') format('embedded-opentype'),
-	url('../fonts/SVN_DOPE/SVN-DOPE SCRIPT_0.TTF') format('truetype'),
+	src:url('../fonts/SVN_DOPE/SVN-DOPE-SCRIPT_0.TTF') format('embedded-opentype'),
+	url('../fonts/SVN_DOPE/SVN-DOPE-SCRIPT_0.TTF') format('truetype'),
 	font-weight:normal;font-style:normal
 }
 /* video */
 .btn_video{ position:absolute; width:97px; height:95px; left:540px; top:200px;cursor:pointer; z-index:44;}
 .video_zhuan{ display:block; width:97px; height:95px; background-image:url(../images/btn_video.png); text-indent:-9999px; overflow:hidden;  animation:key_zhuan 2s linear infinite; -webkit-animation:key_zhuan 2s linear infinite; -moz-animation:key_zhuan 2s linear infinite; -ms-animation:key_zhuan 2s linear infinite;}
 .btn_video img{ position:absolute; width:97px; height:95px; left:0; top:0;}
-	@keyframes key_zhuan{
+@keyframes key_zhuan{
 	0%{transform:rotate(0deg)}
 	100%{transform:rotate(360deg)}	
 	}
@@ -80,10 +79,7 @@ a:hover{ text-decoration:underline}
 .top_down a{ float:left; margin-right:2px; text-indent:-9999px; overflow:hidden;}
 .down_iphone,.down_android{ width:212px; height:56px; background:url(../images/down_iphone.png) no-repeat;}
 .down_android{background:url(../images/down_android.png) no-repeat;}
-.wbBox{ position:relative; float:left;width:211px;height:55px;background:url(../images/guanzhu_bg.png) no-repeat center;}
-.weibo_qq,.weibo_sina{ position:absolute; width:45px; height:45px; margin:0; top:6px; background:url(about:blank);}
-.weibo_qq{left:105px;}
-.weibo_sina{ left:155px;}
+.down_pc{ position:relative; float:left;width:211px;height:55px;background:url(../images/guanzhu_bg.png) no-repeat center;}
 .btn_gift{ position:absolute; width:339px; height:136px; right:0px; top:565px; background-image:url(../images/btn_gift.png); text-indent:-9999px; overflow:hidden; z-index:44; }
 /* bar */
 .bar_box{ position:fixed; width:220px; height:664px; left:0px; top:50%; margin-top:-332px; overflow:hidden; z-index:1001;}
@@ -263,10 +259,11 @@ a:hover{ text-decoration:underline}
 	100%{-ms-transform:scale(1.2)}
 }
 
-/*.r_more2{ background-color:#9c9c9c;}
-.iframe_img{ display:block; width:774px; height:174px;}*/
 
-.weibo_box { width: 312px; height: 154px; background: #fff; border: 1px solid #e2e2e2; padding: 18px; color: #4b4b4b }
+.r_more2{ background-color:#9c9c9c;}
+.iframe_img{ display:block; width:774px; height:174px;}
+
+ .weibo_box { width: 312px; height: 154px; background: #fff; border: 1px solid #e2e2e2; padding: 18px; color: #4b4b4b }
 .weibo_box .tit { height:20px; font:bold 16px/20px Arial; background: url(../images/ico.jpg) no-repeat; text-indent: 30px }
 .weibo_box img { width:110px; height:110px; float: left; margin-top: 20px }
 .weibo_box .right { width: 170px; margin-top: 32px; float: right; }
@@ -283,7 +280,7 @@ a:hover{ text-decoration:underline}
 .kefu_box .right h3 span{ font-size:16px; color:#4c4c4c; font-weight:normal;}
 .kefu_box .right div{ color:#7e5b12; font-size:13px;}
 .kefu_box .right .q1 { height: 22px; line-height:22px; background: url(../images/k1.png) no-repeat left center;  color: #4c4c4c; font-size:14px; margin-top:10px;text-indent: 25px;}
-.kefu_box .right .q2 { height: 22px; line-height:22px; background: url(../images/k2.png) no-repeat left center;  color: #000; font-size:14px; margin-top:10px;text-indent: 25px;}
+.kefu_box .right .q2 { height: 22px; line-height:22px; background: url(../images/k2.png) no-repeat left center;  color: #000; font-size:14px; margin-top:10px;text-indent: 25px;} 
 
 
 /* news_list========================================= */
@@ -316,7 +313,6 @@ a:hover{ text-decoration:underline}
 .more_r{ padding-top:15px; overflow:hidden;}
 .more_r a{ float:right; width:81px; height:30px; font:normal 14px/30px Arial;color:#5d5d5d; text-align:center; background:url(../images/view.jpg) no-repeat;}
 .page{ margin:30px auto 0; text-align:center; color:#3f3f3f;}
-
 .page a{ display:inline-block; width:25px; height:25px; text-align:center; color:#3f3f3f; background:#cfcfcf; border:1px solid #b0b0b0; margin-right:5px;line-height: 25px }
 .page a.focus{ background:#f1f1f1 }
 .page a.pre{ width:66px }
@@ -343,7 +339,7 @@ a:hover{ text-decoration:underline}
 .inside_content_r  .kefu_box h3 { font-size: 22px; color: #7e5b12 }
 .inside_content_r  .kefu_box h3 span{ font-size:14px; color:#b6b6b6;}
 .inside_content_r  .kefu_box .left{ margin-top:10px;}
-/* article========================================= */
+/*article=========================================*/
 .item_bred{ font-size:14px; color:#a1a1a1; text-align:right;}
 .item_bred a{ color:#a1a1a1; text-decoration:underline;}
 .article_tit_box { text-align: center; margin-bottom: 30px; }
@@ -352,7 +348,7 @@ a:hover{ text-decoration:underline}
 .article_tit_box h2 { border-bottom: 1px solid #999; font-size: 20px; line-height: 40px; height: 40px; display: inline; padding: 0 20px; color: #000 }
 .article p{ margin:10px 0; font:normal 14px/22px Arial; color:#525252; text-indent:2em;}
 .laohugg img{ display:block; margin:0 auto;}
-/* down========================================= */
+/*down=========================================*/
 .down_t{ float:left; width:64px;}
 .down_t_wrap{ float:left; width:550px; height:60px; border-bottom:1px solid #b6b6b6;}
 .down_line{ width:520px; margin:30px auto 0; padding:0 40px 30px; border-bottom:1px solid #b6b6b6; overflow:hidden;}
@@ -362,7 +358,7 @@ a:hover{ text-decoration:underline}
 .down_info{ height:48px; font-size:14px;}
 .down_info span.mr30{ margin-right:30px;}
 .down_line_r .down_iphone,.down_line_r .down_android{ position:relative; left:0; top:0; display:block; text-indent:-9999px; overflow:hidden;}
-/* pic_list========================================= */
+/*pic_list=========================================*/
 .list_t_wrap h2.pic_list_t{ background:url(../images/pic_list_t.png) 0 0 no-repeat;}
 .pic_list_tab{ width:956px; height:51px; margin-top:20px; overflow:hidden;}
 .pic_list_tab li{ float:left; width:235px; height:51px; margin-right:5px; background:url(../images/pic_list_nav.png);}

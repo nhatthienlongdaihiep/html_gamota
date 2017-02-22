@@ -20,61 +20,68 @@ a:hover{ text-decoration:underline}
 .foot .box .txt a{ font-size:12px; color:#666666; margin:0 4px; font-family:Arial}
 .foot .box .txt a:hover{ color:#F00}
 /* main================================= */
-.bg_top{ background:url(../images/bg.jpg) center 0 no-repeat #e5e5e5;}
+.bg_top{ background:url(../images/bg.jpg) center 0 no-repeat #e5e5e5; height:1166px;}
 .bg_bot{ background:url(../images/bg_bot_2.png) center bottom no-repeat;}
 .wrap1200{ width:1200px; padding-bottom:50px; margin:0 auto;}
 /* nav */
-.nav_bg{ height:74px; background:url(http://yt.laohu.com/_s/v1/nav_bg.png) center top no-repeat;}
-.nav{ width:1155px; height:74px; margin:0 auto; overflow:hidden; padding-left:45px;}
-.nav a{ float:left; width:100px; height:74px; margin:0 45px; text-indent:-9999px; overflow:hidden;}
-.nav a#nav_index{ width:60px;}
-#nav_index{ background:url(http://yt.laohu.com/_s/v2/nav_index.png)}
-#nav_news{ background:url(http://yt.laohu.com/_s/v2/nav_news.png)}
-#nav_info{ background:url(http://yt.laohu.com/_s/v2/nav_info.png)}
-#nav_media{ background:url(http://yt.laohu.com/_s/v2/nav_media1.png)}
-#nav_down{ background:url(http://yt.laohu.com/_s/v2/nav_down.png)}
-#nav_bbs{ background:url(http://yt.laohu.com/_s/v2/nav_bbs.png)}
-#nav_xs{ background:url(http://yt.laohu.com/_s/v3/nav_xinshou.png)}
+.nav_bg{ height:74px; background:url(../images/nav_bg.png) center top no-repeat;}
+.nav{ width:1155px; height:74px; margin:0 auto; overflow:hidden; padding-left:290px;}
+.nav a{ float:left; width:100px; height:74px; margin:0 35px; text-indent:-9999px; overflow:hidden;}
+.nav a#nav_index{ width:100px;}
+#nav_index{ background:url(../images/trangchu.png)}
+#nav_news{ background:url(../images/tintuc.png)}
+#nav_info{ background:url(../images/huongdan.png)}
+#nav_xs{ background:url(../images/camnang.png)}
 .nav a:hover{ background-position:0 -74px!important;}
 /* top */
 .main_header{ position:relative; height:692px;}
-.mainSwf{ position:absolute; width:1187px; height:663px; left:6px; top:0; z-index:1;}
-.logoImg{ position:absolute; width:340px; left:0px; top:10px; z-index:2;}
-.honer{ position:absolute; width:211px; height:64px; left:377px; top:60px;  z-index: 4;background-image:url(http://yt.laohu.com/_s/v1/honer.png);}
-#Marquee{ width:211px; height:40px; overflow:hidden;}
-#Marquee p{ width:211px; height:40px; font:normal 14px/20px "微软雅黑"; text-align:center;}
+.logoImg{ position:absolute; width:262px; left:790px; top:18px; z-index:2;}
+
+@font-face{
+	font-family:'UTM_AVO';
+	src:url('../fonts/avo/UTM_AVO.TTF') format('embedded-opentype'),
+	url('../fonts/avo/UTM_AVOBOLD.TTF') format('truetype'),
+	url('../fonts/avo/UTM_AVOBOLD_ITALIC.TTF') format('truetype'),
+	url('../fonts/avo/UTM_AVOITALIC.TTF') format('truetype');
+	font-weight:normal;font-style:normal
+}
+
+@font-face{
+	font-family:'SVN_DOPE';
+	src:url('../fonts/SVN_DOPE/SVN-DOPE-SCRIPT_0.TTF') format('embedded-opentype'),
+	url('../fonts/SVN_DOPE/SVN-DOPE-SCRIPT_0.TTF') format('truetype'),
+	font-weight:normal;font-style:normal
+}
+
 /* video */
 .btn_video{ position:absolute; width:97px; height:95px; left:540px; top:200px;cursor:pointer; z-index:44;}
-.video_zhuan{ display:block; width:97px; height:95px; background-image:url(http://yt.laohu.com/_s/v1/btn_video.png); text-indent:-9999px; overflow:hidden;  animation:key_zhuan 2s linear infinite; -webkit-animation:key_zhuan 2s linear infinite; -moz-animation:key_zhuan 2s linear infinite; -ms-animation:key_zhuan 2s linear infinite;}
+.video_zhuan{ display:block; width:97px; height:95px; background-image:url(../images/btn_video.png); text-indent:-9999px; overflow:hidden;  animation:key_zhuan 2s linear infinite; -webkit-animation:key_zhuan 2s linear infinite; -moz-animation:key_zhuan 2s linear infinite; -ms-animation:key_zhuan 2s linear infinite;}
 .btn_video img{ position:absolute; width:97px; height:95px; left:0; top:0;}
 @keyframes key_zhuan{
-0%{transform:rotate(0deg)}
-100%{transform:rotate(360deg)}	
-}
-@-webkit-keyframes key_zhuan{
-0%{-webkit-transform:rotate(0deg)}
-100%{-webkit-transform:rotate(360deg)}	
-}
-@-moz-keyframes key_zhuan{
-0%{-moz-transform:rotate(0deg)}
-100%{-moz-transform:rotate(360deg)}	
-}
-@-ms-keyframes key_zhuan{
-0%{-ms-transform:rotate(0deg)}
-100%{-ms-transform:rotate(360deg)}	
+	0%{transform:rotate(0deg)}
+	100%{transform:rotate(360deg)}	
+	}
+	@-webkit-keyframes key_zhuan{
+	0%{-webkit-transform:rotate(0deg)}
+	100%{-webkit-transform:rotate(360deg)}	
+	}
+	@-moz-keyframes key_zhuan{
+	0%{-moz-transform:rotate(0deg)}
+	100%{-moz-transform:rotate(360deg)}	
+	}
+	@-ms-keyframes key_zhuan{
+	0%{-ms-transform:rotate(0deg)}
+	100%{-ms-transform:rotate(360deg)}	
 }
 .video_pop{ display:none; position:relative;background:#000; width:800px; height:450px;}
 .close_btn{ position:absolute; right:-89px; top:0px; width:89px; height:89px; cursor:pointer;}
 .ma_down{ position:absolute; left:5px; top:530px;}
 .top_down{ position:absolute; width:650px; height:57px; left:100px; top:623px; z-index:444;}
 .top_down a{ float:left; margin-right:2px; text-indent:-9999px; overflow:hidden;}
-.down_iphone,.down_andiroid{ width:212px; height:56px; background:url(http://yt.laohu.com/_s/v2/down_iphone.png) no-repeat;}
-.down_andiroid{background:url(http://yt.laohu.com/_s/v4/down_android.png) no-repeat;}
-.wbBox{ position:relative; float:left;width:211px;height:55px;background:url(http://yt.laohu.com/_s/v4/guanzhu_bg.png) no-repeat center;}
-.weibo_qq,.weibo_sina{ position:absolute; width:45px; height:45px; margin:0; top:6px; background:url(about:blank);}
-.weibo_qq{left:105px;}
-.weibo_sina{ left:155px;}
-.btn_gift{ position:absolute; width:302px; height:117px; right:90px; top:580px; background-image:url(http://yt.laohu.com/_s/v4/btn_gift.png); text-indent:-9999px; overflow:hidden; z-index:44; }
+.down_iphone,.down_andiroid{ width:212px; height:56px; background:url(../images/down_iphone.png) no-repeat;}
+.down_android{background:url(../images/down_android.png) no-repeat;}
+.down_pc{ position:relative; float:left;width:211px;height:55px;background:url(../images/guanzhu_bg.png) no-repeat center;}
+.btn_gift{ position:absolute; width:302px; height:117px; right:90px; top:580px; background-image:url(../images/btn_gift.png); text-indent:-9999px; overflow:hidden; z-index:44; }
 /* bar */
 .bar_box{ position:fixed; width:220px; height:664px; left:0px; top:50%; margin-top:-332px; overflow:hidden; z-index:1001;}
 .btn_bar{ display:none; position:absolute; width:66px; height:150px; left:0; top:257px; background-image:url(http://yt.laohu.com/_s/v1/btn_bar2.png); text-indent:-9999px; overflow:hidden; cursor:pointer;}
