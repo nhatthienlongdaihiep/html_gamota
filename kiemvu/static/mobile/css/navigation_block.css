@@ -1,0 +1,198 @@
+.transition {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+.menu-top-toggle,
+.nav-trigger {
+    display: block;
+    max-width: 44px;
+    max-height: 44px;
+    overflow: hidden;
+    white-space: nowrap;
+    color: transparent;
+    z-index: 3;
+    position: absolute;
+    left: 0
+}
+@media (max-width: 992px) {
+    .menu-top,
+    .menu-top-toggle {
+        -webkit-transition: all 0s ease-in-out;
+        -moz-transition: all 0s ease-in-out;
+        -o-transition: all 0s ease-in-out
+    }
+    .menu-top,
+    .menu-top>li>.active-content>li>.active-content,
+    .menu-top>li>.active-content>li>.mega-content,
+    .menu-top>li>.mega-content>li>.active-content,
+    .menu-top>li>.mega-content>li>.mega-content,
+    .menu-top>li>ul>li>.active-content,
+    .menu-top>li>ul>li>.mega-content {
+        background-color: #000
+    }
+    .menu-top-toggle.open,
+    .page.menu_open {
+        margin-left: 220px
+    }
+    .menu-top {
+        width: 220px;
+        display: inline-block;
+        color: #ccc;
+        line-height: 24px;
+        position: fixed;
+        top: 0;
+        left: -220px;
+        height: 100%;
+        z-index: 99999;
+        overflow-y: auto;
+        transition: all 0s ease-in-out
+    }
+    .menu-top>li {
+        display: block;
+        float: left;
+        width: 100%
+    }
+    .menu-top>li>a,
+    .menu-top>li>span {
+        padding: 10px;
+        display: block;
+        width: 100%;
+        white-space: nowrap;
+        color: #ccc;
+        text-decoration: none;
+        border-bottom: 1px dotted #111
+    }
+    .menu-top>li>a:before,
+    .menu-top>li>span:before {
+        content: "\f105";
+        font: normal normal normal 14px/1 FontAwesome;
+        margin-right: 10px
+    }
+    .menu-top>li>a:hover,
+    .menu-top>li>span:hover {
+        color: #666
+    }
+    .menu-top.open {
+        left: 0
+    }
+    .menu-top li {
+        position: relative
+    }
+    .menu-top li.has-submenu>a:after {
+        content: "\f067";
+        font: normal normal normal 14px/1 FontAwesome;
+        position: absolute;
+        right: 10px;
+        line-height: 26px;
+        font-size: 8px
+    }
+    .menu-top li.has-submenu.open-content>a:after {
+        content: "\f068"
+    }
+    .menu-top a,
+    .menu-top span {
+        text-align: left
+    }
+    .menu-top a:active,
+    .menu-top a:focus,
+    .menu-top a:hover,
+    .menu-top span:active,
+    .menu-top span:focus,
+    .menu-top span:hover {
+        background: #252525;
+        color: #757575
+    }
+    .menu-top li>ul {
+        background-color: #2f2f2f;
+        display: none
+    }
+    .menu-top li>ul.has-submenu-open {
+        display: block
+    }
+    .menu-top li>ul>li a,
+    .menu-top li>ul>li span {
+        display: block;
+        padding: 5px 15px 5px 30px;
+        border-bottom: 1px solid rgba(17, 17, 17, .8);
+        font-size: 13px;
+        color: rgba(204, 204, 204, .5)
+    }
+    .menu-top li>ul>li a:active,
+    .menu-top li>ul>li a:focus,
+    .menu-top li>ul>li a:hover,
+    .menu-top li>ul>li span:active,
+    .menu-top li>ul>li span:focus,
+    .menu-top li>ul>li span:hover {
+        background: #2f2f2f;
+        color: #757575
+    }
+    .menu-top-toggle {
+        transition: all .3s ease-in-out;
+        z-index: 99
+    }
+    .menu-top-overlay.open {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, .6);
+        z-index: 10
+    }
+    .col-top,
+    .page {
+        -webkit-transition: all .0s ease-in-out;
+        -moz-transition: all .0s ease-in-out;
+        -o-transition: all .0s ease-in-out;
+        transition: all .0s ease-in-out
+    }
+    .page.menu_open {
+        margin-right: -220px
+    }
+}
+@media (min-width: 992px) {
+    .menu-top {
+        height: 44px;
+        background-color: #111;
+        color: #ccc;
+        line-height: 24px
+    }
+    .menu-top>li {
+        display: block;
+        float: left
+    }
+    .menu-top>li>a,
+    .menu-top>li>span {
+        padding: 10px;
+        display: block;
+        white-space: nowrap;
+        color: #ccc
+    }
+}
+.has-submenu>ul>li {
+    border-bottom: 1px solid rgba(255, 255, 255, .1)
+}
+.has-submenu>ul>li>a {
+    padding-left: 15px
+}
+.hasmega>.active-content {
+    display: none
+}
+.hasmega.active>.active-content {
+    display: block
+}
+.active-content,
+.mega-content {
+    background-color: #fff;
+    padding: 15px
+}
+.active-content .title,
+.mega-content .title {
+    display: inline-block;
+    white-space: nowrap
+}
+.mega-content {
+    display: none
+}

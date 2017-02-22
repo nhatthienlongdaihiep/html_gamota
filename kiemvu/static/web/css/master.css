@@ -146,8 +146,8 @@ a:hover{ text-decoration:underline}
 .video_box div{ width:205px; height:128px;}
 .tab_cont_menpai h4{ position:absolute; left:447px; top:260px; font:normal 40px 'SVN_DOPE'; color:#3e4a5b;}
 .mp_intro{ position:absolute; width:380px; left:384px; top:324px; color:#555555; }
-.mp_intro p{ font:normal 14px/22px 'SVN_DOPE';}
-.nandu{ padding-top:10px; color:#000; font-size:16px; font-family: 'SVN_DOPE'}
+.mp_intro p{ font:normal 14px/22px "SVN_DOPE";}
+.nandu{ padding-top:10px; color:#000; font-size:16px; font-family: "SVN_DOPE"}
 .nandu img{ margin-right:4px; vertical-align:middle;}
 
 .wanfa_bg,.gongneng_bg{ position:relative; background-image:url(../images/wanfa_bg.jpg)}
@@ -259,11 +259,10 @@ a:hover{ text-decoration:underline}
 	100%{-ms-transform:scale(1.2)}
 }
 
-
 .r_more2{ background-color:#9c9c9c;}
 .iframe_img{ display:block; width:774px; height:174px;}
 
- .weibo_box { width: 312px; height: 154px; background: #fff; border: 1px solid #e2e2e2; padding: 18px; color: #4b4b4b }
+.weibo_box { width: 312px; height: 154px; background: #fff; border: 1px solid #e2e2e2; padding: 18px; color: #4b4b4b }
 .weibo_box .tit { height:20px; font:bold 16px/20px Arial; background: url(../images/ico.jpg) no-repeat; text-indent: 30px }
 .weibo_box img { width:110px; height:110px; float: left; margin-top: 20px }
 .weibo_box .right { width: 170px; margin-top: 32px; float: right; }

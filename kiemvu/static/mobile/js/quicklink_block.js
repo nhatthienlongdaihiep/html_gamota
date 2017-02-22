@@ -1,0 +1,1 @@
+function quicklink_hover(){var i=$(".img-hover"),r=i.find(".quicklink_block>div>a");r.hover(function(){var i=$(this).children("img").attr("src");i=i.replace(".jpg","-hover.jpg"),$(this).children("img").attr("src",i)},function(){var i=$(this).children("img").attr("src");i=i.replace("-hover.jpg",".jpg"),$(this).children("img").attr("src",i)})}
