@@ -15,7 +15,7 @@ a:hover{ text-decoration:underline}
 /* foot */
 .foot{ padding:30px 0; background:#e5e5e5}
 .foot .box{ width:1000px; margin:0 auto;}
-.foot .box .wm{ float:left; width:157px; height:51px; background:url(../images/logo-gamota.png) no-repeat; margin:10px 37px 0 0; text-indent:-9999px; overflow:hidden;}
+.foot .box .wm{ float:left; margin:10px 37px 0 0;}
 .foot .box .txt{ width:495px; float:left; line-height:20px; font-size:12px; color:#666666; font-family:Arial}
 .foot .box .txt a{ font-size:12px; color:#666666; margin:0 4px; font-family:Arial}
 .foot .box .txt a:hover{ color:#F00}

@@ -1,0 +1,126 @@
+/* css reset */
+body,dl,dt,dd,ul,ol,h1,h2,h3,h4,h5,h6,pre,code,form,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0;margin:0;}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+input,textarea,select{*font-size:100%}
+a,a:hover,a:visited {text-decoration:none;color:#000;}
+
+.hid {display:none;font-size:0;line-height:0;}
+.clear {clear:both;}
+
+body {font-family:Tahoma,sans-serif;color:#000;/*padding-top:42px;*/}
+body *{font-family: inherit;}
+.wrap {width:100%;min-width:1064px;_width:1064px;}
+.header {position:relative;width:100%;z-index:10;}
+.center {position:relative;width:1000px;margin:0 auto;}
+
+
+.fl,.f-left {float:left;display:inline;}
+.fr,.f-right {float:right;display:inline;}
+
+.icon{
+    background: url(../images/sprite.png) no-repeat;
+    display: block;
+    height: 77px;
+    width: 5px;
+    /*position: absolute;*/
+    background-position: -380px -6px;
+    top: 0;
+    right: 
+}
+
+.nav {position:absolute;width:100%;height:78px;z-index:100;left:0}
+.game-info {position:relative;float:left;height:100%;color:#fff;line-height: 115px;}
+.nav-logo {position:absolute;left:0;top:10px;z-index:99;}
+.game-info h2 {margin:20px 0 10px;font-size:26px;}
+.game-desc {display:none;position:absolute;top:100%;left:140px;padding:20px;width:350px;height:200px;background:#000;color:#fff;}
+.game-desc-swit:hover .game-desc {display:block;}
+.game-desc-swit {padding:10px 0;}
+.game-desc-swit span {background:green;padding:1px 5px;border-radius:8px;}
+.nav-list {height:100%;float:right;margin:30px 0 0 0;}
+.nav-list li{float:left;height:100%;width: 102px}
+.nav-list a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    /* margin-top: 23px; */
+    line-height: 36px;
+    text-align: center;
+    font-size: 17px;
+    color:#ff52ab;
+    line-height: 80px;
+    position: relative;
+}
+.nav-list li.nav_center{width: 240px}
+.nav-list li.cur a{border-bottom: 4px solid #df5768;color: #df5768;}
+.nav-list li.nav_center a{width:auto;margin-top: auto;height: auto}
+.nav-list a:hover {color:#f77f0b;}
+.nav .mages{ display: inline-block; vertical-align: middle;}
+
+.wechat,.buluo{height:55px;color:#a1a1a1;position:relative; margin-top: 16px; }
+.wechat .highline{color:#73c33d}
+.wechat-ac{display:block;width:52px;padding:0 14px;height:52px;position:relative;cursor:pointer;}
+.wechat-ac-icon,.buluo-ac-icon{background:url(../images/spr.png) no-repeat -160px -60px; width: 52px; height: 52px;display:block;}
+.buluo-ac-icon{background-position:-160px 0;}
+.wechat-ac-data{line-height:15px;font-size:12px;padding:0 15px 0 10px;}
+.wechat-ac-data h6{font-weight:normal;height:15px;max-width:110px;overflow:hidden}
+.wechat:hover .wechat-hover,.buluo:hover .wechat-hover{display:block}
+.wechat-hover{position:absolute;width:380px;background:#1E1E1E;top:66px;right:0;padding:35px;display:none;}
+.wechat-hover .media-body{padding-top:25px; padding-left: 161px;}
+.wechat-hover .pop-title{font-size:16px;_font-size:15px;;padding-bottom:10px}
+.hd_news a:hover{color:#ff0;}
+
+/*foot-info*/
+.copyright{padding-top:18px;height:54px;color:#9a9a9a}
+.cptxt{float:right;padding-right:23px;padding-top:10px; color: #4A4A4A; font-size: 12px;}
+.foot-cpright{overflow:hidden;min-width:880px;padding:20px 60px;zoom:1;background:#000;}
+.foot-sprt{margin:0 2px;_margin:0 0}
+.foot-logos-game{display: inline-block;width:180px;height:35px;text-indent:-999em;overflow:hidden;margin:10px 0 0 10px;}
+.foot-links,.foot-links a {color:#4A4A4A; font-size: 12px;}
+.foot-info{padding:50px 0;letter-spacing: -4px;word-spacing: -4px;font-size:0;}
+.foot-info li{display:inline-block;*display:inline;zoom:1;vertical-align:top;letter-spacing: normal;word-spacing: normal;font-size:14px}
+.foot-info .gzweixin{width:255px;padding-right:60px}
+.foot-info .tips{width:325px;padding-right:60px}
+.foot-info .coop{width:260px;}
+.foot-info .coop-list li{display:block;}
+
+#footer_ied{
+    height: 92px;
+    background-position: center top;
+    text-align: center;
+    font: normal 12px/19px Tahoma;
+    position: relative;
+    z-index: 1;
+    line-height: 28px;
+    color: #5f3e4f;
+   margin-top: 60px;
+}
+#footer_ied a{
+    color: #5f3e4f;
+}
+
+#footer_ied {
+    background: url("../images/footer.jpg") no-repeat;
+    height: 92px;
+    background-position: center top;
+    text-align: center;
+    font: normal 12px/19px Tahoma;
+    position: relative;
+    z-index: 1;
+    line-height: 28px;
+    color: #5f3e4f;
+
+    margin-top: 0;
+}
+.context {
+    margin-top: 0!important;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.7;
+}

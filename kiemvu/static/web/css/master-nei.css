@@ -167,7 +167,7 @@ a:hover{ text-decoration:underline}
 .wanfa_cont_right{ position:absolute; width:310px; left:660px; top:90px;}
 .wanfa_cont_l{ position:absolute; width:310px; left:490px; top:35px;}
 .wanfa_cont_r{ position:absolute; width:310px; left:660px; top:35px;}
-.wanfa_t{ width:145px; height:52px; margin-top:15px; font:bold 18px/52px Arial; text-align:center; background-image:url(../images/wanfa_t.png)}
+.wanfa_t{ width:264px; height:37px; margin-top:15px; font:bold 18px/52px Arial; text-align:center; background-image:url(../images/wanfa_detail.png)}
 .link_p{ padding:5px 0; font:normal 16px/24px Arial; border-bottom:1px dashed #232932;}
 .link_p a{ color:#000}
 .link_p a:hover{ color:#3fc7a9;}
@@ -313,9 +313,10 @@ a:hover{ text-decoration:underline}
 .r_t_info{ background:url(../images/r_t.png);}
 .r_icon_more{ position:absolute; width:30px; height:10px; right:20px; bottom:0; background-image:url(../images/icon_more.png); text-indent:-9999px; overflow:hidden;}
 .r_border_box{ width:264px; padding:0 10px 10px; margin:16px auto 0; color:#393939; background:url(../images/line.gif) center bottom repeat-x; overflow:hidden;}
-.r_border_box a{ color:#393939;}
+.r_border_box a{ color:#393939; text-decoration: none; line-height: 37px;}
+.r_border_box a:hover {color:#cfae69;}
 .r_border_box h3{ padding-left: 15px; margin-bottom: 10px; font: 20px 'UVNThanhPho'; background: url(../images/icon_info.png) 48px 5px no-repeat; color: #414d60; text-align: center;}
-.r_border_box p{ font:normal 14px/22px Arial;}
+.r_border_box p{ font:normal 14px/22px Arial; line-height: 37px;}
 .r_border_box p a{ margin:0 15px;}
 .no_border{ background:none;}
 

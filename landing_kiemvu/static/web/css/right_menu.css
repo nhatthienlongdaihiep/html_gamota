@@ -1,0 +1,104 @@
+/* Right Menu */
+.fixed-box{background: #df5768;width: 200px;/*height: 460px;*/position: fixed;top: 150px;right: 0;z-index: 100;border-radius: 10px;padding-bottom: 10px;}
+.fixed-box .toggle.rm_close{background:url(../images/home/btn_close_open.png) no-repeat;background-position:0 0;height:50px;width:30px;position:absolute;top:12px;left:-30px;}
+.fixed-box .toggle.open{background:url(../images/home/btn_close_open.png) no-repeat;;background-position:0 -57px;height:50px;width:30px;position:absolute;top:12px;left:-30px;}
+.fixed-box ul.download {width: 174px;height: 180px;position: relative;margin: 10px 0 0 15px;}
+.fixed-box ul.download li {float: left;margin: 0 0 10px;}
+.fixed-box ul.download li a{background:url(../images/home/right_mn_btn.png) no-repeat;height: 50px;width: 174px;display:block;}
+.fixed-box ul.download .app-info__install--google-play>a {background-position: -3px -53px;}
+.fixed-box ul.download .app-info__install--app-store>a {background-position: -3px -3px;}
+.fixed-box ul.download .app-info__install--pc>a {background-position: -3px -103px;}
+.fixed-box ul.download .app-info__install--non-jb>a {background-position: -3px -154px;}
+.fixed-box ul.download .app-info__pay>a {background-position: -3px -206px;}
+
+.fixed-box ul.download .app-info__install--google-play>a:hover {background-position: -194px -53px;}
+.fixed-box ul.download .app-info__install--app-store>a:hover {background-position: -194px -3px;}
+.fixed-box ul.download .app-info__install--pc>a:hover {background-position: -194px -103px;}
+.fixed-box ul.download .app-info__install--non-jb>a:hover {background-position: -194px -154px;}
+
+.fixed-box ul.download .app-info__pay>a:hover{background-position: -194px -206px;}
+
+.fixed-box .qrcode {width: 173px;height: 173px;margin: 0 0 12px 17px;float:left;}
+.fixed-box .qrcode img {display: block;border-radius: 15px;}
+.fixed-box .sm-likebox {width:175px;height:66px;margin:0 0 0 15px;position:relative;overflow:hidden;}
+
+
+/* Begin of Top Menu */
+.cf_menu li {
+    float: left;
+    display: inline-block;
+    padding: 0 12px;
+    position: relative;
+}
+
+.cf_menu li a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    border-bottom: solid 2px transparent;
+    text-decoration: none;
+}
+
+.cg_nav_menu {
+    display: inline-block;
+    float: none;
+    position: absolute;
+    top: 59px;
+    left: 12px;
+    background-color: rgba(239, 203, 223, 0.62); /*rgba(35,35,35,0.93);*/
+    width: 200px;
+    overflow: hidden;
+    opacity: 0;
+    z-index: 999;
+    -webkit-transition: all .3s ease;
+    visibility: hidden;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.cg_nav_menu li {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: solid 1px #de83b6; /*#343434;*/
+    padding: 0;
+    float: none;
+    width:100%;
+}
+.cg_nav_menu li a {
+    background: none;
+    color: #f100ff;
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    padding: 0 0 0 27px;
+    line-height: inherit;
+    text-align: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.cg_nav_menu li a:before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #c200ff;
+    position: absolute;
+    left: 13px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.cf_menu li.cf_sub_menu:hover .cg_nav_menu {
+    opacity: 1;
+    top: 69px;
+    visibility: visible;
+}
+/* End of Top Menu */
