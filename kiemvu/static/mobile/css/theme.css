@@ -457,7 +457,8 @@ media (min-width:991px) and (max-width:1024px){
 .highscore_block .tab-content .table tbody tr:hover{background:url('../images/bg-tr-hv.png') repeat left center}
 .highscore_block .tab-content .table tbody tr:hover td:first-child span{background:url('../images/bg-td-hv.png') no-repeat center center}
 .highscore_block .tab-content .table tbody td{border-right:1px solid rgba(255,255,255,0.1)}
-.quicklink_block{float:left;width:100%;padding:0;position:relative;padding-top:50px}@media (min-width:1200px){.quicklink_block{padding-top:0}}
+.quicklink_block{float:left;width:100%;padding:0;position:relative;padding-top:50px}
+@media (min-width:1200px){.quicklink_block{padding-top:0}}
 @media (max-width:768px){
 	.quicklink_block{padding-top:0 !important}
 	.quicklink_block .block-title{display:none}
@@ -526,6 +527,12 @@ media (min-width:991px) and (max-width:1024px){
 	.quicklink_block .inner .item{width:calc(50% - 5px);margin-right:10px;margin-bottom:10px;float:left}
 	.quicklink_block .inner .item:nth-child(2n){margin-right:0}
 }
+.quicklink_block .inner .item a{
+	position: absolute;
+    margin: 57px 77px;
+    color: #fff;
+}
+
 .block-title{margin-bottom:45px}
 .block-title.gioi-thieu span{color:#fff}
 .block-title.gioi-thieu span:before{content:"";position:absolute;left:0;top:-20px;display:block;background:url('../images/icon-gt.png') no-repeat left center;width:73px;height:68px}
@@ -633,16 +640,16 @@ media (min-width:991px) and (max-width:1024px){
 		.col-top .branding{margin:0;font-size:18px;font-family:Tahoma;color:#ac988c;padding:7px 0 20px;line-height:32px;background-size:100% 100%;text-align:left;padding-left:20px}
 		.col-top #main-menu{background:none}
 		.col-top #main-menu ul.menu-top{padding:0}
-		.col-top #main-menu ul.menu-top.open{padding-top:10px;background:#3e4b5c}
+		.col-top #main-menu ul.menu-top.open{padding-top:10px;background:#583c2c}
 		.col-top #main-menu ul.menu-top li.has-submenu ul{position:static;min-width:inherit}
 		.col-top #main-menu ul.menu-top li.has-submenu ul li{padding-left:25px;border:none}
-		.col-top #main-menu ul.menu-top li{background:#323d4b}
+		.col-top #main-menu ul.menu-top li{background:#52311e}
 		.col-top #main-menu ul.menu-top li.logo-display-mb{display:block !important;background:#3e4b5c}
 		.col-top #main-menu ul.menu-top li.logo-display-mb img{max-width:100%}
-		.col-top #main-menu ul.menu-top li.logo-display-mb a{background:#3e4b5c}
+		.col-top #main-menu ul.menu-top li.logo-display-mb a{background:#583c2c}
 		.col-top #main-menu ul.menu-top li.logo-display-mb a:hover{background:#3e4b5c}
 		.col-top #main-menu ul.menu-top li:before{display:none}
-		.col-top #main-menu ul.menu-top li a{padding-top:10px;padding-bottom:10px;border-color:#384454;font-size:16px;font-size:18px;color:#fff}
+		.col-top #main-menu ul.menu-top li a{padding-top:10px;padding-bottom:10px;border-color:#52311e;font-size:16px;font-size:18px;color:#fff}
 		.col-top #main-menu ul.menu-top li a:before{display:none}
 		.col-top #main-menu ul.menu-top li a:hover{background:#29323d;color:#fa0}
 		.menu-top-toggle.open{margin-left:0;z-index:999999}
