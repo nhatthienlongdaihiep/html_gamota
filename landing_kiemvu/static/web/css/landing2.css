@@ -23,17 +23,28 @@ html, body{height: 100%;margin: 0px;}
 
 .header .center{position:relative;width:450px;margin:0 auto;}
 
-#headerNk .nav .head_logo{display:block;width:110px;height:110px;float:left;}
+#headerNk .nav .head_logo{display:block;width:120px;height:110px;float:left;margin-top: -24px;}
 #headerNk .nav .head_logo img{width:100%;}
 
 .main_thanhkiem{width:300px;margin: 0 auto;}
 .main_thanhkiem .thanhkiem_wrapper{height:450px;background: url(../images/landing/thanhkiem_progress.png) no-repeat -20px -30px / 100%;margin:0 auto;position:relative;}
+
 .main_thanhkiem .thanhkiem_wrapper:before{
-background: url(../images/landing/thanhkiem.png) no-repeat -20px -30px / 100%;
-content: "";
-display: block;
-height: 530px;
-position: relative;
+    background: url(../images/landing/thanhkiem.png) no-repeat -20px -30px / 100%;
+    content: "";
+    display: block;
+    height: 530px;
+    position: relative;
+}
+@media (max-width: 1902px){
+    #headerNk .nav .head_logo{display:block;width:100px;height:100px;float:left;margin-top: -24px;}
+    .nav-list li{width:80px;}
+    .main_thanhkiem{width:280px;margin: 0 auto;}
+    .main_thanhkiem .thanhkiem_wrapper{height:420px;background: url(../images/landing/thanhkiem_progress.png) no-repeat -6px -15px / 100%;margin:0 auto;position:relative;}
+
+    .main_thanhkiem .thanhkiem_wrapper:before{
+        background: url(../images/landing/thanhkiem.png) no-repeat -6px -15px / 100%;
+    }
 }
 
 .main_thanhkiem .thanhkiem_wrapper .level_reg{position:absolute;width:140px;}
@@ -44,6 +55,14 @@ position: relative;
 .main_thanhkiem .thanhkiem_wrapper .level_reg:nth-child(3){bottom:152px;}
 .main_thanhkiem .thanhkiem_wrapper .level_reg:nth-child(4){bottom:222px;left:176px;}
 .main_thanhkiem .thanhkiem_wrapper .level_reg:nth-child(5){top:70px;left:32px;}
+
+@media (max-width: 1902px){
+    .main_thanhkiem .thanhkiem_wrapper .level_reg:nth-child(1) {bottom: 14px;left: 31px;}
+    .main_thanhkiem .thanhkiem_wrapper .level_reg:nth-child(2) {bottom: 103px;left: 192px;}
+    .main_thanhkiem .thanhkiem_wrapper .level_reg:nth-child(3) {left: 4px;bottom: 129px;}
+    .main_thanhkiem .thanhkiem_wrapper .level_reg:nth-child(4) {bottom: 194px;left: 175px;}
+    .main_thanhkiem .thanhkiem_wrapper .level_reg:nth-child(5) {top: 71px; left: 33px;}
+}
 
 .main_btn{}
 .main_btn .btn_henuoc{display:block;width:430px;margin:0 auto;}
@@ -157,7 +176,7 @@ z-index: 1;
 /* For Ipad Only screen 1024px --------------------------------------------------------------------------------- */
 @media(max-width:1024px){
 
-#headerNk .nav .head_logo{width:80px;height:90px;}
+#headerNk .nav .head_logo{width:120px;height:90px;}
 .header .center{width:350px;}
 
 .nav-list li{width:80px;}
@@ -177,6 +196,8 @@ z-index: 1;
 .main_thanhkiem .thanhkiem_wrapper .level_reg:nth-child(3){bottom:140px;left:12px;}
 .main_thanhkiem .thanhkiem_wrapper .level_reg:nth-child(4){bottom:210px;left:176px;}
 .main_thanhkiem .thanhkiem_wrapper .level_reg:nth-child(5){top:66px;left:30px;}
+
+.main_thanhkiem .thanhkiem_wrapper .total_user{position: absolute; bottom:5px;left:12px; font-color:#fff;}
 
 .footer .logo-footer{float:none;text-align:center;}
 }

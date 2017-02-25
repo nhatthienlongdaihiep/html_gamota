@@ -148,6 +148,11 @@ a:hover{ text-decoration:underline}
 .tab_menpai li.line2{ height:66px; padding-top:19px; font:normal 13px/20px 'UTM_AVO'; text-transform: uppercase;}
 .tab_menpai li.on{ color:#7f5b0f; background-position:0 -85px;}
 .tab_cont_menpai{ display:none; position:relative; width:914px; height:480px;}
+
+.mp p{width:85px; height:85px; margin-bottom:2px; color:#bfcad8; text-align:center; background:url(../images/tab_menpai.png); cursor:pointer;}
+.mp .line_l{ height:66px; padding-top:19px; font:normal 16px/24px 'UTM_AVO'; text-transform: uppercase;}
+.mp .line_r{ height:66px; padding-top:19px; font:normal 13px/20px 'UTM_AVO'; text-transform: uppercase;}
+.mp .line_l:hover, .mp .line_r:hover{ color:#7f5b0f; background-position:0 -85px;}
 .mp_daokhach{ background-image:url(../images/mp_daokhach.jpg);}
 .mp_kiemco{ background-image:url(../images/mp_kiemco.jpg);}
 .video_bg{ position:absolute; width:300px; height:201px; left:470px; top:36px; background-image:url(../images/menpai_video_bg.png)}

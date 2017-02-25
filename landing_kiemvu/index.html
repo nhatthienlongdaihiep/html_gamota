@@ -11,11 +11,11 @@
     <meta name="description" content=" Kiếm Vũ Mobi – MMORPG Tuyệt đỉnh kiếm hiệp 2017, được phát hành bởi GAMOTA, thuộc dòng game nhập vai kiếm hiệp (MMORPG) với đồ họa đẹp, sở hữu hệ thống chiến trường PK liên server cực đỉnh và nhiều tính năng đặc sắc khác. ">
 
     <meta property="og:title" content='Kiếm Vũ Mobi'/>
-    <link href="static/favicon.ico" rel="shortcut icon" type="image/png">
+    <link href="http://kiemvu.gamota.com/static/favicon.ico" rel="shortcut icon" type="image/png">
     <meta property="og:description" content=" Kiếm Vũ Mobi – MMORPG Tuyệt đỉnh kiếm hiệp 2017, được phát hành bởi GAMOTA, thuộc dòng game nhập vai kiếm hiệp (MMORPG) với đồ họa đẹp, sở hữu hệ thống chiến trường PK liên server cực đỉnh và nhiều tính năng đặc sắc khác. " />
     <meta property="og:image" content="http://kiemvu.gamota.com/static/facebook/640x480_fb.jpg"/>
     <meta property="og:site_name" content='Kiếm Vũ Mobi'/>
-    <meta property="og:url" content="http://kiemvu.gamota.com/">
+    <meta property="og:url" content="http://kiemvu.gamota.com/landingpage">
     <meta property="og:locale" content="vi_VN"/>
 
     <title>Kiếm Vũ Mobi</title>
@@ -27,10 +27,12 @@
     <link rel="stylesheet" href="static/web/css/jquery.fullPage.css">
     <link href="static/sweetalert-master/dist/sweetalert.css" rel="stylesheet"/>
 
-    <link href="http://kiemvu.gamota.com/static/html5-fire-ball-shooter/css/fire_style.css" rel="stylesheet"/>
+    <!-- <link href="static/html5-fire-ball-shooter/css/fire_style.css" rel="stylesheet"/> -->
 
-    <link rel="stylesheet" href="http://kiemvu.gamota.com/static/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="http://kiemvu.gamota.com/static/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="static/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="static/owl-carousel/owl.theme.css">
+
+    <link href="static/web/css/animation.css" rel="stylesheet" type="text/css"/>
 
     <script src="static/jquery/1.9.1/jquery.min.js"></script>
     <script src="static/jquery/1.9.1/jquery-ui.min.js"></script>
@@ -41,44 +43,40 @@
 
     <script src="static/web/js/jquery.fullPage.js"></script>
 
-    <script src="static/html5-fire-ball-shooter/js/prefixfree.min.js"></script>
+    <!-- <script src="static/html5-fire-ball-shooter/js/prefixfree.min.js"></script> -->
     <script src="static/owl-carousel/owl.carousel.min.js"></script>
 
     <script>
-    var base_url = "localhost/html_appota/landing_kiemvu/";
+    var base_url = "http://kiemvu.gamota.com/";
     var is_confirm_email = 0    </script>
 </head>
 <body>
-<script src="static/web/js/landing.js"></script>
-<style type="text/css">
-.main_thanhkiem .thanhkiem_wrapper:before{height:100%;}
-</style>
+    <script src="static/web/js/landing.js"></script>
+    <style type="text/css">
+        .main_thanhkiem .thanhkiem_wrapper:before{height:100%;}
+    </style>
 
-<script>
+    <script>
+        $(document).ready(function(){
+            $('#fullpage').fullpage({
+                anchors: ['firstPage', 'secondPage'],
+                sectionsColor: ['#C63D0F', '#1BBC9B'],
+                css3: true
+            });
 
-    $(document).ready(function(){
-
-        $('#fullpage').fullpage({
-            anchors: ['firstPage', 'secondPage'],
-            sectionsColor: ['#C63D0F', '#1BBC9B'],
-            css3: true
+            if(is_confirm_email == 1){
+                swal("Chúc mừng", "Bạn vừa hoàn tất quá trình đăng ký tham gia sự kiện 'Rèn đúc thần binh' từ Kiếm Vũ ! Bạn sẽ có cơ hội nhận được những phần quà hấp dẫn từ NPH ! Chúc bạn có những giấy phút vui vẻ cùng Kiếm Vũ !", "success");
+            }
         });
-
-        if(is_confirm_email == 1){
-            swal("Chúc mừng", "Bạn vừa hoàn tất quá trình đăng ký tham gia sự kiện 'Rèn đúc thần binh' từ Kiếm Vũ ! Bạn sẽ có cơ hội nhận được những phần quà hấp dẫn từ NPH ! Chúc bạn có những giấy phút vui vẻ cùng Kiếm Vũ !", "success");
-        }
-
-    });
-
-</script>
+    </script>
 
     <!-- START OF FULL PAGE ====================================================================== -->
     <div id='fullpage'>
         <div id="section0" class='section section_landing0'>
-            <div id='canvas_wrapper'>
+            <!-- <div id='canvas_wrapper'>
                 <canvas id='canvas_fire'></canvas>
                 <script src="static/html5-fire-ball-shooter/js/fire_index.js"></script>
-            </div>
+            </div> -->
 
             <div id="header" class='header_landing'>
                 <div class="top_menu">
@@ -91,18 +89,34 @@
                             <ul class="fl nav-list">
                                 <a href="" class='head_logo' title='Logo'> <img src="static/web/images/landing/btn_logo.png"> </a>
                                 <li> <a href="" target='_blank' title='Trang chủ'> <img src="static/web/images/landing/btn_trangchu.png"> </a> </li>
-                                <li> <a href="https://www.facebook.com/kiemvumobi/" target='_blank' title='Fanpage'> <img src="static/web/images/landing/btn_fanpage.png"> </a> </li>
-                                <li> <a href="https://www.facebook.com/groups/kiemvumobi" target='_blank' title='Hội quán'> <img src="static/web/images/landing/btn_hoiquan.png"> </a></li>
+                                <li> <a href="" target='_blank' title='Fanpage'> <img src="static/web/images/landing/btn_fanpage.png"> </a> </li>
+                                <li> <a href="" target='_blank' title='Hội quán'> <img src="static/web/images/landing/btn_giatrang.png"> </a></li>
                             </ul>
-
                         </div>
                     </div>
                 </div>
-
             </div>
 
-
             <div class="container_landing">
+                <!-- START OF EFFECT -->
+                <div class="html">
+                    <div class="animation-frame" style='z-index:0;'>
+                        <img class="light-rotator leaffallrotator-animation item1" alt="light" src="static/web/images/leaf/l1.png">
+                        <img class="leaf-fall-animation leaf1 light1" alt="light" src="static/web/images/leaf/l2.png">
+                        <img class="light-rotator leaffallrotator-animation item2" alt="light" src="static/web/images/leaf/l1.png">
+                        <img class="leaf-fall-animation leaf2 light2" alt="light" src="static/web/images/leaf/l2.png">
+                        <img class="light-rotator leaffallrotator-animation item3" alt="light" src="static/web/images/leaf/l1.png">
+                        <img class="leaf-fall-animation leaf3 light3" alt="light" src="static/web/images/leaf/l2.png">
+                        <img class="light-rotator leaffallrotator-animation item4" alt="light" src="static/web/images/leaf/l1.png">
+                        <img class="leaf-fall-animation leaf4 light4" alt="light" src="static/web/images/leaf/l2.png">
+                        <img class="light-rotator leaffallrotator-animation item5" alt="light" src="static/web/images/leaf/l1.png">
+                        <img class="leaf-fall-animation leaf5 light5" alt="light" src="static/web/images/leaf/l2.png">
+                        <img class="light-rotator leaffallrotator-animation item6" alt="light" src="static/web/images/leaf/l1.png">
+                        <img class="leaf-fall-animation leaf6 light6" alt="light" src="static/web/images/leaf/l2.png">
+                    </div>
+                </div>
+                <!-- END OF EFFECT -->
+
                 <div class='main_thanhkiem slideInDown animate'>
                     <div class="thanhkiem_wrapper">
                         <div class="level_reg"> <img style='' src="static/web/images/landing/lv_0.png"> </div>
@@ -110,24 +124,23 @@
                         <div class="level_reg"> <img style='' src="static/web/images/landing/lv_20.png"> </div>
                         <div class="level_reg"> <img style='' src="static/web/images/landing/lv_30.png"> </div>
                         <div class="level_reg"> <img style='' src="static/web/images/landing/lv_50.png"> </div>
+                        <div class="total_user" style="margin-top: -6px;margin-left: 120px;"><font color='#fff'><b> 8</b> Lượt ĐK</font></div>
                     </div>
                 </div>
                 <div class='main_btn slideInUp animate'>
-                    <a href="javascript:;" onclick="$('#popupTicket').modal('toggle')" class="btn_henuoc" style='margin-top:-30px;'>
+                    <a href="javascript:;" onclick="$('#popupTicket').modal('toggle')" class="btn_henuoc" style='margin-top:-5px;'>
                         <img src="static/web/images/landing/btn_thamgia.png">
                     </a>
                 </div>
                 <div class="btn_scroll">
                     <img src="static/web/images/landing/btn_scroll2.png">
                 </div>
-
             </div>
         </div>
 
         <div id="section1" class='section section_landing1'>
             <div class="container_landing">
                 <div class='dacsac'>
-
                     <div class="dacsac_label">
                         <img src="static/web/images/landing/dacsac_label.png">
                     </div>
@@ -152,91 +165,82 @@
                         <div class="ds_item">
                             <img src="static/web/images/landing/slider5.png">
                         </div>
-
                     </div>
                 </div>
-
             </div>
         </div>
-
     </div>
     <!-- END OF FULL PAGE ====================================================================== -->
 
     <div id="footer" class='footer_landing'>
-
         <div class="footer">
             <div class="content-info">
                 <div class="logo-footer left">
-                    <a href="http://gamota.com" style='margin:0px 16px 0 0;display: block;float: left;'><img src="static/web/images/landing/logo-gamota.png" alt="Gamota"></a>
-                    <a href="#"><img src="static/web/images/dev_logo.png" width='110px' alt="Logo Dev"></a>
+                    <a href="" style='margin:0px 16px 0 0;display: block;float: left;'><img src="static/web/images/landing/logo-gamota.png" alt="Gamota"></a>
+                    <a href=""><img src="static/web/images/dev_logo.png" width='110px' alt="Logo Dev"></a>
                 </div> 
 
                 <p>Gamota Platform - Cổng game chuyên gia | Phát hành độc quyền tại Việt Nam</p>
                 <p>Địa chỉ : Tầng 5,số nhà 11, Tòa nhà LE Building,Láng Hạ, phường Thành Công, quận Ba Đình , Hà Nội</p>
             </div>
         </div>
-
     </div>
 
-</div>
-
-
-<!-- BEGIN OF Modal Box TICKET -->
-<div class="modal modal-wide fade" id='popupTicket' aria-hidden='true' style='display:none'>
-    <div class="modal-dialog">
-        <div class="modal-content" style='background:none;border:none;box-shadow:none;'>
-            <div class="modal-body block" style="max-height:inherit;">
-                <div class="ticket_info">
-                    <div class="ticket_inner">
-                        <div> <p class='msg_kq'></p> </div>
-                        <div> <span> Email: </span> <input type="text" id='email' name="email" class='email'></div><br>
-                        <div> <a href='javascript:;' title='Tham gia ngay' onclick='submit_ticket()' class='btn_join'> <img src="static/web/images/landing/popup_btnthamgia.png"> </a> <div class='clear'></div> </div>
+    <!-- BEGIN OF Modal Box TICKET -->
+    <div class="modal modal-wide fade" id='popupTicket' aria-hidden='true' style='display:none'>
+        <div class="modal-dialog">
+            <div class="modal-content" style='background:none;border:none;box-shadow:none;'>
+                <div class="modal-body block" style="max-height:inherit;">
+                    <div class="ticket_info">
+                        <div class="ticket_inner">
+                            <div> <p class='msg_kq'></p> </div>
+                            <div> <span> Email: </span> <input type="text" id='email' name="email" class='email'></div> <br/>
+                            <div> <span> Số ĐT: </span> <input type="number" id='phone' name="phone" class='phone'></div> <br/>
+                            <div> 
+                                <a href='javascript:;' title='Tham gia ngay' onclick='submit_ticket()' class='btn_join'> <img src="http://kiemvu.gamota.com/static/web/images/landing/popup_btnthamgia.png"> </a> 
+                                <div class='clear'></div> 
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
-</div>
-<!-- END OF Modal Box TICKET -->
-<script type="text/javascript">
+    <!-- END OF Modal Box TICKET -->
+    <script type="text/javascript">
+        $(".dacsac_inner").owlCarousel({
+            loop: true,
+            autoplay: 100, //Set AutoPlay to 3 seconds
+            items : 1,
+            itemsDesktop : [1199,1],
+            itemsDesktopSmall : [979,1],
+            dots:true,
+            nav: true,
+            navText: ['', ''],
+            smartSpeed:850,
+        });
 
-$(".dacsac_inner").owlCarousel({
-    loop: true,
-    autoplay: 100, //Set AutoPlay to 3 seconds
-    items : 1,
-    itemsDesktop : [1199,1],
-    itemsDesktopSmall : [979,1],
-    dots:true,
-    nav: true,
-    navText: ['', ''],
-    smartSpeed:850,
-});
-
-
-$(document).ready(function(){    
-    var btnToggle = $('.fixed-box .toggle');
-    var fixedbox = $('.fixed-box');
-    btnToggle.unbind('click').bind('click',function(e){
-        e.preventDefault();
-        if(btnToggle.hasClass('open')) {
-            fixedbox.animate({
-                right: 0
-            },500,function(){
-                btnToggle.removeClass('open').addClass('rm_close');
+        $(document).ready(function(){    
+            var btnToggle = $('.fixed-box .toggle');
+            var fixedbox = $('.fixed-box');
+            btnToggle.unbind('click').bind('click',function(e){
+                e.preventDefault();
+                if(btnToggle.hasClass('open')) {
+                    fixedbox.animate({
+                        right: 0
+                    },500,function(){
+                        btnToggle.removeClass('open').addClass('rm_close');
+                    });
+                }
+                else {
+                    fixedbox.animate({
+                        right: -200
+                    },500,function(){
+                        btnToggle.removeClass('rm_close').addClass('open');
+                    });
+                }
             });
-        }
-        else {
-            fixedbox.animate({
-                right: -200
-            },500,function(){
-                btnToggle.removeClass('rm_close').addClass('open');
-            });
-        }
-    });
-})
-</script>
-
+        })
+    </script>
 </body>
-
 </html>

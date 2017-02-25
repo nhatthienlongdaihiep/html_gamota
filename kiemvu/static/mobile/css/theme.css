@@ -1478,7 +1478,7 @@ body .subpage.thu-vien #tab_content.tab-content ul.list-news{z-index:inherit}
 .holder{position:relative;z-index:9;padding:0 0 25px}
 .holder>.pagination{width:100%;padding-top:20px !important}
 .holder .pagination{padding:0;margin:0}
-.holder .pagination ul li.active a{padding:0;color:#fff !important;display:block;width:27px;height:27px;text-align:center;background:#4a586d}
+.holder .pagination ul li.active a{padding:0;color:#fff !important;display:block;width:27px;height:27px;text-align:center;background:#c9a76a}
 .holder .pagination ul li.cuoi-cung a,.holder .pagination ul li.tiep a,.holder .pagination ul li.dau-tien a,.holder .pagination ul li.truoc a{background:none !important;width:inherit}
 .holder .pagination ul li.cuoi-cung a:hover,.holder .pagination ul li.tiep a:hover,.holder .pagination ul li.dau-tien a:hover,.holder .pagination ul li.truoc a:hover{color:#a72eaf !important}
 .holder .pagination ul li+li a{margin-left:15px}
