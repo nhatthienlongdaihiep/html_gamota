@@ -1511,7 +1511,7 @@ body .subpage.thu-vien #tab_content.tab-content ul.list-news{z-index:inherit}
 .relatived-news .list-news>li+li{border-top:1px solid #b7b7b7}
 .relatived-news .list-news>li a:hover{color:#a72eaf}
 .relatived-news .news-item-title .label{
-	background-color:#a72eaf;
+	background-color:#c9a76a;
 	border-radius:2px;
 	color:#380035;
 	margin-right:10px;
