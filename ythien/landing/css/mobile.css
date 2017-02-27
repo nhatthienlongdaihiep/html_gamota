@@ -1,0 +1,13 @@
+@media only screen and (orientation:portrait){
+    #warning-message { display:none; }
+}
+@media only screen and (orientation:landscape){
+    #fullpage, #boxAudio, .col-right, .footer, .scroll_down { display:none; }
+    #warning-message { display:block; }
+}
+#warning-message {
+	font-size: 16px;
+    vertical-align: middle;
+    margin: 30px auto;
+    text-align: center;
+}
