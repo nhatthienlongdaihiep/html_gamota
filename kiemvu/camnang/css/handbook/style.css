@@ -1,0 +1,2630 @@
+@font-face {
+  font-family: 'UVNThanhPho';
+  src: url('../../fonts/fontthanhpho/UVNThanhPho.eot?#iefix') format('embedded-opentype'), 
+  url('../../fonts/fontthanhpho/UVNThanhPho.woff') format('woff'), 
+  url('../../fonts/fontthanhpho/UVNThanhPho.ttf') format('truetype'), 
+  url('../../fonts/fontthanhpho/UVNThanhPho.svg#UVNThanhPho') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@-moz-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+@-o-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -o-transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  -moz-animation-name: fadeInDown;
+  -ms-animation-name: fadeInDown;
+  -o-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  animation-duration: 1500ms;
+  animation-fill-mode: both;
+  tranition-delay: 1s;
+}
+@-webkit-keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-duration: 1500ms;
+  animation-fill-mode: both;
+  animation-name: slideInLeft;
+}
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+  animation-duration: 1500ms;
+  animation-fill-mode: both;
+}
+@keyframes zoomInUp {
+  0% {
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0px, 1000px, 0px);
+  }
+  60% {
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0px, -60px, 0px);
+  }
+}
+.zoomInUp {
+  animation-name: zoomInUp;
+  animation-duration: 1500ms;
+  animation-fill-mode: both;
+  -webkit-animation-name: zoomInUp;
+}
+/* Menu top */
+.col-top #main-menu {
+  background: url(../../images/handbook/bg-nav.png) no-repeat scroll center top / 130% auto;
+  min-height: 74px;
+  position: relative;
+  z-index: 9;
+}
+@media (min-width: 1200px) {
+  .col-top {
+    position: static;
+  }
+  .col-top .container {
+    width: 1010px;
+  }
+}
+@media (max-width: 767px) {
+  .col-top {
+    position: relative;
+    z-index: 999;
+  }
+  
+}
+.col-top ul.menu-top {
+  padding-left: 190px;
+  text-align: center;
+  background: none;
+}
+.col-top ul.menu-top > li {
+  display: inline-block;
+  float: none;
+  position: relative;
+}
+.col-top ul.menu-top > li.logo-display-mb {
+  display: none;
+}
+.col-top ul.menu-top > li:before {
+  content: "";
+  position: absolute;
+  top: 13px;
+  right: 0;
+  height: 27px;
+  width: 2px;
+  background: #474747;
+}
+.col-top ul.menu-top > li:last-child:before {
+  display: none;
+}
+.col-top ul.menu-top > li.has-submenu:hover > ul {
+  display: block;
+}
+.col-top ul.menu-top > li.has-submenu ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 230px;
+  text-align: left;
+  display: none;
+  background: rgba(0, 0, 0, 0.7);
+}
+.col-top ul.menu-top > li.has-submenu ul a {
+  display: block;
+  padding: 10px 25px;
+}
+.col-top ul.menu-top > li a {
+   color: #fff;
+    float: left;
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'UVNThanhPho', Arial, sans-serif ;
+
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .col-top ul.menu-top > li a {
+      padding: 15px 12px;
+  }
+}
+
+.col-top ul.menu-top > li a:hover,
+.col-top ul.menu-top > li a:focus,
+.col-top ul.menu-top > li a:active {
+  color: #f3c61c;
+}
+/* Mobile */
+@media (max-width: 991px) {
+  .col-top h4.branding {
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 0 8px;
+    background: url(../../images/handbook/bg-top-mobile.png) no-repeat center center;
+    background-size: 100% 100%;
+    text-align: center;
+  }
+  .col-top #main-menu {
+    background: none;
+  }
+  .col-top #main-menu ul.menu-top {
+    padding: 0;
+  }
+  .col-top #main-menu ul.menu-top li.has-submenu ul {
+    position: static;
+    min-width: inherit;
+  }
+  .col-top #main-menu ul.menu-top li.has-submenu ul li {
+    padding-left: 25px;
+    border: none;
+  }
+  .col-top #main-menu ul.menu-top li {
+    background: #221d1d;
+  }
+  .col-top #main-menu ul.menu-top li + li {
+    margin-top: -6px;
+  }
+  .col-top #main-menu ul.menu-top li.logo-display-mb {
+    display: block !important;
+    background: #000;
+  }
+  .col-top #main-menu ul.menu-top li.logo-display-mb img {
+    max-width: 90%;
+  }
+  .col-top #main-menu ul.menu-top li.logo-display-mb a {
+    background: #000;
+  }
+  .col-top #main-menu ul.menu-top li.logo-display-mb a:hover {
+    background: #000;
+  }
+  .col-top #main-menu ul.menu-top li:before {
+    display: none;
+  }
+  .col-top #main-menu ul.menu-top li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .col-top #main-menu ul.menu-top li a:before {
+    display: none;
+  }
+  .col-top #main-menu ul.menu-top li a:hover {
+    background: #221d1d;
+  }
+  .menu-top-toggle.open {
+    margin-left: 0;
+    z-index: 999999;
+  }
+}
+.btn-giftcode {
+  display: block;
+  background: url(../../../images/handbook/btn-giftcode.png) no-repeat scroll center center / 100% auto;
+  width: auto;
+  height: 187px;
+}
+.btn-giftcode:hover {
+  background: url(../../../images/handbook/btn-giftcode-hover.png) no-repeat scroll center center / 100% auto;
+}
+@media (max-width: 767px) {
+  .btn-giftcode {
+    height: 160px;
+  }
+}
+@media (max-width: 500px) {
+  .btn-giftcode {
+    height: 100px;
+  }
+}
+/* Download block */
+.download_block {
+  padding: 0 8px 0 5px;
+  margin-top: -5px;
+}
+.download_block .three-items,
+.download_block .two-items {
+  overflow: hidden;
+  background: #1d0a0a;
+  width: 100%;
+  padding: 2px 1px;
+}
+.download_block .three-items a,
+.download_block .two-items a {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  padding-bottom: 2px;
+}
+@media (max-width: 991px) {
+  .download_block .three-items a:before,
+  .download_block .two-items a:before {
+    background-size: 100% !important;
+  }
+}
+.download_block .three-items a + a,
+.download_block .two-items a + a {
+  margin-top: 1px;
+}
+.download_block .three-items a:before,
+.download_block .two-items a:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 58px;
+}
+@media (max-width: 992px) {
+  .download_block .three-items a:before,
+  .download_block .two-items a:before {
+    height: 59px;
+  }
+}
+@media (max-width: 767px) {
+  .download_block .three-items a:before,
+  .download_block .two-items a:before {
+    height: 52px;
+  }
+}
+@media (max-width: 500px) {
+  .download_block .three-items a:before,
+  .download_block .two-items a:before {
+    height: 33.5px;
+  }
+}
+.download_block .three-items a.ios,
+.download_block .two-items a.ios {
+  width: 100% !important;
+}
+.download_block .three-items a.ios:before,
+.download_block .two-items a.ios:before {
+  background: url(../../../images/handbook/download-ios.png) no-repeat center center;
+}
+.download_block .three-items a.ios.direct,
+.download_block .two-items a.ios.direct {
+  display: block !important;
+}
+.download_block .three-items a.ios.direct:before,
+.download_block .two-items a.ios.direct:before {
+  background: url(../../../images/handbook/download-ios-full.png) no-repeat center center;
+}
+.download_block .three-items a.ios.direct:hover:before,
+.download_block .two-items a.ios.direct:hover:before {
+  background: url(../../../images/handbook/download-ios-full-hv.png) no-repeat center center;
+}
+.download_block .three-items a.ios:hover:before,
+.download_block .two-items a.ios:hover:before {
+  background: url(../../../images/handbook/download-ios-hover.png) no-repeat center center;
+}
+.download_block .three-items a.android:before,
+.download_block .two-items a.android:before {
+  background: url(../../../images/handbook/android.png) no-repeat center center;
+}
+.download_block .three-items a.android.direct:before,
+.download_block .two-items a.android.direct:before {
+  background: url(../../../images/handbook/android-full.png) no-repeat center center;
+}
+.download_block .three-items a.android.direct:hover:before,
+.download_block .two-items a.android.direct:hover:before {
+  background: url(../../../images/handbook/android-full-hv.png) no-repeat center center;
+}
+.download_block .three-items a.android:hover:before,
+.download_block .two-items a.android:hover:before {
+  background: url(../../../images/handbook/android-hover.png) no-repeat center center;
+}
+.download_block .three-items a.pc,
+.download_block .two-items a.pc {
+  padding-bottom: 0;
+}
+.download_block .three-items a.pc:before,
+.download_block .two-items a.pc:before {
+  background: url(../../../images/handbook/pc.png) no-repeat center center;
+}
+.download_block .three-items a.pc:hover:before,
+.download_block .two-items a.pc:hover:before {
+  background: url(../../../images/handbook/pc-hover.png) no-repeat center center;
+}
+/* .scroll_block */
+.scroll_block {
+  z-index: 100;
+  border: none;
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  .scroll_block {
+    margin-bottom: 8px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .scroll_block {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .scroll_block {
+    display: none;
+  }
+}
+.scroll_block > a {
+  display: none;
+}
+.scroll_block > ul > .sm-likebox,
+.scroll_block > ul .invite {
+  display: none;
+}
+.scroll_block > ul > li > a {
+  display: block;
+}
+@media (min-width: 1200px) {
+  .scroll_block > ul li + li a {
+    margin-top: 5px;
+  }
+}
+.banner_block {
+  padding: 0 8px 0 5px;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .banner_block {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0;
+  }
+}
+@media (max-width: 600px) {
+  .banner_block {
+    display: block;
+    float: left;
+    width: 100%;
+  }
+}
+.banner_block .inner {
+  min-height: 160px;
+  overflow: hidden;
+  background: url(../../images/handbook/bg-khung-banner.png) no-repeat;
+  background-size: 100% 100%;
+}
+.banner_block img {
+  width: 100%;
+  height: 145px;
+}
+.banner_block #owl_banner {
+  padding: 8px;
+  height: 150px;
+}
+.banner_block .owl-dots {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.banner_block .owl-dots .owl-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: #aa1a03;
+}
+.banner_block .owl-dots .owl-dot + .owl-dot {
+  margin-left: 7px;
+}
+.banner_block .owl-dots .owl-dot.active {
+  background: #f2ea2d;
+}
+/* hero_banner-wrapper Home */
+.hero_banner-wrapper {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  min-height: 329px;
+  background-size: 100%;
+}
+.hero_banner-wrapper .hero_banner {
+  position: relative;
+}
+.hero_banner-wrapper .hero_banner #tabs-container ul.nav {
+  position: absolute;
+  width: 100%;
+  padding: 30px 50px;
+}
+@media (max-width: 991px) {
+  .hero_banner-wrapper .hero_banner #tabs-container ul.nav {
+    padding: 20px 40px;
+  }
+  .hero_banner-wrapper .hero_banner #tabs-container ul.nav li a {
+    padding: 6px 15px !important;
+  }
+}
+@media (max-width: 767px) {
+  .hero_banner-wrapper .hero_banner #tabs-container ul.nav {
+    padding: 20px 10px;
+  }
+  .hero_banner-wrapper .hero_banner #tabs-container ul.nav li a {
+    padding: 6px 15px !important;
+  }
+}
+.hero_banner-wrapper .hero_banner #tabs-container ul.nav li {
+  border-bottom: 1px solid #ac0101;
+  margin: 0;
+}
+.hero_banner-wrapper .hero_banner #tabs-container ul.nav li.active a {
+  background: url(../../images/handbook/bg-tab-hero.png) no-repeat center center;
+  background-size: 100% 100%;
+  color: #fff939;
+}
+.hero_banner-wrapper .hero_banner #tabs-container ul.nav li a {
+  background: none;
+  border-radius: 0;
+  color: #ab0005;
+  font-size: 21.6px;
+  padding: 6px 20px;
+}
+.hero_banner-wrapper .hero_banner .tab-content > div {
+  background-size: 100% 100% !important;
+  min-height: 329px;
+}
+.hero_banner-wrapper .hero_banner .tab-content > div p {
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #545252;
+  font-size: 13px;
+  max-width: 60%;
+  font-family: Tahoma, Arial, sans-serif;
+}
+@media (max-width: 991px) {
+  .hero_banner-wrapper .hero_banner .tab-content > div {
+    background: none !important;
+  }
+  .hero_banner-wrapper .hero_banner .tab-content > div#chiến-sỹ {
+    background: url(../../images/handbook/bg-chiensy-mb.png) no-repeat center center !important;
+    min-height: 457px !important;
+    background-size: 100% 100% !important;
+  }
+  .hero_banner-wrapper .hero_banner .tab-content > div#tế-sư {
+    background: url(../../images/handbook/bg-tesu-mb.png) no-repeat center center !important;
+    min-height: 457px !important;
+    background-size: 100% 100% !important;
+  }
+  .hero_banner-wrapper .hero_banner .tab-content > div#thần-xạ {
+    background: url(../../images/handbook/bg-thanxa-mb.png) no-repeat center center !important;
+    min-height: 457px !important;
+    background-size: 100% 100% !important;
+  }
+  .hero_banner-wrapper .hero_banner .tab-content p {
+    max-width: inherit !important;
+    padding: 100px 30px 20px  !important;
+    text-align: center  !important;
+  }
+}
+.khaosat-home {
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+  padding: 30px 35px 40px;
+  float: right;
+  width: 100%;
+  background: url(../../images/handbook/thong-tin-game.png) no-repeat center center;
+  background-size: 101% 100%;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 12px;
+}
+@media (max-width: 991px) {
+  .khaosat-home {
+    width: 100%;
+    float: left;
+    background: url(../../images/handbook/thong-tin-game-mb.png) no-repeat center center;
+    background-size: 100% 100%;
+  }
+  .khaosat-home > p span {
+    width: 100% !important;
+  }
+  .khaosat-home .img {
+    float: none !important;
+    margin: 0 !important;
+    display: block;
+    text-align: center;
+  }
+}
+.khaosat-home > p {
+  margin: 0;
+  color: #bcbbbb;
+}
+.khaosat-home > p span {
+  display: inline-block;
+  width: calc(100% - 140px - 40px);
+  padding-top: 20px;
+  float: left;
+}
+.khaosat-home .img {
+  float: left;
+  margin-right: 30px;
+}
+.sidebar-right {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  z-index: 999;
+  background: #1a6060;
+  padding: 15px 7px;
+  margin-top: -200px;
+}
+@media (max-width: 1024px) {
+  .sidebar-right {
+    right: -141px;
+    transition: all 0.5s ease;
+  }
+  .sidebar-right:before {
+    content: "\f100";
+    font: 16px/26px FontAwesome;
+    display: block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #1a6060;
+    position: absolute;
+    top: 0;
+    left: -35px;
+  }
+  .sidebar-right.active {
+    right: 0;
+  }
+  .sidebar-right.active:before {
+    content: "\f101";
+  }
+}
+.sidebar-right .scroll_block {
+  display: block;
+}
+
+.sidebar-right ul li + li {
+  margin-top: 9px;
+  font-size: 18px;
+}
+
+.sidebar-right ul li:nth-child(1) {
+  margin-bottom: 25px;
+}
+
+@media (min-width: 1200px) {
+  .sidebar-right ul li:nth-child(1) {
+    margin-bottom: 10px;
+  }
+
+}
+
+.sidebar-right ul li:nth-child(2):hover {
+ /*  background: url(../../images/handbook/dien-dan-hv.png) no-repeat bottom center; */
+}
+.sidebar-right ul li:nth-child(2):hover img {
+  opacity: 0;
+}
+.sidebar-right ul li:nth-child(3):hover {
+ /*  background: url(../../images/handbook/fanpage-hv.png) no-repeat bottom center; */
+}
+.sidebar-right ul li:nth-child(3):hover img {
+  /* opacity: 0; */
+
+}
+.sidebar-right ul li:nth-child(4):hover {
+ /*  background: url(../../images/handbook/giftcode-hv.png) no-repeat bottom center; */
+}
+.sidebar-right ul li:nth-child(4):hover img {
+  /* opacity: 0; */
+}
+.sidebar-right ul li:nth-child(5):hover {
+  background: url(../../images/handbook/gamota-hv.png) no-repeat bottom center;
+}
+.sidebar-right ul li:nth-child(5):hover img {
+  opacity: 0;
+}
+
+  .sidebar-right {
+    margin-top: -227px;
+    background: url(../../images/handbook/bg-right.png) no-repeat top center;
+    width: 145px;
+    height: 554px;
+    padding: 0;
+    padding-top: 25px;
+  }
+
+.sidebar-right.fixed {
+  position: fixed;
+}
+.sidebar-right .scroll_block {
+  padding-right: 5px;
+}
+.sidebar-right .gamota-fixed {
+  background: url(../../images/handbook/gamota.png) no-repeat center center;
+  display: block;
+  height: 24px;
+}
+@media (max-width: 991px) {
+  .sidebar-right .gamota-fixed {
+    background-position: 2px center;
+    background-size: 62% auto;
+  }
+}
+.sidebar-right .gamota-fixed a {
+  display: block;
+  height: 40px;
+  width: 80px;
+}
+/* highscore_block */
+.highscore_block {
+  width: 100%;
+  float: left;
+  position: relative;
+  height: inherit;
+  padding: 0 8px 0 5px;
+}
+@media (max-width: 991px) {
+  .highscore_block {
+    display: none;
+  }
+}
+.highscore_block:before {
+  content: "";
+  background: url(../../images/handbook/bf-highscore.png) no-repeat top left;
+  display: block;
+  width: 55px;
+  height: 178px;
+  position: absolute;
+  top: -9px;
+  left: -30px;
+}
+.highscore_block .rank-header {
+  float: left;
+  width: 100%;
+  background: url(../../images/handbook/bg-nav-highscore.png) repeat left center;
+  border-bottom: 2px solid #530000;
+}
+.highscore_block .rank-header > .rank_title,
+.highscore_block .rank-header .rank-tab {
+  width: 50%;
+  float: left;
+  color: #a7a7a7;
+}
+.highscore_block .rank_top {
+  float: left;
+  width: 100%;
+}
+.highscore_block .rank_top .rank_title {
+  background: url(../../images/handbook/bg-bxh.png) no-repeat center center;
+  display: block;
+  background-size: 100% 100%;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffe113;
+}
+.highscore_block .rank_top .rank_title,
+.highscore_block .rank_top .rank_tab {
+  padding: 0;
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 12px 10px;
+}
+.highscore_block .rank_top .rank_tab {
+  cursor: pointer;
+  position: relative;
+}
+.highscore_block .rank_top .rank_tab:hover ul {
+  opacity: 1;
+  visibility: visible;
+}
+.highscore_block .rank_top .rank_tab i {
+  font-size: 12px;
+}
+.highscore_block .rank_top .rank_tab ul {
+  position: absolute;
+  top: 100%;
+  background: #000;
+  left: 0;
+  border: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.highscore_block .rank_top .rank_tab ul li {
+  width: 100%;
+  border: none;
+  margin: 0;
+  background: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.highscore_block .rank_top .rank_tab ul li.active a {
+  color: #fff;
+}
+.highscore_block .rank_top .rank_tab ul li a {
+  border: none;
+  background: none;
+  border-radius: 0;
+  color: #a7a7a7;
+}
+.highscore_block .rank_top .rank_tab ul li a:hover {
+  color: #fff;
+}
+.highscore_block .rank-content {
+  float: left;
+  width: 100%;
+}
+.highscore_block .table-responsive {
+  border: none;
+}
+.highscore_block .tab-content {
+  width: 100%;
+}
+.highscore_block .tab-content .table {
+  border: none;
+  margin-bottom: 0;
+  background: url(../../images/handbook/bg-blockhc.png) repeat center 79px;
+}
+.highscore_block .tab-content .table * {
+  border: none;
+}
+.highscore_block .tab-content .table thead {
+  background: #000000;
+}
+.highscore_block .tab-content .table thead tr th {
+  color: #d1d28d;
+  border-color: #191919;
+}
+.highscore_block .tab-content .table th,
+.highscore_block .tab-content .table td {
+  padding: 7px 8px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.highscore_block .tab-content .table td:first-child {
+  text-align: center;
+}
+.highscore_block .tab-content .table td:first-child span {
+  display: block;
+  background: url(../../images/handbook/bg-td.png) no-repeat center center;
+}
+.highscore_block .tab-content .table tr,
+.highscore_block .tab-content .table th {
+  border: none;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+.highscore_block .tab-content .table tbody tr {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.highscore_block .tab-content .table tbody tr:hover {
+  background: url(../../images/handbook/bg-tr-hv.png) repeat left center;
+}
+.highscore_block .tab-content .table tbody tr:hover td:first-child span {
+  background: url(../../images/handbook/bg-td-hv.png) no-repeat center center;
+}
+.highscore_block .tab-content .table tbody td {
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+#to-top {
+  bottom: 10px;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  position: fixed;
+  right: 10px;
+  text-align: center;
+  width: 50px;
+  border-radius: 100%;
+  z-index: 9999;
+  display: none;
+
+
+}
+@media (min-width: 1200px) {
+  #to-top {
+    right: 57px;
+    top: 50%;
+    width: auto;
+    height: auto;
+    margin-top: 110px;
+  }
+}
+a.backtotop {
+  display: block;
+  background: url('../../images/backtotop.png') no-repeat center center;
+  width: 40px;
+  height: 40px;
+  border-radius: 0;
+  right: 0;
+}
+a.backtotop i {
+  display: none;
+}
+@media (max-width: 767px) {
+  a.backtotop {
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  a.backtotop {
+    margin-top: 128px;
+    top: 50%;
+    width: 145px !important;
+    bottom: auto;
+    background: transparent;
+  }
+  a.backtotop:before {
+    content: "TOP";
+    color: #aa1a03;
+    font-weight: bold;
+  }
+}
+
+body {
+  font-size: 17px !important;
+  color: #caf8ff !important;
+  
+  font-family: 'UVNThanhPho', Arial, sans-serif;
+  color: #333;
+  background: url(../../images/handbook/bg-bot.jpg) no-repeat bottom center, #11121b;
+}
+h3,
+.h3 {
+  font-size: 14px;
+}
+.wrapper-1 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+@media (min-width: 1200px) {
+  .wrapper-1 {
+    width: 980px;
+    padding: 0px;
+  }
+}
+@media (max-width: 991px) {
+  .wrapper-1 {
+    padding: 0px;
+  }
+}
+@media (max-width: 991px) {
+  .wrapper-1 {
+    width: 95%;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper-1 {
+    width: 100%;
+  }
+}
+.wrapper-1:before,
+.wrapper-1:after {
+  content: " ";
+  display: table;
+}
+.wrapper-1:after {
+  clear: both;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sidebar-left {
+  float: left;
+  margin-right: 5px;
+  margin-top: 80px;
+}
+@media (max-width: 991px) {
+  .sidebar-left {
+    margin-top: 150px;
+  }
+}
+.sidebar-left {
+  width: 27%;
+}
+@media (max-width: 991px) {
+  .sidebar-left {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 0px;
+  }
+  .sidebar-left > .html,
+  .sidebar-left > .download_block {
+    float: left;
+    width: 50%;
+    display: block;
+    padding: 0;
+  }
+  .sidebar-left .download_block .two-items {
+    margin-top: 18.5%;
+  }
+}
+.main-content {
+  margin-top: 280px;
+  float: left;
+  width: calc(100% - 27% - 5px);
+}
+@media (max-width: 991px) {
+  .main-content {
+    width: 100%;
+    margin: 0;
+    margin-top: 3px;
+  }
+}
+.menu-fixhidden {
+  overflow: hidden;
+}
+.modal-backdrop {
+  background: rgba(0, 0, 0, 0.8);
+}
+.modal-body {
+  max-height: 900px;
+  overflow: auto;
+}
+.modal-content {
+  border-radius: 0;
+  background: #000;
+  color: #eaeaea;
+}
+.modal-content .modal-header {
+  border-bottom: 1px solid #222;
+}
+.modal-content .btn-normal {
+  border: none;
+  background: #FFF;
+  line-height: 26px;
+  padding: 5px 15px;
+  display: block;
+  margin: auto;
+  border-radius: 2px;
+  font-weight: bold;
+  color: #AD210E;
+}
+.modal-content iframe {
+  width: 100%;
+}
+#history .modal-content {
+  background: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#nv1 {
+  background: url(../../../images/handbook/nv-1.png) no-repeat top left;
+  display: block;
+  height: 897px;
+  left: -40%;
+  top: -30px;
+  width: 559px;
+}
+#nv2 {
+  background: url(../../../images/handbook/nv-2.png) no-repeat top left;
+  display: block;
+  height: 921px;
+  right: -25%;
+  top: -35px;
+  width: 629px;
+}
+#nv1,
+#nv2 {
+  position: absolute;
+}
+@media (max-width: 991px) {
+  #nv1,
+  #nv2 {
+    display: none;
+  }
+}
+.col-header .inner {
+  position: relative;
+}
+.col-header #logo {
+  left: 0px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: -70px;
+  z-index: 10;
+}
+@media (max-width: 991px) {
+  .col-header #logo {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .col-header #logo {
+    top:  -100px;
+  }
+}
+
+.col-header #logo a {
+  text-indent: -9999px;
+  display: block;
+  width: 229px;
+  height: 156px;
+  background: url(../../images/handbook/logo.png) no-repeat top left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .col-header #logo a {
+    transform: scale(0.7); 
+  }
+}
+
+.col-header .slogan {
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0px;
+}
+.col-header .slogan:before {
+  display: block;
+  content: "";
+  background: url(../../images/handbook/slogan.png) no-repeat top left;
+  width: 734px;
+  height: 362px;
+  margin-left: -370px;
+  margin-top: -10px;
+}
+@media (min-width: 1300px) and (max-width: 1500px) {
+  .col-header .slogan:before {
+    margin-left: -43%;
+    margin-top: -45px;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+  }
+}
+@media (min-width: 993px) and (max-width: 1299px) {
+  .col-header .slogan:before {
+    margin-left: -40%;
+    margin-top: -75px;
+    transform: scale(0.6);
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .col-header .slogan:before {
+    margin-left: -40%;
+    margin-top: -130px;
+    transform: scale(0.7);
+  }
+}
+@media (max-width: 767px) {
+  .col-header .slogan:before {
+     margin-left: -47%;
+    margin-top: -62px;
+    /* transform: scale(0.5); */
+    width: 230px;
+    background-size: 100%;
+    
+  }
+}
+img {
+  max-width: 100%;
+}
+a {
+  color: #333333;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #333333;
+  text-decoration: none;
+  outline: none;
+}
+h2 {
+  font-size: 16px;
+  text-align: center;
+}
+.border {
+  border: 1px solid #fff;
+}
+.page {
+  background: url(../../images/handbook/bg-body.jpg) no-repeat top center;
+  background-size: 100%;
+  overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+}
+/*/* top and html header block */
+@media (max-width: 480px) {
+  #logo a {
+    margin-top: 110px;
+    width: 95px;
+    background-size: 100%;
+  }
+}
+.logo {
+  float: none;
+  z-index: 1;
+  position: relative;
+  width: 20%;
+  margin: auto;
+  padding-bottom: 0%;
+  text-align: center;
+}
+.logo > a {
+  display: block;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .logo {
+    margin-top: -44px;
+    display: none;
+  }
+}
+.nv1 {
+  position: absolute;
+  top: 44px;
+  right: 4.8%;
+  width: 54%;
+  text-align: right;
+  z-index: 0;
+  display: none;
+  right: 0%;
+  width: 56%;
+}
+.nv1 img {
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .nv1 {
+    top: 39px;
+    right: -20%;
+    z-index: 0;
+  }
+}
+.animation-frame {
+  position: relative;
+  z-index: 100;
+}
+.animated-arrow span,
+.animated-arrow span:before,
+.animated-arrow span:after {
+  background: #fff;
+}
+/* News Block */
+.news_block .list-news li:before,
+.news_block .list-news li:after {
+  content: " ";
+  display: table;
+}
+.news_block .list-news li:after {
+  clear: both;
+}
+.title-block.floral {
+  display: none;
+}
+.news_block {
+  float: left;
+  width: 100%;
+  background: url(../../images/handbook/bg-tab-content.png) repeat left center;
+}
+.news_block .nav-tabs {
+  width: 100%;
+  border-bottom: 2px solid #2a1f1d;
+}
+.news_block .nav-tabs > li {
+  float: left;
+  display: inline-block;
+}
+@media (max-width: 991px) {
+  .news_block .nav-tabs > li {
+    width: 50%;
+  }
+}
+.news_block .nav-tabs li,
+.news_block .breadcrumb-tab > ul li {
+  cursor: pointer;
+}
+.news_block .nav-tabs li a,
+.news_block .breadcrumb-tab > ul li a {
+  border: none;
+  padding: 12px 30px;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 22px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  background: transparent ;
+  border-radius: 0;
+  font-weight: bold;
+}
+@media (max-width: 991px) {
+  .news_block .nav-tabs li a,
+  .news_block .breadcrumb-tab > ul li a {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .news_block .nav-tabs li a,
+  .news_block .breadcrumb-tab > ul li a {
+    font-size: 18px;
+    padding: 11px 30px;
+  }
+}
+.news_block .nav-tabs li a:hover,
+.news_block .breadcrumb-tab > ul li a:hover {
+  border: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  color: #fff;
+  background: transparent ;
+}
+.news_block .nav-tabs li.active,
+.news_block .breadcrumb-tab > ul li.active {
+  color: #fffd3f;
+  background: url(../../images/handbook/bg-tab.png) no-repeat;
+  background-size: 100% 100%;
+}
+.news_block .nav-tabs li.active a,
+.news_block .breadcrumb-tab > ul li.active a {
+  border: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  color: #fffd3f;
+  background: transparent  ;
+  position: relative;
+  padding-left: 110px;
+  padding-right: 50px;
+}
+@media (max-width: 991px) {
+  .news_block .nav-tabs li.active a,
+  .news_block .breadcrumb-tab > ul li.active a {
+    padding-left: 55px;
+    padding-right: 0;
+    text-align: center;
+  }
+  .news_block .nav-tabs li.active a:before,
+  .news_block .breadcrumb-tab > ul li.active a:before {
+    width: 55px !important ;
+    height: 55px !important;
+    background-size: 100% !important;
+    left: 15px !important;
+    top: 2px !important;
+  }
+}
+.news_block .nav-tabs li.active a:before,
+.news_block .breadcrumb-tab > ul li.active a:before {
+  content: "";
+  position: absolute;
+  left: 30px;
+  top: -15px;
+  background: url(../../images/handbook/icon-tab-content.png) no-repeat;
+  display: block;
+  width: 71px;
+  height: 62px;
+}
+#tab_content {
+  float: left;
+  width: 100%;
+}
+#tab_content.tab-content {
+  background: url(../../images/handbook/bg-content.png) repeat;
+  background-size: 100% ;
+  position: relative;
+  color: #6d6856;
+}
+#tab_content.tab-content:after {
+  content: "";
+  position: absolute;
+  display: block;
+  background: url(../../images/handbook/bf-content.png) no-repeat center center / 100% auto;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  #tab_content.tab-content:after {
+    background-position: top;
+    height: 50px;
+  }
+}
+#tab_content.tab-content:after {
+  background: url(../../images/handbook/af-content.png) no-repeat center center / 100% auto;
+  bottom: -16px;
+  height: 135px;
+  left: -16px;
+  width: 104%;
+}
+@media (max-width: 992px) {
+  #tab_content.tab-content:after {
+    left: -14px;
+    height: 147px;
+  }
+}
+@media (max-width: 767px) {
+  #tab_content.tab-content:after {
+    left: -7px;
+    height: 80px;
+  }
+}
+#tab_content.tab-content a,
+#tab_content.tab-content span {
+  color: #760000;
+}
+#tab_content.tab-content ul.list-news {
+  padding: 0 20px;
+  position: relative;
+  z-index: 99;
+}
+#tab_content.tab-content ul.list-news li {
+  padding: 23px 0px;
+  position: relative;
+  border-bottom: 1px solid #ddd5b1;
+}
+#tab_content.tab-content ul.list-news li:last-child {
+  border: none;
+}
+#tab_content.tab-content ul.list-news li small.datetime {
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+#tab_content.tab-content ul.list-news li .thumb {
+  display: block;
+  float: left;
+  margin-bottom: 0;
+  margin-right: 20px;
+  padding: 0;
+  width: 30%;
+  min-height: 115px;
+}
+@media (max-width: 767px) {
+  #tab_content.tab-content ul.list-news li .thumb {
+    width: 40%;
+  }
+}
+#tab_content.tab-content ul.list-news li .thumb img {
+  position: static;
+}
+#tab_content.tab-content ul.list-news li h3.news-item-title {
+  font-size: 18px;
+  margin: 4px 0 10px;
+  text-transform: none;
+}
+#tab_content.tab-content ul.list-news li h3.news-item-title a {
+  text-transform: none;
+  font-weight: normal;
+  color: #6d6856;
+  font-weight: bold;
+  padding-left: 20px;
+  position: relative;
+}
+#tab_content.tab-content ul.list-news li h3.news-item-title a:before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 0;
+  background: url(../../images/handbook/bg-title-item.png) no-repeat center center;
+  display: block;
+  width: 14px;
+  height: 14px;
+}
+#tab_content.tab-content ul.list-news li h3.news-item-title a:hover {
+  color: #550000;
+}
+#tab_content.tab-content ul.list-news li h3.news-item-title .label {
+  display: none;
+}
+@media (max-width: 991px) {
+  #tab_content.tab-content ul.list-news {
+    padding: 0 15px;
+  }
+  #tab_content.tab-content ul.list-news li a.thumb {
+    width: 30%;
+  }
+  #tab_content.tab-content ul.list-news li .datetime {
+    display: none;
+  }
+  #tab_content.tab-content ul.list-news li p.description {
+    padding-left: 33%;
+  }
+}
+@media (max-width: 991px) and (max-width: 767px) {
+  #tab_content.tab-content ul.list-news li p.description {
+    padding-left: 35%;
+  }
+}
+.holder {
+  position: relative;
+  z-index: 9;
+  padding: 0 20px 25px;
+}
+.holder > .pagination {
+  width: 100%;
+  border-top: 1px solid #dbd3b1;
+  padding-top: 20px !important;
+}
+.holder .pagination {
+  padding: 0;
+  margin: 0;
+}
+.holder .pagination ul li.active a {
+  padding: 0;
+  color: #fff !important;
+  display: block;
+  width: 27px;
+  height: 27px;
+  text-align: center;
+  background: #5b0101;
+}
+.holder .pagination ul li.cuoi-cung a,
+.holder .pagination ul li.tiep a,
+.holder .pagination ul li.dau-tien a,
+.holder .pagination ul li.truoc a {
+  background: none !important;
+  width: inherit;
+}
+.holder .pagination ul li.cuoi-cung a:hover,
+.holder .pagination ul li.tiep a:hover,
+.holder .pagination ul li.dau-tien a:hover,
+.holder .pagination ul li.truoc a:hover {
+  color: #5b0101 !important;
+}
+.holder .pagination ul li + li a {
+  margin-left: 15px;
+}
+.holder .pagination ul li a {
+  padding: 0;
+  border-radius: 100%;
+  font-size: 18px;
+  color: #9e977f !important;
+  display: block;
+  width: 27px;
+  height: 27px;
+  text-align: center;
+  background: #c3bea1;
+  border: none;
+}
+.holder .pagination ul li a:hover {
+  background: #5b0101;
+  color: #fff !important;
+}
+.detail-block {
+  background: #fff;
+}
+.content-detail {
+  color: #6d6856;
+  background: url(../../images/handbook/bg-content.png) repeat;
+  background-size: 100% ;
+  position: relative;
+  padding: 15px;
+}
+.content-detail:before,
+.content-detail:after {
+  content: "";
+  position: absolute;
+  display: block;
+  background: url(../../images/handbook/bf-content.png) no-repeat center center / 100% auto;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .content-detail:before,
+  .content-detail:after {
+    background-position: top;
+    height: 50px;
+  }
+}
+.content-detail:before {
+  height: 105px;
+  top: 0;
+  left: 0;
+}
+.content-detail:after {
+  background: url(../../images/handbook/af-content.png) no-repeat center center / 100% auto;
+  height: 77px;
+  bottom: 0;
+  left: 0;
+}
+@media (max-width: 992px) {
+  .content-detail:after {
+    background-position: bottom;
+    height: 50px;
+  }
+}
+.content-detail .title-page {
+  padding-top: 20px;
+  margin-top: 0;
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+}
+.breadcrumb-tab {
+  background: rgba(0, 0, 0, 0) url(../../../"/images/handbook/bg-tab-content.png") repeat scroll left center;
+  width: 100%;
+}
+.relatived-news {
+  position: relative;
+  z-index: 9;
+}
+.relatived-news .title-module {
+  margin: 20px -15px 5px;
+  padding: 15px;
+  border-top: 4px solid #850014;
+  font-size: 20px;
+}
+.relatived-news .list-news > li {
+  padding: 5px 0;
+  line-height: 36px;
+}
+.relatived-news .list-news > li + li {
+  border-top: 1px solid #ddd5b1;
+}
+.relatived-news .list-news > li a {
+  font-size: 17px;
+}
+.relatived-news .list-news > li a:hover {
+  color: #550000;
+}
+.relatived-news .news-item-title .label {
+  background-color: #A79637;
+  border-radius: 2px;
+  color: #380035;
+  margin-right: 10px;
+  padding: 3px;
+  color: #fff;
+}
+/* TEMPLATE DANH TUONG */
+.temp-page .page {
+  margin-top: 0px;
+}
+.temp-page .col-top {
+  background: transparent;
+}
+.temp-page .logo {
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+@media (max-width: 768px) {
+  .temp-page .logo {
+    top: 110px;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .temp-page .logo {
+    margin-left: 55%;
+    margin-top: 20px;
+  }
+}
+.temp-page.danh-tuong .page {
+  background: #11121b url(../../images/handbook/bg-danhtuong.jpg) no-repeat top center / 100%;
+  margin-top: -18px;
+}
+.temp-page.danh-tuong .page .col-main {
+  margin-top: 0;
+}
+.temp-page.danh-tuong .page .hero {
+  max-width: 1040px;
+  margin: 15px auto;
+}
+.tabs-section-nav {
+  margin-top: 15px;
+}
+.tabs-section-nav .nav.nav-tabs {
+  background: #503b00 url(../../images/handbook/huongdan-tab.png) repeat center top;
+}
+.tabs-section-nav .nav.nav-tabs > li {
+  width: 33.333333%;
+  float: left;
+  display: block;
+}
+.tabs-section-nav .nav.nav-tabs > li,
+.tabs-section-nav .nav.nav-tabs > li a {
+  border-radius: 0;
+}
+.tabs-section-nav .nav.nav-tabs > li:hover,
+.tabs-section-nav .nav.nav-tabs > li a:hover {
+  border-color: transparent;
+}
+.tabs-section-nav .nav.nav-tabs > li.active > a {
+  background: transparent url(../../images/handbook/huongdan-tab.jpg) repeat center top;
+}
+.tabs-section-nav .nav.nav-tabs > li.active:hover,
+.tabs-section-nav .nav.nav-tabs > li.active a:hover,
+.tabs-section-nav .nav.nav-tabs > li.active:focus,
+.tabs-section-nav .nav.nav-tabs > li.active a:focus,
+.tabs-section-nav .nav.nav-tabs > li.active:active,
+.tabs-section-nav .nav.nav-tabs > li.active a:active {
+  border-color: transparent !important;
+}
+.tabs-section-nav .tab-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+}
+.tabs-section-nav .tab-content,
+.tabs-section-nav .tab-content a {
+  color: #d3d28a;
+}
+.hero-list-content > li {
+  display: block;
+  width: 100%;
+}
+.hero-list-content > li > span,
+.hero-list-content > li > a {
+  display: block;
+  padding: 10px 0px;
+  background: transparent url(../../images/handbook/hero/hero-list-bottom.png) no-repeat center bottom / 100%;
+}
+.danhtuong-list .title {
+  text-transform: uppercase;
+}
+.danhtuong-list,
+.danhtuong-list a {
+  color: #fff;
+}
+/* page-cam nang */
+@media (max-width: 1919px) {
+  .cam-nang.page {
+    background-size: 120%;
+  }
+}
+
+
+@media (min-width: 993px) and (max-width: 1199px) {
+  .cam-nang.page {
+    background-size: 150%;
+  }
+  .cam-nang .col-main .wrapper-1 > .content {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .cam-nang.page {
+    background-size: 200%;
+  }
+}
+.cam-nang .col-top h4.branding {
+  background: #000;
+}
+.cam-nang .col-main {
+  margin-top: 17%;
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .cam-nang .col-main {
+    margin-top: 20%;
+  }
+}
+@media (max-width: 767px) {
+  .cam-nang .col-main {
+    margin-top: 25%;
+  }
+}
+.cam-nang .col-main .content {
+  background: transparent url(../../images/handbook/mid-main.jpg) repeat-y center top / 100%;
+  background-size: 100%;
+  padding-bottom: 115px;
+  position: relative;
+  min-height: 645px;
+}
+.cam-nang .col-main .content:before,
+.cam-nang .col-main .content:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: block;
+  background: transparent url(../../images/handbook/top-main.jpg) no-repeat center top / 100%;
+  height: 425px;
+}
+.cam-nang .col-main .content:before {
+  top: 0;
+}
+.cam-nang .col-main .content:after {
+  background: transparent url(../../images/handbook/bot-main.jpg) no-repeat center top / 100% !important;
+  height: 314px;
+  bottom: 0;
+}
+.cam-nang .col-main ul.nav {
+  padding: 20px 30px;
+  text-align: center;
+  position: relative;
+  z-index: 9;
+}
+.cam-nang .col-main ul.nav li {
+  margin: -1px;
+  float: none;
+  display: inline-block;
+}
+.cam-nang .col-main ul.nav li.active a {
+  opacity: 1;
+  -webkit-opacity: 1;
+}
+.cam-nang .col-main ul.nav li a {
+  background: none;
+  padding: 0;
+  margin-bottom: 25px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.4;
+  -webkit-opacity: 0.4;
+}
+.cam-nang .col-main ul.nav li a:hover {
+  opacity: 1;
+  -webkit-opacity: 1;
+}
+.cam-nang .col-main i.icon {
+  display: inline-block;
+  width: 130px;
+  height: 110px;
+  text-align: center;
+}
+.cam-nang .col-main i.icon.cuong-hoa {
+  background: url(../../images/handbook/icon/cuong-hoa.png) no-repeat center center;
+}
+.cam-nang .col-main i.icon.than-khi {
+  background: url(../../images/handbook/icon/than-khi.png) no-repeat center center;
+}
+.cam-nang .col-main i.icon.vo-hoc {
+  background: url(../../images/handbook/icon/vo-hoc.png) no-repeat center center;
+}
+.cam-nang .col-main i.icon.toa-ki {
+  background: url(../../images/handbook/icon/toa-ki.png) no-repeat center center;
+}
+.cam-nang .col-main i.icon.hiep-khach {
+  background: url(../../images/handbook/icon/hiep-khach.png) no-repeat center center;
+}
+.cam-nang .col-main i.icon.kinh-mach {
+  background: url(../../images/handbook/icon/kinh-mach.png) no-repeat center center;
+}
+.cam-nang .col-main i.icon.tang-pham {
+  background: url(../../images/handbook/icon/tang-pham.png) no-repeat center center;
+}
+.cam-nang .col-main i.icon.phu-ban {
+  background: url(../../images/handbook/icon/phu-ban.png) no-repeat center center;
+}
+.cam-nang .col-main i.icon.bao-thach {
+  background: url(../../images/handbook/icon/bao-thach.png) no-repeat center center;
+}
+.cam-nang .col-main i.icon.game-play {
+  background: url(../../images/handbook/icon/game-play.png) no-repeat center center;
+}
+.cam-nang .col-main i.icon.bang {
+  background: url(../../images/handbook/icon/bang.png) no-repeat center center;
+}
+.cam-nang .col-main i.icon.pvp {
+  background: url(../../images/handbook/icon/pvp.png) no-repeat center center;
+}
+.cam-nang .col-main .tab-content {
+  color: #333333;
+  font-family: "Tahoma", arial;
+  padding: 0 95px;
+  font-size: 12px;
+  line-height: 23px;
+  position: relative;
+  z-index: 9;
+}
+.cam-nang .col-main .tab-content .panel-group .panel {
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+.cam-nang .col-main .tab-content .panel-group .panel * {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.cam-nang .col-main .tab-content .panel-group .panel .panel-heading {
+  position: relative;
+  margin-bottom: 10px;
+  padding: 20px 15px 20px 80px;
+}
+.cam-nang .col-main .tab-content .panel-group .panel img{
+  display:block;
+  max-width:100%;
+  height:auto!important;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:15px;margin-bottom:15px;
+}
+.cam-nang .col-main .tab-content .panel-group .panel .panel-heading span.number {
+  position: absolute;
+  color: #98120f;
+  left: -55px;
+  top: 0;
+  font-size: 20px;
+}
+
+.cam-nang .col-main .tab-content .panel-group .panel .panel-heading.active h4.panel-title:after {
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+}
+
+.cam-nang .col-main .tab-content .panel-group .panel .panel-heading.active h4.panel-title a {
+  color: #98120f;
+}
+.cam-nang .col-main .tab-content .panel-group .panel .panel-heading.active h4.panel-title a:hover {
+   color: #333;
+}
+.cam-nang .col-main .tab-content .panel-group .panel .panel-heading h4.panel-title a {
+  color: #333;
+}
+
+.cam-nang .col-main .tab-content .panel-group .panel .panel-heading h4.panel-title {
+  position: relative;
+}
+.cam-nang .col-main .tab-content .panel-group .panel .panel-heading h4.panel-title:after {
+  content: "";
+  background: url(../../images/handbook/arrow-bottom.png) no-repeat center center;
+  width: 24px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  right: -10px;
+  top: 20px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.cam-nang .col-main .tab-content .panel-group .panel .panel-heading h4.panel-title a {
+  font-size: 16px;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.cam-nang .col-main .tab-content .panel-group .panel .panel-heading h4.panel-title a:hover {
+  color: #98120f;
+}
+.cam-nang .col-main .tab-content .panel-group .panel .panel-heading:before {
+  content: "";
+  background: url(../../images/handbook/bf-list.png) no-repeat center center;
+  width: 60px;
+  height: 58px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.cam-nang .col-main .tab-content .panel-group .panel .panel-heading:after {
+  content: "";
+  background: url(../../images/handbook/line.png) no-repeat center center;
+  width: 100%;
+  height: 2px;
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  bottom: 0;
+}
+.cam-nang .col-main .tab-content .panel-group .panel .panel-body {
+  padding: 30px 50px 80px 80px;
+}
+@media (max-width: 1190px) {
+  .cam-nang .col-main .content {
+    background: #ccc;
+    padding-bottom: 0;
+  }
+  .cam-nang .col-main .content:after,
+  .cam-nang .col-main .content:before {
+    display: none;
+  }
+  .cam-nang .col-main ul.nav {
+    border-bottom: 2px solid #000;
+  }
+  .cam-nang .col-main ul.nav li {
+    margin: 0;
+    float: left;
+    width: 90px;
+    height: 90px;
+  }
+  .cam-nang .col-main ul.nav li i.icon {
+    background-size: 100%;
+    width: 90px;
+    height: 90px;
+  }
+  .cam-nang .col-main ul.nav li a {
+    margin: 0;
+  }
+  .cam-nang .col-main .tab-content {
+    padding: 50px 30px;
+  }
+  .cam-nang .col-main .tab-content .panel-heading {
+    padding-left: 60px !important;
+  }
+  .cam-nang .col-main .tab-content .panel-heading span.number {
+    left: -35px !important;
+    top: 0;
+    font-size: 16px !important;
+  }
+  .cam-nang .col-main .tab-content .panel-heading:before {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+  }
+  .cam-nang .col-main .tab-content .panel-heading:after {
+    background-size: 100% !important;
+  }
+  .cam-nang .col-main .tab-content .panel-heading.active h4.panel-title:after {
+    transform: scale(0.7) rotate(180deg) !important;
+    -webkit-transform: scale(0.7) rotate(180deg) !important;
+    top: 10px !important;
+  }
+  .cam-nang .col-main .tab-content .panel-heading h4.panel-title:after {
+    transform: scale(0.7) !important;
+    -webkit-transform: scale(0.7) !important;
+    top: 10px !important;
+  }
+  .cam-nang .col-main .tab-content .panel-body {
+    padding: 30px 30px 50px !important;
+  }
+}
+@media (max-width: 767px) {
+  .cam-nang .col-main ul.nav {
+    border-bottom: 2px solid #000;
+    padding: 20px 15px;
+  }
+  .cam-nang .col-main ul.nav li {
+    margin: 0;
+    float: left;
+    width: 60px;
+    height: 60px;
+  }
+  .cam-nang .col-main ul.nav li i.icon {
+    background-size: 100%;
+    width: 60px;
+    height: 60px;
+  }
+  .cam-nang .col-main ul.nav li a {
+    margin: 0;
+  }
+  .cam-nang .col-main .tab-content {
+    padding: 30px 15px ;
+  }
+  .cam-nang .col-main .tab-content .panel-body {
+    padding: 15px 30px !important;
+  }
+  .cam-nang .col-main .tab-content h4.panel-title:after {
+    display: none !important;
+  }
+}
+/* huong-dan-tan-thu */
+@media (max-width: 767px) {
+  .huong-dan-tan-thu .news_block .nav-tabs > li {
+    width: 100%;
+  }
+}
+/* GIFCODE PAGE */
+.subpage.giftcode .logo {
+  margin: 0 auto;
+}
+@media (max-width: 777px) {
+  .subpage.giftcode .logo {
+    display: none;
+  }
+}
+.subpage.giftcode .col-main {
+  margin-top: 0;
+}
+.subpage.giftcode .page {
+  padding-top: 200px;
+}
+.subpage.giftcode .nav-tabs > li {
+  width: 50% !important;
+}
+.subpage.giftcode .col-footer > .container {
+  padding: 0;
+}
+.subpage.giftcode .col-footer .khaosat-home {
+  margin: 0;
+}
+.login-pane {
+  width: 100%;
+  margin: auto;
+}
+@media (min-width: 992px) {
+  .login-pane {
+    width: 510px;
+  }
+}
+.login-pane .tab-content {
+  width: 100% !important;
+}
+.abc-form {
+  width: 80%;
+  margin: auto;
+}
+@media (min-width: 992px) {
+  .abc-form {
+    width: 320px;
+  }
+}
+.abc-form .form-control {
+  border-radius: 0;
+}
+.abc-form .btn {
+  width: 100%;
+  border-radius: 0;
+  margin-bottom: 10px;
+  background: url(../../images/handbook/btn-gc-form.png) center top;
+}
+.abc-form .btn.btn-submit {
+  color: #fff;
+  background-color: #ca21b4;
+  border-color: #9e1a8d;
+}
+.abc-form .btn.btn-submit:hover,
+.abc-form .btn.btn-submit:focus,
+.abc-form .btn.btn-submit:active {
+  background-color: #a71b95;
+  border-color: #b81ea4;
+}
+.abc-form .btn.btn-primary {
+  color: #fff;
+  background-color: #43609c;
+  border-color: #344a78;
+}
+.abc-form .btn.btn-primary:hover,
+.abc-form .btn.btn-primary:focus,
+.abc-form .btn.btn-primary:active {
+  background-color: #374e7f;
+  border-color: #3d578e;
+}
+/* MINIGAME PAGE */
+.minigame .page {
+  background: #000000 url(../../images/handbook/bg-minigame.jpg) no-repeat center top / 100%;
+}
+@media (max-width: 992px) {
+  .minigame .page {
+    background: #000000 url(../../images/handbook/bg-minigame.jpg) no-repeat center 40px;
+    background-size: 145%;
+  }
+}
+@media (min-width: 992px) {
+  .minigame .logo {
+    margin-left: auto;
+  }
+  .minigame .col-main {
+    margin-top: 130px;
+  }
+  .minigame .minigame-pane {
+    width: 1035px;
+    margin: auto;
+  }
+}
+.minigame .slogan-minigame {
+  margin: auto;
+  text-align: center;
+}
+#popup-gift,
+#thele,
+#huongdan,
+#phanthuong {
+  background: transparent;
+}
+#popup-gift .modal-content,
+#thele .modal-content,
+#huongdan .modal-content,
+#phanthuong .modal-content {
+  background: transparent url(../../images/handbook/bg-camnang.png) no-repeat center top / 100%;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border: none;
+  padding: 0 5.9% 18px;
+  min-height: 220px;
+  max-width: 700px;
+  margin: auto;
+  color: #C5B381;
+}
+#popup-gift .modal-content .modal-header,
+#thele .modal-content .modal-header,
+#huongdan .modal-content .modal-header,
+#phanthuong .modal-content .modal-header {
+  border-bottom: 2px solid #846F5C;
+  margin-left: -0.5%;
+  color: #C5B381;
+}
+#popup-gift .modal-content,
+#thele .modal-content,
+#huongdan .modal-content,
+#phanthuong .modal-content {
+  position: relative;
+}
+#popup-gift .modal-content:before,
+#thele .modal-content:before,
+#huongdan .modal-content:before,
+#phanthuong .modal-content:before {
+  content: " ";
+  height: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: transparent url(../../images/handbook/bg-camnang.png) no-repeat center bottom / 100%;
+}
+#popup-gift .modal-header {
+  padding-top: 40px;
+}
+.gift-list {
+  text-align: center;
+}
+.gift-item {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 10px;
+  border-radius: 2px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  position: relative;
+}
+.gift-item img {
+  max-width: 100px;
+}
+.gift-item .class-info {
+  display: none;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  min-height: 100%;
+  background: #fff;
+  padding: 10px;
+  border-radius: 2px;
+  z-index: 999;
+  color: #333;
+  left: auto;
+  right: auto;
+  margin: auto;
+}
+.gift-item .class-info .title {
+  font-size: 22px;
+  color: #CA3500;
+  font-weight: bold;
+}
+.gift-item.hover-top .class-info {
+  bottom: -3px;
+  top: auto;
+}
+.gift-item .button {
+  width: 100px;
+  max-width: 100%;
+  height: 0;
+  padding-bottom: 30%;
+  margin: 0px auto;
+  margin-top: 10px;
+}
+.gift-item.disable {
+  opacity: 0.3;
+}
+.gift-item.disable:hover .class-info {
+  display: none;
+}
+.button-style {
+  padding: 8px 45px;
+  border: none;
+  line-height: 26px;
+  text-transform: uppercase;
+  display: block;
+  margin: auto;
+  background: transparent url(../../images/handbook/button-style.png) no-repeat center / 100% 100%;
+  color: #EABC74;
+  text-shadow: 0px 2px 4px #2D0303;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.button-style:hover {
+  background: transparent url(../../images/handbook/button-style-hover.png) no-repeat center / 100% 100%;
+  color: #FDF4E5;
+  text-shadow: 0px 0px 6px #FFFFFF;
+}
+.button-style:hover,
+.button-style:focus,
+.button-style:active {
+  outline: none;
+}
+.button.doivang a {
+  background: url(../../../images/handbook/doivang.png) no-repeat center top / 100%;
+}
+.button.doivang a:hover {
+  background: url(../../../images/handbook/doivang-hover.png) no-repeat center top / 100%;
+}
+.play-result {
+  text-align: center;
+  font-size: 60px;
+  color: #f00;
+  font-weight: bold;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+.play-result > span {
+  position: relative;
+  display: inline-block;
+}
+.play-result .small {
+  font-size: 22px;
+  position: absolute;
+  top: 0;
+  margin-left: 16px;
+}
+.popup-turn .modal-header {
+  border-bottom: none;
+  margin-bottom: 2%;
+}
+.popup-turn .modal-header .button-style {
+  margin-top: 15%;
+}
+.popup-turn .modal-header .close {
+  margin-top: -2px;
+  width: 38px;
+  height: 38px;
+}
+.popup-turn .modal-content {
+  border-radius: 0;
+  background: transparent url(../../images/handbook/popup-turn.png) no-repeat center top / 100%;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+}
+.popup-turn .modal-body {
+  min-height: 300px;
+}
+.gift-item:hover {
+  position: relative;
+}
+.gift-item:hover .class-info {
+  display: block;
+  background: #ffffff;
+  box-shadow: 0px 0px 33px rgba(255, 255, 255, 0.64);
+}
+@media (max-width: 480px) {
+  .gift-item {
+    max-width: 40%;
+  }
+  .gift-item img {
+    max-width: 100%;
+  }
+}
+.quay_so > ul.product > li.active > div {
+  background-position: 0px 0px;
+}
+.user_login,
+.login_block {
+  background: #ccc;
+  border: none;
+  display: block;
+  width: 180px;
+  color: #8D8660;
+  padding: 15px 30px;
+  margin-top: 50px;
+  background: url(../../images/handbook/pane-center.png) repeat-y center / 100%;
+}
+.user_login:before,
+.login_block:before,
+.user_login:after,
+.login_block:after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 50px;
+  background: url(../../images/handbook/pane-top.png) no-repeat center top / 100%;
+}
+.user_login:before,
+.login_block:before {
+  top: -50px;
+}
+.user_login:after,
+.login_block:after {
+  background: url(../../images/handbook/pane-fo.png) no-repeat center bottom / 100%;
+  bottom: -10px;
+  z-index: 0;
+}
+.user_login > p,
+.login_block > p,
+.user_login > a,
+.login_block > a {
+  display: block;
+  z-index: 1;
+  position: relative;
+  padding: 6px 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid #2D2A25;
+}
+.user_login > p:first-child,
+.login_block > p:first-child,
+.user_login > a:first-child,
+.login_block > a:first-child {
+  margin-top: -30px;
+  position: relative;
+}
+.user_login .username,
+.login_block .username {
+  font-weight: bold;
+  color: #EADE86;
+}
+.user_login a,
+.login_block a {
+  color: #EBEFAC;
+}
+@media (min-width: 768px) {
+  .user_login,
+  .login_block {
+    position: absolute;
+    left: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .user_login,
+  .login_block {
+    position: relative;
+    margin-top: 230px;
+  }
+}
+table {
+  background: #fff;
+}
+/* light image */
+.product li:hover .content_tooltip {
+  display: none;
+}
+.product li > div {
+  background-position: 0 0;
+}
+.product li.active > div {
+  background-position: 0 -149px;
+}
+.product li.active:hover .content_tooltip {
+  display: block;
+  background: url(../../../images/handbook/bg-note.png) no-repeat center top;
+  width: 243px;
+  height: 113px;
+  overflow: hidden;
+  margin-top: -130px;
+  margin-left: 120px;
+  position: relative;
+  z-index: 5555;
+}
+.quay_so > ul.product > li.active > div {
+  background-position: 0px -149px;
+}
+.tab-pane {
+  display: none;
+}
+/* quicklink_block */
+.quicklink_block {
+  float: left;
+  width: 100%;
+  padding: 0 8px 0 5px;
+}
+.quicklink_block img {
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .quicklink_block {
+    display: none;
+  }
+}
+.footer {
+  background: #131313;
+  padding: 35px 0;
+  min-height: auto;
+  color: #fff;
+  position: relative;
+  font-size: 11px;
+  font-family: Tahoma, Arial, sans-serif;
+}
+@media (min-width: 998px) {
+  .footer .content-info {
+    padding-left: 15%;
+  }
+}
+.footer .logo-footer {
+  float: left;
+  margin-right: 50px;
+}
+.footer p {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .footer .content-info {
+    width: 100%;
+    text-align: center;
+  }
+  .footer .logo-footer {
+    float: none;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
+.thuvien_main .pagination {
+  margin: 0 -10px;
+}
+.thuvien_main > ul.nav-tabs > li {
+  width: 33.333333%;
+}
+@media (max-width: 767px) {
+  .thuvien_main ul.nav-tabs li.active a {
+    padding: 12px 0 !important;
+    font-size: 13px !important;
+  }
+  .thuvien_main ul.nav-tabs li.active a:before {
+    display: none !important;
+  }
+}
+.thuvien_main ul.nav-tabs li a {
+  font-size: 17px;
+}
+@media (max-width: 767px) {
+  .thuvien_main ul.nav-tabs li a {
+    padding: 12px 0 !important;
+    font-size: 13px !important;
+  }
+  .thuvien_main ul.nav-tabs li a:before {
+    display: none !important;
+  }
+}
+.thuvien_main .tab-content {
+  padding: 30px 0 !important;
+}
+.thuvien_main #video-container {
+  margin: 0 -20px 0 -10px;
+}
+.thuvien_main #video-container ul li {
+  float: left;
+  width: 33%;
+  padding: 20px 10px !important;
+  border-bottom: 1px solid #ddd5b1 !important;
+}
+@media (max-width: 767px) {
+  .thuvien_main #video-container ul li {
+    min-height: 200px;
+  }
+}
+.thuvien_main #video-container h4.news-item-title a {
+  color: #6c6755;
+  font-weight: bold;
+}
+.icon-play-emb {
+  background: transparent url(../../../images/handbook/icon-play-fire.png) no-repeat center !important;
+  text-indent: -9999999px;
+  display: block;
+  width: 44px ;
+  height: 44px ;
+  margin: 0 ;
+  border: none ;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 767px) {
+  .icon-play-emb {
+    width: 20px;
+    height: 20px;
+    background-size: 100%;
+  }
+}
+.main-video-item .icon-play-emb {
+  height: 70px;
+  width: 70px;
+  background-size: 100% !important;
+}
+#tab_content.tab-content ul.list-news .main-video-item {
+  padding: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd5b1 !important;
+}
+.subpage .thuvien_main #images-container1,
+.subpage .thuvien_main #images-container2,
+.subpage .thuvien_main #images-container3 {
+  position: relative;
+  padding: 0 30px;
+}
+.subpage .thuvien_main #images-container1 ul.list-media li,
+.subpage .thuvien_main #images-container3 ul.list-media li {
+  float: left;
+  width: 33%;
+  padding: 15px 10px;
+}
+@media (max-width: 767px) {
+  .subpage .thuvien_main #images-container1 ul.list-media li,
+  .subpage .thuvien_main #images-container3 ul.list-media li {
+    min-height: 200px;
+  }
+}
+
+body {
+  background: url(../../images/handbook/body-repeat.png) repeat-y top center;
+}
