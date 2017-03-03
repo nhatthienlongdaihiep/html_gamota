@@ -206,130 +206,132 @@
             </div>      
         </div>
         <div class="foot">
-            <div class="box clearfix">
-                <a href="#" class="wm" target="_blank">Gamota</a>
-                <a class="wm" style="background:url(static/web/images/logo-dazzle.png) no-repeat;">Dazzle</a>
-                <div class="txt">
-                    <p>Gamota Platform - Cổng game chuyên gia | Phát hành độc quyền tại Việt Nam</p>
-                    <p>Địa chỉ : Tầng 5,số nhà 11, Tòa nhà LE Building, Láng Hạ, phường Thành Công, quận Ba Đình, Hà Nội</p>
-                </div>
-            </div>
-        </div>
+			<div class="box clearfix">
+	        	<div class="wm">
+		        	<a href="#" style='margin:0px 16px 0 0;display: block;float: left;'><img src="static/web/images/logo-gamota.png" alt="Gamota"></a>
+		            <a href="#"><img src="static/web/images/logo-dazzle.png" width='110px' alt="Logo Dev"></a>
+	        	</div>
+	            <div class="txt">
+		            <p>Gamota Platform - Cổng game chuyên gia | Phát hành độc quyền tại Việt Nam</p>
+		            <p>Địa chỉ : Tầng 5,số nhà 11, Tòa nhà LE Building,Láng Hạ, phường Thành Công, quận Ba Đình , Hà Nội</p>
+		        </div>
+	       	</div>
+	    </div>
         <!--pop_video-->
         <div class="video_pop" id="video_pop">
             <img src="static/web/images/icon_close.png" alt="关闭" class="close_btn">
             <div id="video_box"></div>
         </div>
-<script type="text/javascript">
-    /*function breakScroll(parentNode, childTag){
-        var Mar = document.getElementById(parentNode);    
-        var childTag = Mar.getElementsByTagName(childTag)    
-        var picH = 40;   
-        var scrollstep = 3;  
-        var scrolltime = 20;  
-        var stoptime = 3000;  
-        var tmpH = 0;    
-        Mar.innerHTML += Mar.innerHTML;    
-        function start(){    
-        if (tmpH < picH){    
-            tmpH += scrollstep;    
-            if(tmpH > picH ){
-                tmpH = picH ;
-            }    
-            Mar.scrollTop = tmpH;    
-            setTimeout(start,scrolltime);    
-        }else{    
-            tmpH = 0;    
-            Mar.appendChild(childTag[0]);    
-            Mar.scrollTop = 0;    
-            setTimeout(start, stoptime);    
-            }    
-        }    
-        setTimeout(start,stoptime); 
-    }
-    breakScroll('Marquee', 'p'); */
-$(function(){
-    /*//video
-    var browser2={
-        versions:function(){
-            var u = navigator.userAgent, app = navigator.appVersion;
-            return {
-                iPad: u.indexOf('iPad') > -1
-            };
-         }()
-    }
-    
-    $('.btn_video').click(function(){
-        if(browser2.versions.iPad){
-            $('#video_box').html('<iframe style="width:800px;height:450px" src="http://player.youku.com/embed/XMTM2NTY0MjAyMA" frameborder=0 allowfullscreen></iframe>');
-        }else{
-            $('#video_box').html(' ');
-            addVideo('video_box', 800, 450,
-                {
-                    source:'http://apkdownload.laohu.com/tmp/video/yttlslogan.flv',
-                    autoPlay:true
-                }
-            );
-        }
-        $.simpleDialog({
-           skin:false,
-           content: '#video_pop',
-           id : 'video_pop'
-        });     
-    });
-    $('.close_btn').click(function(){
-        $.simpleDialog.close('video_pop');
-    });*/
-    //bar
-    $('.btn_top').click(function(){
-        $('html,body').animate({'scroll-top':0},300);
-    });
-    $('.btn_shou').click(function(){
-        $('.bar_box').animate({'width':'0px'},300,function(){
-            $('.bar_cont').hide();
-            $('.bar_box').css('width','66px');
-            $('.btn_bar').show();
-        });
-    });
-    $('.btn_bar').click(function(){
-        $(this).hide();
-        $('.bar_box').css('width','0px');
-        $('.bar_cont').show();
-        $('.bar_box').animate({'width':'220px'},300)
-    });
-});
+		<script type="text/javascript">
+		    /*function breakScroll(parentNode, childTag){
+		        var Mar = document.getElementById(parentNode);    
+		        var childTag = Mar.getElementsByTagName(childTag)    
+		        var picH = 40;   
+		        var scrollstep = 3;  
+		        var scrolltime = 20;  
+		        var stoptime = 3000;  
+		        var tmpH = 0;    
+		        Mar.innerHTML += Mar.innerHTML;    
+		        function start(){    
+		        if (tmpH < picH){    
+		            tmpH += scrollstep;    
+		            if(tmpH > picH ){
+		                tmpH = picH ;
+		            }    
+		            Mar.scrollTop = tmpH;    
+		            setTimeout(start,scrolltime);    
+		        }else{    
+		            tmpH = 0;    
+		            Mar.appendChild(childTag[0]);    
+		            Mar.scrollTop = 0;    
+		            setTimeout(start, stoptime);    
+		            }    
+		        }    
+		        setTimeout(start,stoptime); 
+		    }
+		    breakScroll('Marquee', 'p'); */
+		$(function(){
+		    /*//video
+		    var browser2={
+		        versions:function(){
+		            var u = navigator.userAgent, app = navigator.appVersion;
+		            return {
+		                iPad: u.indexOf('iPad') > -1
+		            };
+		         }()
+		    }
+		    
+		    $('.btn_video').click(function(){
+		        if(browser2.versions.iPad){
+		            $('#video_box').html('<iframe style="width:800px;height:450px" src="http://player.youku.com/embed/XMTM2NTY0MjAyMA" frameborder=0 allowfullscreen></iframe>');
+		        }else{
+		            $('#video_box').html(' ');
+		            addVideo('video_box', 800, 450,
+		                {
+		                    source:'http://apkdownload.laohu.com/tmp/video/yttlslogan.flv',
+		                    autoPlay:true
+		                }
+		            );
+		        }
+		        $.simpleDialog({
+		           skin:false,
+		           content: '#video_pop',
+		           id : 'video_pop'
+		        });     
+		    });
+		    $('.close_btn').click(function(){
+		        $.simpleDialog.close('video_pop');
+		    });*/
+		    //bar
+		    $('.btn_top').click(function(){
+		        $('html,body').animate({'scroll-top':0},300);
+		    });
+		    $('.btn_shou').click(function(){
+		        $('.bar_box').animate({'width':'0px'},300,function(){
+		            $('.bar_cont').hide();
+		            $('.bar_box').css('width','66px');
+		            $('.btn_bar').show();
+		        });
+		    });
+		    $('.btn_bar').click(function(){
+		        $(this).hide();
+		        $('.bar_box').css('width','0px');
+		        $('.bar_cont').show();
+		        $('.bar_box').animate({'width':'220px'},300)
+		    });
+		});
 
-    //inside_content
-    $('ul.inside_ul a').click(function(){
-        var link = $(this).data('link');
-        $('ul.inside_ul a').removeClass('cur');
-        $('.news-list').hide();
-        $(this).addClass('cur');
-        $('#'+link).show();
-    })
+		    //inside_content
+		    $('ul.inside_ul a').click(function(){
+		        var link = $(this).data('link');
+		        $('ul.inside_ul a').removeClass('cur');
+		        $('.news-list').hide();
+		        $(this).addClass('cur');
+		        $('#'+link).show();
+		    })
 
-    $(document).ready(function(){
-        $("#owl_banner").owlCarousel({
-            loop: true,
-            autoplay: true, 
-            navigation : false, // Show next and prev buttons
-            slideSpeed : 300,
-            paginationSpeed : 400,
-            singleItem:true,
-            dots: true,
-            // "singleItem:true" is a shortcut for:
-            items : 1,
-            itemsDesktop : false,
-            itemsDesktopSmall : false,
-            itemsTablet: false,
-            itemsMobile : false
-        });
+		    $(document).ready(function(){
+		        $("#owl_banner").owlCarousel({
+		            loop: true,
+		            autoplay: true, 
+		            navigation : false, // Show next and prev buttons
+		            slideSpeed : 300,
+		            paginationSpeed : 400,
+		            singleItem:true,
+		            dots: true,
+		            // "singleItem:true" is a shortcut for:
+		            items : 1,
+		            itemsDesktop : false,
+		            itemsDesktopSmall : false,
+		            itemsTablet: false,
+		            itemsMobile : false
+		        });
 
-    $('#owl_banner .owl-dots .owl-dot').hover(function() {
-       // $(this).hide();
-        $(this).click();
-    }, function() {});
-    });
-</script>
+		    $('#owl_banner .owl-dots .owl-dot').hover(function() {
+		       // $(this).hide();
+		        $(this).click();
+		    }, function() {});
+		    });
+		</script>
 </body>
 </html>
