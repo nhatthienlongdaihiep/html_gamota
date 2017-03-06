@@ -1,0 +1,125 @@
+﻿
+/* PAGER */
+.pager 
+{
+margin:8px 3px;
+padding:3px;
+text-align:right;
+}
+
+.pager .disabled 
+{
+border:1px solid #ddd;
+color:#999;
+margin-top:4px;
+padding:3px;
+text-align:center;
+}
+
+.pager .current 
+{
+background-color:#06c;
+border:1px solid #009;
+color:#fff;
+font-weight:bold;
+margin-top:4px;
+padding:3px 5px;
+text-align:center;
+}
+
+.pager span, .pager a
+{
+margin: 4px 3px;
+}
+
+.pager a 
+{
+border:1px solid #c0c0c0;
+padding:3px 5px;
+text-align:center;
+text-decoration:none;
+}
+/*END PAGER*/
+
+
+/**/
+
+/************Begin Taskbar VNID*/
+#taskbar {
+	font-size:14px;
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
+	z-index:1000000;
+	display:block;
+}
+#taskbar a{text-decoration:none;}
+#taskbar .fr {padding-right:5px}
+#taskbar .fl {padding-left:5px}
+.r-taskbar li.user a {color:#0066cc; font-weight:bold}
+.r-taskbar li.exit a {color:#EC2B30;font-weight:bold}
+#taskbar {background:url(../images/bg-taskbar.png) repeat-x 0 0;}
+#taskbar .main {height: 33px;
+line-height: 33px;
+overflow: hidden;}
+ul.task-left li { background:url(../images/dot-taskbar.png) no-repeat right 12px;float:left; padding:0 8px}
+.logo-vnpay {margin:5px 0 0 }
+ul.task-left li.last { background:none}
+ul.task-left li a{ text-transform:uppercase; color:#6c6c6c}
+.gray {background:url(../images/btn-taskbar.png) no-repeat 0 0; height:22px; display:inline-block; line-height:20px; padding-left:10px; float:left; margin-top:6px; margin-left:5px}
+.gray-cont{background:url(../images/btn-taskbar.png) no-repeat right -29px; height:22px; display:inline-block; padding-right:10px}
+.gray-cont a {color:#555; float:left}
+#taskbar a:hover { color:#000}
+.r-taskbar ul li { background:url(../images/dot-taskbar.png) no-repeat right -19px ;float:left; padding-right:10px; margin-right:10px; position:relative; z-index:9}
+li.dn, li.sp, .exit, .hi {background:none !important;margin: 0 !important;
+    padding-right: 0 !important;}
+.hi {padding-right:5px !important; color:#333}
+.sub-login { background:#fff; position:absolute; width:222px; top:22px; right:-1px; color:#333; padding:10px; border:1px solid #999; border-top:none; border-radius:0 0 5px 5px; -webkit-border-radius:0 0 5px 5px; -moz-border-radius:0 0 5px 5px; -o-border-radius:0 0 5px 5px;box-shadow: 0 5px 5px #555; display:none; z-index:999}
+.sub-login .form-l {width:53%}
+.sub-login .form-r {width:45%; text-align:right}
+.sub-login.login-style .form-l {width:42%}
+.sub-login.login-style .form-r {width:56%;}
+.input2 {width:215px}
+.under {text-decoration:underline !important}
+#taskbar ul li a.under { color:#0066cc !important; padding-left:5px}
+#taskbar .fr ul li.active a, #taskbar .fr ul li a:hover, #taskbar .fr ul li:hover a {color:#222; text-decoration:none}
+.login-style {width:275px}
+#taskbar .fr ul li:hover .sub-login {display:block}
+#taskbar ul .sub-login li {
+    float: none; margin-right:0; background:none;
+    line-height: 18px;
+    padding: 0;
+}
+.sub-login.login-style .form-l {
+    width: 42%;
+}
+.sub-login .form-l {
+    width: 53%;
+}
+.sub-login.login-style .form-r {
+    width: 56%;
+}
+.sub-login .form-r {
+    text-align: right;
+    width: 45%;
+}
+#taskbar ul li a.under {
+    color: #0066CC !important;
+    padding-left: 5px;
+}
+.r-taskbar li {
+    line-height: 22px;
+}
+.r-taskbar li a {
+  height: 22px;
+  line-height: 22px;
+}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+* html .clearfix {zoom: 1;} /* IE6 */
+*:first-child+html .clearfix {zoom: 1;} /* IE7 */
+.clear {clear:both;}
+.main{width:1070px; margin:0 auto;position:relative; }
+.fl {float:left;}
+.fr {float:right;}
+/*******************End Task Bar*/

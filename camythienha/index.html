@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Cẩm Y Thiên Hạ - Trang chủ - Cẩm Y Thi&#234;n Hạ</title>
+
+    <meta name="viewport" content="width=device-width" />
+    <script src="static/js/jquery-1.10.0.min.js" type="text/javascript"></script>
+    <script src="static/js/wow.min.js" type="text/javascript"></script>
+    <script src="static/js/jquery.slide.min.js" type="text/javascript"></script>
+    <script src="static/js/main.js" type="text/javascript"></script>
+    <link href="static/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="static/css/animate.min.css" rel="stylesheet" type="text/css" />
+    <link href="static/css/colorbox.css" rel="stylesheet" type="text/css" />
+    <link href="static/css/batquai.css" rel="stylesheet" type="text/css" />
+	
+    <script type="text/javascript">
+        $(function () {
+            $('[rel=tooltip]').bind('mouseover', function () {
+                if ($(this).hasClass('ajax')) {
+                    var ajax = $(this).attr('ajax');
+                    $.get(ajax, function (msg) {
+                        $('<div class="tooltip">' + msg + '</div>').appendTo('body').fadeIn('fast');
+                    });
+                } else {
+                    var content = $(this).attr('content');
+                    $('<div class="tooltip">' + content + '</div>').appendTo('body').fadeIn('fast');
+                }
+                $(this).bind('mousemove', function (e) {
+                    $('div.tooltip').css({
+                        'top': e.pageY - $('div.tooltip').height() - 20,
+                        'left': e.pageX + -15
+                    });
+                });
+            }).bind('mouseout', function () {
+                $('div.tooltip').fadeOut('fast', function () {
+                    $(this).remove();
+                });
+            });
+			
+			/* For List Detail */
+			var offset = $('.detail').offset();
+            //offset.left = 20;
+            offset.top -= 10;
+            $('html, body').animate({
+                scrollTop: offset.top,
+                scrollLeft: offset.left
+            });
+
+        });
+    </script>
+</head>
+<body>
+
+    <div id="wrapper">
+ 
+        <div class="header">
+            <div class="navBar">
+    <ul>
+        <li class="v1"><a href="/">Trang chủ</a></li>
+        <li class="v2" id="idscrollview1"><a href="/tin-tuc">Tin tức</a></li>
+        <li class="v3" id="idscrollview2"><a href="/tinh-nang">Tính năng</a></li>
+        <li class="v4">
+            <a href="/">
+                <img src="static/images/logo.png" />
+            </a>
+        </li>
+        <li class="v5" id="idscrollview3"><a href="/thu-vien">Thư viện</a></li>
+        <li class="v6" id="idscrollview4"><a href="/huong-dan">Hướng dẫn</a></li>
+        <li class="v7"><a href="#" target="_blank">Diễn đàn</a></li>
+    </ul>
+</div>
+
+
+<script>
+
+    $(document).ready(function () {
+        $("#idscrollview1, #idscrollview2, #idscrollview3, #idscrollview4").click(function () {
+            $('html, body').animate({
+
+                scrollTop: $("#offsetView").offset().top
+            }, 2000);
+        });
+    });
+   
+</script>
+            <!--End .navBar-->
+        </div>
+        <!--End .header-->
+        <div class="main-menu zoomIn wow">
+            
+<ul>
+    <li class="v1">
+        <a href="http://vmtemp.storage.viettel-cdn.vn/CYTH/setup_cyth.exe" target="_blank">
+            <img src="static/images/nap-gem.png" />
+        </a>
+    </li>
+    <li class="v2">
+        <a href="/gioi-thieu">
+            <img src="static/images/gioi-thieu.png" />
+        </a>
+    </li>
+    <li class="v3">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="950" height="700" id="">
+            <param name="movie" value="play_button.swf" />
+            <param name="quality" value="high" />
+            <param name="wmode" value="transparent">
+            <embed src="static/flash/play_button.swf" quality="high" type="application/x-shockwave-flash" width="236" height="106" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+        </object>
+    </li>
+    <li class="v4">
+             <a href="https://www.facebook.com/CamYThienHa/" target="_blank">
+                <img src="static/images/gif-code.png" />
+            </a>
+
+       
+    </li>
+    <li class="v5">
+        <a href="http://taikhoan.camythienha.com/freetopup.vn" target="_blank">
+            <img src="static/images/nap-nguyen-bao.png" />
+        </a>
+    </li>
+    <div style="clear: both;">
+    </div>
+</ul>
+
+
+<script type="text/javascript">
+
+    ShowModelPopUp = function () {
+        var left = (screen.width / 2) - (600 / 2);
+        var top = (screen.height / 2) - (430 / 2);
+        window.open("#", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top= " + top + ", left= " + left + ", width=600, height=430");
+    };
+
+</script> 
+        </div>
+        <!--End .main-menu-->
+        <div id="body">
+            
+
+
+<div class="news-top wow fadeInLeft">
+    <div id="slider1">
+                <span class="m-top"></span>
+                <div class="viewport">
+                    <ul class="overview">
+                    <li>
+                        <a href="http://camythienha.com/chi-tiet/su-kien-dua-top-cap-do-149">
+                            <img src="static/images/Slide1.jpg" />
+                        </a>
+                    </li>
+
+                    </ul>
+                </div>
+                <ul class="bullets">
+                        <li><a href="javascript:;" class="bullet" data-slide="0">0++</a></li>
+                    
+                </ul>
+                <span class="m-bottom"></span>
+
+    </div>
+    <!--End .slider1-->
+    <div id="slider2">
+        <script>
+            function focusNews(url) {
+                $("#viewmore").attr("href", url);
+            }
+
+        </script>
+        <ul class="bullets">
+            <li><a href="javascript:;" class="bullet active" data-slide="0" onclick="return focusNews('/tin-tuc');">Tin mới nhất</a></li>
+            <li><a href="javascript:;" class="bullet" data-slide="1" onclick="return focusNews('/thong-bao');">Thông báo</a></li>
+            <li><a href="javascript:;" class="bullet" data-slide="2" onclick="return focusNews('/su-kien');">Sự kiện</a></li>
+            
+            
+        </ul>
+        <div class="viewport">
+            <ul class="overview">
+                <li class="page">
+                    <div class="cont">
+                                    <div class="top">
+                                        <a href="/chi-tiet/ket-qua-dua-top-may-chu-toan-nghe-155">
+                                            <img src="static/images/duatop.jpg" />
+                                        </a>
+                                        <h3>
+                                            <a href="/chi-tiet/ket-qua-dua-top-may-chu-toan-nghe-155">Kết quả đua Top m&#225;y chủ Toan Ngh&#234;</a>
+                                        </h3>
+                                        <span class="time">
+                                            (
+13:34 13/01/2017                                            )
+                                        </span>
+                                        <p>
+                                            Kết quả đua Top m&#225;y chủ Toan Ngh&#234;
+                                        </p>
+                                    </div>
+                                                <ol>
+                                                        <li>
+                                                            <a href="/chi-tiet/thong-bao-tinh-trang-kho-dang-nhap-154" class="">
+                                                                Th&#244;ng b&#225;o t&#236;nh trạng kh&#243; đăng nhập
+                                                                <span>
+                                                                    [
+13/01                                                                    ]
+                                                                </span>
+                                                            </a>
+                                                    </li>
+                                                        <li>
+                                                            <a href="/chi-tiet/11h-111-bao-tri-toan-bo-may-chu-153" class="">
+                                                                11h 11/1: Bảo tr&#236; to&#224;n bộ m&#225;y chủ
+                                                                <span>
+                                                                    [
+13/01                                                                    ]
+                                                                </span>
+                                                            </a>
+                                                    </li>
+                                                        <li>
+                                                            <a href="/chi-tiet/canh-bao-bao-mat-tai-khoan-152" class="">
+                                                                CẢNH B&#193;O: BẢO MẬT T&#192;I KHOẢN
+                                                                <span>
+                                                                    [
+13/01                                                                    ]
+                                                                </span>
+                                                            </a>
+                                                    </li>
+                                                        <li>
+                                                            <a href="/chi-tiet/khai-mo-may-chu-phu-hi-151" class="">
+                                                                Khai mở m&#225;y chủ Phụ H&#237;
+                                                                <span>
+                                                                    [
+13/01                                                                    ]
+                                                                </span>
+                                                            </a>
+                                                    </li>
+                                                        <li>
+                                                            <a href="/chi-tiet/chinh-thuc-khai-mo-ngay-2812-141" class="">
+                                                                Ch&#237;nh thức khai mở ng&#224;y 28/12
+                                                                <span>
+                                                                    [
+13/01                                                                    ]
+                                                                </span>
+                                                            </a>
+                                                    </li>
+                                                </ol>
+
+                    </div>
+                    <!--End .cont-->
+                </li>
+                <li class="page">
+                    <div class="cont">
+                                    <div class="top">
+                                        <a href="/chi-tiet/bao-chi-game-online-cam-y-thien-ha-mo-cua-tai-viet-nam-ngay-2812-137">
+                                            <img src="static/images/4 phai.jpg" />
+                                        </a>
+                                        <h3>
+                                            <a href="/chi-tiet/bao-chi-game-online-cam-y-thien-ha-mo-cua-tai-viet-nam-ngay-2812-137">[B&#225;o ch&#237;] Game online Cẩm Y Thi&#234;n Hạ mở cửa tại Việt Nam ng&#224;y 28/12</a>
+                                        </h3>
+                                        <span class="time">
+                                            (
+19:10 26/12/2016                                            )
+                                        </span>
+                                        <p>
+                                            Tr&#242; chơi lấy bối cảnh ch&#237;nh ở triều đại nh&#224; Minh, tường thuật lại một giai đoạn biến động v&#224; đầy hỗn loạn của giang hồ, kết hợp với một nền tảng đồ họa đẹp mắt sẽ mang lại những trải nghiệm mới mẻ, đầy th&#250; vị cho game thủ.
+                                        </p>
+                                    </div>
+                                                <ol>
+                                                        <li>
+                                                            <a href="/chi-tiet/bao-chi-cam-y-thien-ha-game-online-3d-kiem-hiep-bat-ngo-cap-ben-viet-nam-136" class="">
+                                                                [B&#225;o Ch&#237;] Cẩm Y Thi&#234;n Hạ - Game online...
+                                                                <span>
+                                                                    [
+26/12                                                                    ]
+                                                                </span>
+                                                            </a>
+                                                    </li>
+                                                </ol>
+
+                    </div>
+                    <!--End .cont-->
+                </li>
+                <li class="page">
+                    <div class="cont">
+                                    <div class="top">
+                                        <a href="/chi-tiet/su-kien-dua-top-uy-quyen-150">
+                                            <img src="static/images/duatopuyquyen1.png" />
+                                        </a>
+                                        <h3>
+                                            <a href="/chi-tiet/su-kien-dua-top-uy-quyen-150">Sự kiện Đua TOP uy quyền</a>
+                                        </h3>
+                                        <span class="time">
+                                            (21:24 27/12/2016)
+                                        </span>
+                                        <p>
+                                            Người chơi c&#243; nh&#226;n vật nằm trong TOP 10 nh&#226;n vật c&#243; uy quyền cao nhất  m&#225;y chủ tại thời điểm kết th&#250;c hoạt động, sẽ nhận được c&#225;c phần thưởng hấp dẫn.
+                                        </p>
+                                    </div>
+                                                <ol>
+                                                        <li>
+                                                            <a href="/chi-tiet/su-kien-dua-top-cap-do-149" class="">
+                                                                Sự kiện Đua TOP cấp độ
+                                                                <span>
+                                                                    [
+27/12                                                                    ]
+                                                                </span>
+                                                            </a>
+                                                    </li>
+                                                        <li>
+                                                            <a href="/chi-tiet/su-kien-dua-top-luc-chien-148" class="">
+                                                                Sự kiện Đua TOP lực chiến
+                                                                <span>
+                                                                    [
+27/12                                                                    ]
+                                                                </span>
+                                                            </a>
+                                                    </li>
+                                                        <li>
+                                                            <a href="/chi-tiet/goi-qua-dau-tien-147" class="">
+                                                                G&#243;i qu&#224; đầu ti&#234;n
+                                                                <span>
+                                                                    [
+27/12                                                                    ]
+                                                                </span>
+                                                            </a>
+                                                    </li>
+                                                        <li>
+                                                            <a href="/chi-tiet/su-kien-tich-luy-nap-nhan-thuong-146" class="">
+                                                                Sự kiện T&#237;ch lũy nạp nh&#226;n thưởng
+                                                                <span>
+                                                                    [
+27/12                                                                    ]
+                                                                </span>
+                                                            </a>
+                                                    </li>
+                                                        <li>
+                                                            <a href="/chi-tiet/su-kien-tich-luy-thieu-phi-nhan-qua-145" class="">
+                                                                Sự kiện T&#237;ch lũy thi&#234;u ph&#237; nhận qu&#224;
+                                                                <span>
+                                                                    [
+27/12                                                                    ]
+                                                                </span>
+                                                            </a>
+                                                    </li>
+                                                </ol>
+
+                    </div>
+                    <!--End .cont-->
+                </li>
+                <li class="page">
+                    <div class="scrollbar style-scrollbar">
+                        <ol class="activity">
+                            <li rel="tooltip" content="
+                                <span>Ăn bánh bao</span>
+                                + <strong>Thời gian</strong> : 12:00-13:00
+                                <br>
+                                + Người chơi phải đạt <strong>Lever 30</strong> trở lên
+                                <br>
+                                + Mỗi lần tham gia hoạt động, có thể nhận tối đa 50 thể lực">
+                                <div class="col1">12:00-13:00	</div><div class="col2">Ăn bánh bao</div>
+                            </li>
+                            <li rel="tooltip" content="
+                                <span>Hộ tống nhân đôi </span>
+                                + <strong>Thời gian</strong> : 12:00-13:00
+                                <br>
+                                + Người chơi phải đạt <strong>Lever 50</strong> trở lên
+                                <br>
+                                + Mỗi ngày người chơi có thể hộ tống mỹ nhân 3 lần, khi hộ tống vào mốc giờ quy định được nhân đôi phần thưởng<br />
+                                + <b>Phần thưởng:</b> Kinh nghiệm, bạc">
+                                <div class="col1">12:00-13:00</div><div class="col2">Hộ tống nhân đôi</div>
+                            </li>
+                            <li rel="tooltip" content="
+                                <span>Câu cá</span>
+                                + <strong>Thời gian</strong> : 12:30-13:30
+                                <br>
+                                + Người chơi phải đạt <strong>Lever 35</strong> trở lên
+                                <br>
+                                + Người chơi đạt cấp 35 trở lên mới có thể tham gia
+                                Cấp thế giới của server trên 50 sẽ mở hoạt động liên server <br />
+                                + <b>Phần thưởng:</b> Đá cường hóa, bảo thạch, vàng khóa, anh hùng lệnh">
+                                <div class="col1">12:30-13:30</div><div class="col2">Câu cá</div>
+                            </li>
+                            <li rel="tooltip" content="
+                                <span>BOSS thế giới</span>
+                                + <strong>Thời gian</strong> : 15:30-16:00
+                                <br>
+                                + Người chơi phải đạt <strong>Lever 35</strong> trở lên
+                                + <b>Phần thưởng:</b> Bạc, Điểm danh vọng, Anh hùng lệnh">
+                                <div class="col1">15:30-16:00</div><div class="col2">BOSS thế giới</div>
+                            </li>
+                            <li rel="tooltip" content="
+                                <span>Ăn bánh bao</span>
+                                + <strong>Thời gian</strong> : 18:00-19:00
+                                <br>
+                                + Người chơi phải đạt <strong>Lever 24</strong> trở lên
+                                <br>
+                                + Mỗi lần tham gia hoạt động, có thể nhận tối đa 50 thể lực ">
+                                <div class="col1">18:00-19:00</div><div class="col2">Ăn bánh bao</div>
+                            </li>
+                            <li rel="tooltip" content="
+                                <span>Thái Sơn Tranh Bá</span>
+                                + <strong>Thời gian</strong> : 19:30-20:10
+                                <br>
+                                + Người chơi phải đạt <strong>Lever 35</strong> trở lên
+                                <br>
+                                + Cấp thế giới trên 60 mở hoạt động liên server<br />
+                                + <b>Phần thưởng:</b> Tiến giai đan, Bồi dưỡng đan thú cưỡi, Vàng khóa">
+                                <div class="col1">19:30-20:10</div><div class="col2">Thái Sơn Tranh Bá</div>
+                            </li>
+                            <li rel="tooltip" content="
+                                <span>Loạn Võ Lâm</span>
+                                + <strong>Thời gian</strong> : 20:10-20:40 thứ 2,4,6
+                                <br>
+                                + Người chơi phải đạt <strong>Lever 35</strong> trở lên
+                                <br>
+                                + Xếp hạng trên 1000 mới có thể tham gia<br />
+                                + <b>Phần thưởng:</b> Nguyên bảo, bạc, danh vọng, hồ lô">
+                                <div class="col1">20:10-20:40 thứ 2,4,6</div><div class="col2">Loạn Võ Lâm</div>
+                            </li>
+                            <li rel="tooltip" content="
+                                <span>Bang hội chiến</span>
+                                + <strong>Thời gian</strong> : 20:10-20:40 thứ 3,5,7
+                                <br>
+                                + Người chơi phải đạt <strong>Lever 35</strong> trở lên
+                                <br>
+                                + Người chơi phải tham gia bang hội và gia nhập tổ đội đển tham gia bang chiến<br />
+                                + <b>Phần thưởng:</b> Mảnh ghép thú cưỡi Xích thố, bạc, Bang cống, Anh hùng lệnh">
+                                <div class="col1">20:10-20:40 thứ 3,5,7</div><div class="col2">Bang hội chiến</div>
+                            </li>
+                            <li rel="tooltip" content="
+                                <span>Quốc chiến</span>
+                                + <strong>Thời gian</strong> : 20:50-21:40
+                                <br>
+                                + Người chơi phải đạt <strong>Lever 60</strong> trở lên
+                                <br>
+                                + Bang chủ đấu giá lãnh thổ, các bang phái khác chiến đấu chiếm lãnh thổ <br />
+                                + <b>Phần thưởng:</b> Bạc, Nguyên liệu nâng cấp cánh">
+                                <div class="col1">20:50-21:40</div><div class="col2">Quốc chiến</div>
+                            </li>
+                            <li rel="tooltip" content="
+                                <span>Hộ tống nhân đôi</span>
+                                + <strong>Thời gian</strong> : 21:00-22:00
+                                <br>
+                                + Người chơi phải đạt <strong>Lever 50</strong> trở lên
+                                <br>
+                                + Mỗi ngày người chơi có thể hộ tống mỹ nhân 3 lần, khi hộ tống vào mốc giờ quy định được nhân đôi phần thưởng<br />
+                                + <b>Phần thưởng:</b> Kinh nghiệm, bạc">
+                                <div class="col1">21:00-22:00</div><div class="col2">Hộ tống nhân đôi</div>
+                            </li>
+                            <li rel="tooltip" content="
+                                <span>Đệ nhất thiên hạ</span>
+                                + <strong>Thời gian</strong> : 20:30 thứ 7, chủ nhật
+                                <br>
+                                + Người chơi phải đạt <strong>Lever 60</strong> trở lên
+                                <br>
+                                + Đăng ký vòng bảng, chiến đấu loại dần, tích lũy điểm nhận rương chiến thắng">
+                                <div class="col1">20:30 thứ 7, chủ nhật</div><div class="col2">Đệ nhất thiên hạ</div>
+                            </li>
+                            <li rel="tooltip" content="
+                                <span>Đệ nhất thiên hạ</span>
+                                + <strong>Thời gian</strong> : 15:30 thứ 2 đến thứ 6
+                                <br>
+                                + Người chơi phải đạt <strong>Lever 60</strong> trở lên
+                                <br>
+                                + Đăng ký vòng bảng, chiến đấu loại dần, tích lũy điểm nhận rương chiến thắng">
+                                <div class="col1">15:30 thứ 2 đến thứ 6</div><div class="col2">Đệ nhất thiên hạ</div>
+                            </li>
+                            <li rel="tooltip" content="
+                                <span>Tổ đội chiến liên server</span>
+                                + <strong>Thời gian</strong> : 11:00-12:00, 16:30-17:30, 22:00-23:00
+                                <br>
+                                + Người chơi phải đạt <strong>Lever 60</strong> trở lên
+                                <br>
+                                + Tổ đội PK liên server, tích lũy điểm xếp hạng nhận phần thưởng<br />
+                                + <b>Phần thưởng:</b> Thần binh, Bạc…">
+                                <div class="col1">11:00-12:00, 16:30-17:30, 22:00-23:00</div><div class="col2">Tổ đội chiến liên server</br>&nbsp;</div>
+                            </li>
+
+                        </ol>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--End .news-top-->
+<div class="character-system">
+    <div class="title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="static/images/title1.png" /></div>
+    <p class="description wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+        Cẩm Y Thiên Hạ là câu chuyện truyền kỳ kể về thế giới giang hồ đầy hỗn loạn thời nhà Minh.
+		Tựa game bao gồm 4 môn phái vô cùng quen thuộc của thời này: Thiếu Lâm, Huyền Âm Các, Thiết Kỳ Môn, Cẩm Y Vệ.
+		Mỗi phái trong game đều sở hữu những tính năng riêng với hệ thống tuyệt kỹ võ công xuất hóa nhập thần, danh chấn giang hồ.
+    </p>
+    <div class="main-character-system wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="700ms">
+        <div class="main">
+            <div id="slider3">
+                <ul class="bullets">
+                    <li class="bt"><a href="#" class="bullet active" data-slide="0">Thiếu Lâm</a></li>
+                    <li class="tt"><a href="#" class="bullet" data-slide="1">Thiết Kỳ Môn</a></li>
+                    <li class="tc"><a href="#" class="bullet" data-slide="2">Cẩm Y Vệ</a></li>
+                    <li class="tc2"><a href="#" class="bullet" data-slide="3">Huyền Âm Các</a></li>
+                </ul>
+                <div class="viewport">
+                    <ul class="overview">
+                        <li class="page">
+                            <div class="character">
+                                <div id="girl1">
+                                    <img src="static/images/tlt.png" />
+                                </div>
+
+
+                            </div><!--End .character-->
+                            <div class="cont-character">
+                                <div class="cont">
+                                    <div class="title2"><img src="static/images/title2.png" /></div>
+                                    <p>Sát thương nội công cao, tấn công tầm xa, khả năng dịch chuyển cực nhanh là 1 trong những khắc tinh của Huyền Âm Các.</p>
+                                    <p><strong>Kĩ năng chủ động :</strong></p>
+                                    <img src="static/images/sk1.jpg" />
+                                    <img src="static/images/sk2.jpg" />
+                                    <img src="static/images/sk3.jpg" />
+                                    <img src="static/images/sk4.jpg" />
+                                    <img src="static/images/sk5.jpg" />
+                                    <p><strong>Kĩ năng bị động :</strong></p>
+                                    <img src="static/images/sk6.jpg" />
+                                    <img src="static/images/sk7.jpg" />
+                                    <img src="static/images/sk8.jpg" />
+                                    <p><strong>Đánh giá: </strong><span class="star">
+                                        <img src="static/images/star.png" />
+                                        <img src="static/images/star.png" />
+                                        <img src="static/images/star.png" />
+                                        <img src="static/images/star.png" />
+                                        <img src="static/images/star.png" /></span></p>
+                                    <ul>
+                                        <li class="tt"><img src="static/images/map-sk3.png" /></li>
+                                        <li class="video"><img src="static/images/img7.png" /></li>
+                                    </ul>
+                                </div>
+                            </div><!--End .cont-character-->
+                        </li>
+                        <li class="page">
+                            <div class="character">
+                                <div id="girl2">
+                                    <img src="static/images/tkm.png" />
+                                </div>
+
+
+                            </div><!--End .character-->
+                            <div class="cont-character">
+                                <div class="cont">
+                                    <div class="title2a"><img src="static/images/title2a.png" /></div>
+                                    <p>Là con quái thú trong các cuộc chiến với các kỹ năng áp sát đối thủ rất nhanh cộng thêm khả năng phòng ngự ngoại công cực cao, luôn khiến cho các phái nội công phải điêu đứng.</p>
+                                    <p><strong>Kĩ năng chủ động :</strong></p>
+                                    <img src="static/images/sk9.jpg" />
+                                    <img src="static/images/sk10.jpg" />
+                                    <img src="static/images/sk11.jpg" />
+                                    <img src="static/images/sk12.jpg" />
+                                    <img src="static/images/sk13.jpg" />
+                                    <p><strong>Kĩ năng bị động :</strong></p>
+                                    <img src="static/images/sk14.jpg" />
+                                    <img src="static/images/sk15.jpg" />
+                                    <img src="static/images/sk16.jpg" />
+                                    <p><strong>Đánh giá: </strong><span class="star">
+                                        <img src="static/images/star.png" />
+                                        <img src="static/images/star.png" />
+                                        <img src="static/images/star.png" />
+                                        <img src="static/images/star.png" />
+                                        <img src="static/images/star.png" /></span></p>
+                                    <ul>
+                                        <li class="tt"><img src="static/images/map-sk2.png" /></li>
+                                        <li class="video"><img src="static/images/img7.png" /></li>
+                                    </ul>
+                                </div>
+                            </div><!--End .cont-character-->
+                        </li>
+                        <li class="page">
+                            <div class="character">
+                                <div id="girl3">
+                                    <img src="static/images/cyv.png" />
+                                </div>
+
+
+                            </div><!--End .character-->
+                            <div class="cont-character">
+                                <div class="cont">
+                                    <div class="title2b"><img src="static/images/title2b.png" /></div>
+                                    <p>Sát thương ngoại công cực lớn, khả năng bạo kích cao, chỉ 1,2 chiêu là có thể đoạt mạng đối thủ.</p>
+                                    <p><strong>Kĩ năng chủ động :</strong></p>
+                                    <img src="static/images/sk17.jpg" />
+                                    <img src="static/images/sk18.jpg" />
+                                    <img src="static/images/sk19.jpg" />
+                                    <img src="static/images/sk20.jpg" />
+                                    <img src="static/images/sk21.jpg" />
+                                    <p><strong>Kĩ năng bị động :</strong></p>
+                                    <img src="static/images/sk22.jpg" />
+                                    <img src="static/images/sk23.jpg" />
+                                    <img src="static/images/sk24.jpg" />
+                                    <p>
+                                        <strong>Đánh giá: </strong>
+                                        <span class="star">
+                                            <img src="static/images/star.png" />
+                                            <img src="static/images/star.png" />
+                                            <img src="static/images/star.png" />
+                                            <img src="static/images/star.png" />
+                                            <img src="static/images/star.png" />
+                                        </span>
+                                    </p>
+                                    <ul>
+                                        <li class="tt"><img src="static/images/map-sk.png" /></li>
+                                        <li class="video"><img src="static/images/img7.png" /></li>
+                                    </ul>
+                                </div>
+                            </div><!--End .cont-character-->
+                        </li>
+                        <li class="page">
+                            <div class="character">
+                                <div id="girl4">
+                                    <img src="static/images/hac.png" />
+                                </div>
+
+
+                            </div><!--End .character-->
+                            <div class="cont-character">
+                                <div class="cont">
+                                    <div class="title2c"><img src="static/images/title2c.png" /></div>
+                                    <p>Tốc độ thi triển kỹ năng tầm xa nhanh, kỹ năng hồi phục khí huyết nhanh giúp tăng khả năng sinh tồn trong các cuộc tỉ thí.</p>
+                                    <p><strong>Kĩ năng chủ động :</strong></p>
+                                        <img src="static/images/sk25.jpg" />
+                                        <img src="static/images/sk26.jpg" />
+                                        <img src="static/images/sk27.jpg" />
+                                        <img src="static/images/sk28.jpg" />
+                                        <img src="static/images/sk29.jpg" />
+                                    <p><strong>Kĩ năng bị động :</strong></p>
+                                        <img src="static/images/sk30.jpg" />
+                                        <img src="static/images/sk31.jpg" />
+                                        <img src="static/images/sk32.jpg" />
+                                    <p>
+                                        <strong>Đánh giá: </strong>
+                                        <span class="star">
+                                            <img src="static/images/star.png" />
+                                            <img src="static/images/star.png" />
+                                            <img src="static/images/star.png" />
+                                            <img src="static/images/star.png" />
+                                            <img src="static/images/star.png" />
+                                        </span>
+                                    </p>
+                                    <ul>
+                                        <li class="tt"><img src="static/images/map-sk4.png" /></li>
+                                        <li class="video"><img src="static/images/img7.png" /></li>
+                                    </ul>
+                                </div>
+                            </div><!--End .cont-character-->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div><!--End .main-->
+    </div><!--End .main-character-system-->
+</div><!--End .character-system-->
+
+
+<div class="distinctive-feature wow fadeInRight">
+    <div class="main-distinctive-feature">
+        <div class="title"><img src="static/images/title4.png" /></div>
+        <div class="cont-feature">
+            <script type="text/javascript" src="static/js/jquery-1.4.2.min.js"></script>
+            <script type="text/javascript" src="static/js/jquery.jcarousel.pack.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function () {
+
+                    //jCarousel Plugin
+                    $('#carousel').jcarousel({
+                        vertical: true,
+                        scroll: 1,
+                        wrap: 'last',
+                        initCallback: mycarousel_initCallback
+                    });
+
+                    //Front page Carousel - Initial Setup
+                    $('div#slideshow-carousel a img').css({ 'opacity': '0.5' });
+                    $('div#slideshow-carousel a img:first').css({ 'opacity': '1.0' });
+                    $('div#slideshow-carousel li a:first').append('<span class="arrow"></span>')
+
+
+                    //Combine jCarousel with Image Display
+                    $('div#slideshow-carousel li a').hover(
+                       	function () {
+
+                       	    if (!$(this).has('span').length) {
+                       	        $('div#slideshow-carousel li a img').stop(true, true).css({ 'opacity': '0.5' });
+                       	        $(this).stop(true, true).children('img').css({ 'opacity': '1.0' });
+                       	    }
+                       	},
+                       	function () {
+
+                       	    $('div#slideshow-carousel li a img').stop(true, true).css({ 'opacity': '0.5' });
+                       	    $('div#slideshow-carousel li a').each(function () {
+
+                       	        if ($(this).has('span').length) $(this).children('img').css({ 'opacity': '1.0' });
+
+                       	    });
+
+                       	}
+                	).click(function () {
+
+                	    $('span.arrow').remove();
+                	    $(this).append('<span class="arrow"></span>');
+                	    $('div#slideshow-main li').removeClass('active');
+                	    $('div#slideshow-main li.' + $(this).attr('rel')).addClass('active');
+
+                	    return false;
+                	});
+
+
+                });
+
+
+                //Carousel Tweaking
+
+                function mycarousel_initCallback(carousel) {
+
+                    // Pause autoscrolling if the user moves with the cursor over the clip.
+                    carousel.clip.hover(function () {
+                        carousel.stopAuto();
+                    }, function () {
+                        carousel.startAuto();
+                    });
+                }
+
+            </script>
+            <div id="welcomeHero">
+
+                <div id="slideshow-main">
+                    <ul>
+                        <li class="p1 active">
+                            <div class="title2"><img src="static/images/title5.png" /></div>
+                            <p class="description">Thần thú không chỉ là người bạn trung thành, không thể thiếu với các đại hiệp mà còn là trợ thủ đắc lực cho đại hiệp, giúp các đại hiệp tăng toàn diện các chỉ số trên nhân vật.</p>
+                            <img src="static/images/img4.png" />
+
+                            <img src="static/images/img10.png" />
+                            <img src="static/images/img11.png" />
+                        </li>
+                        <li class="p2">
+                            <div class="title2"><img src="static/images/title13.png" /></div>
+                            <p class="description">Thú cưỡi luôn là người bạn đồng hành với các vị đại hiệp trong quá trình hành hiệp trượng nghĩa. Bước vào thế giới của Cẩm Y Thiên Hạ các nhân sĩ sẽ được chiêm ngưỡng 1 hệ thống thú cưỡi rất độc đáo và hoành tráng, lên tới 40 loại thú cưỡi,có được bằng rất nhiều cách khác nhau. Thú cưỡi vừa giúp tăng tốc độ di chuyển, vừa có khả năng tham chiến cùng chủ nhân.</p>
+                            <img src="static/images/img18.png" />
+                            <img src="static/images/img19.png" />
+                            <img src="static/images/img20.png" />
+                        </li>
+                        <li class="p3">
+                            <div class="title2"><img src="static/images/title12.png" /></div>
+                            <p class="description">Tương truyền, những binh khí hấp thụ tinh hoa của trời đất có sức mạnh hủy diệt thiên hạ. Và đây cũng là nguyên nhân gây nên bao trận huyết chiến ác liệt trên giang hồ. Anh hùng sở hữu được những Thần Binh Tuyệt Thế này trong tay như hổ mọc thêm cánh, Hàng Long Phục Hổ dễ như trở bàn tay.</p>
+                            <img src="static/images/img15.png" />
+                            <img src="static/images/img16.png" />
+                            <img src="static/images/img17.png" />
+                        </li>
+                        <li class="p4">
+                            <div class="title2"><img src="static/images/title11.png" /></div>
+                            <p class="description">Cẩm Y THiên Hạ được đánh giá là một trong những tựa game có nhiều "Cánh" và Cánh đẹp nhất trong làng game Việt. Cánh không chỉ là trang sức, khi đeo cánh đại hiệp có thể cảm nhận được sức mạnh anh linh của thần điểu, cánh có thể tăng thuộc tính nhân vật toàn diện (gồm tấn công, HP và phòng thủ), đối với đánh quái tăng cấp, PK sẽ rất hữu ích!</p>
+                            <img src="static/images/img12.png" />
+                            <img src="static/images/img13.png" />
+                            <img src="static/images/img14.png" />
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div id="slideshow-carousel">
+                    <ul id="carousel" class="jcarousel jcarousel-skin-tango">
+                        <li><a rel="p1"><img src="static/images/thun2.png" width="72" height="69" alt="#" /></a></li>
+                        <li><a rel="p2"><img src="static/images/thun2.png" width="72" height="69" alt="#" /></a></li>
+                        <li><a rel="p3"><img src="static/images/thun3.png" width="72" height="69" alt="#" /></a></li>
+                        <li><a rel="p4"><img src="static/images/thun1.png" width="72" height="69" alt="#" /></a></li>
+
+                    </ul>
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+        </div><!--End .cont-feature-->
+    </div><!--End .main-distinctive-feature-->
+</div><!--End .distinctive-feature-->
+
+<!--End .distinctive-feature-->
+<div class="library wow fadeInLeft">
+    
+<script src="static/js/script-popup-video.js" type="text/javascript"></script>
+<script src="static/js/jquery.colorbox-min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery("a[rel='color']").colorbox();
+    });
+</script>
+
+<div class="title">
+    <img src="static/images/title6.png" /></div>
+<div class="mani-library">
+    <div id="slider5">
+        <ul class="bullets">
+            <li><a href="#" class="bullet active" data-slide="0">Video</a></li>
+            <li><a href="#" class="bullet" data-slide="1">Ảnh</a></li>   
+        </ul>
+        <div class="viewport">
+            <ul class="overview">
+                <li class="page">
+                    <a href="/thu-vien/6" class="view-all">Xem tất cả...</a>
+                    <div class="list-main">
+                                    <div class="item">
+                                        <a href="#"  onclick="return addVideo('0jN_Ypd4wZk');" class="bottom-video topopup"></a>
+                                        <a href="#" class="border"></a>
+                                        <img src="static/images/kinhmach cap 2(1).jpg" />
+                                    </div>
+                                    <div class="item">
+                                        <a href="#"  onclick="return addVideo('NEe9dJh_aso');" class="bottom-video topopup"></a>
+                                        <a href="#" class="border"></a>
+                                        <img src="static/images/ava.png" />
+                                    </div>
+                                    <div class="item">
+                                        <a href="#"  onclick="return addVideo('UEFIb7wJfOQ');" class="bottom-video topopup"></a>
+                                        <a href="#" class="border"></a>
+                                        <img src="static/images/huyen am c&#225;c.jpg" />
+                                    </div>
+                                    <div class="item">
+                                        <a href="#"  onclick="return addVideo('Pp_ng4iDQ8I');" class="bottom-video topopup"></a>
+                                        <a href="#" class="border"></a>
+                                        <img src="static/images/4 phai.png" />
+                                    </div>
+     
+                    </div>
+                </li>
+                <li class="page">
+                    <a href="/thu-vien/5" class="view-all">Xem tất cả...</a>
+                    <div class="list-main">
+                                    <div class="item">
+                                       <a href="static/images/5.jpg" rel="color" class="border"></a>
+                                       <img src="static/images/5.jpg" />
+                                    </div>
+                                    <div class="item">
+                                       <a href="static/images/4 phai.jpg" rel="color" class="border"></a>
+                                       <img src="static/images/4 phai.jpg" />
+                                    </div>
+                                    <div class="item">
+                                       <a href="static/images/hoa ky lan 1.png" rel="color" class="border"></a>
+                                       <img src="static/images/hoa ky lan 1.png" />
+                                    </div>
+                                    <div class="item">
+                                       <a href="static/images/hoa ky lan.jpg" rel="color" class="border"></a>
+                                       <img src="static/images/hoa ky lan.jpg" />
+                                    </div>
+                                    <div class="item">
+                                       <a href="static/images/pet ngau.png" rel="color" class="border"></a>
+                                       <img src="static/images/pet ngau.png" />
+                                    </div>
+     
+                    </div>
+                </li>                
+            </ul>
+        </div>
+    </div><!--End #slider5-->
+</div><!--End .mani-library-->
+
+</div>
+
+        </div>
+        <!--End .library-->
+        <div class="footer">
+            <div class="main-footer">
+                <div class="border"></div>
+                <div class="cont">
+
+                    <p>
+                        © Bản quyền thuộc Cẩm Y Thiên Hạ<br />
+                        Công ty Cổ phần Dịch vụ Thương mại Trực tuyến Cẩm Y Thiên Hạ độc quyền phát hành tại Việt Nam <br />
+
+                </div>
+            </div><!--End .main-footer-->
+        </div><!--End .footer-->
+        <!--End .footer-->
+    </div>
+    <!--End #wrapper-->
+    <div id="toPopup" class="popup-video">
+        <div class="poup">
+            <div class="close">
+                X
+            </div>
+            <div class="video-youtube">
+                <iframe id="iframevideo" width="704" height="465" src=""
+                        frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!--End .poup-->
+    </div>
+    <div class="loader">
+    </div>
+    <div id="backgroundPopup">
+    </div>
+
+    <script>
+        function addVideo(idvideo) {
+            $("#iframevideo").attr("src", "https://www.youtube.com/embed/" + idvideo + "?rel=0&amp;showinfo=0");
+        }
+    </script>
+   <script type='text/javascript'>window._sbzq||function(e){e._sbzq=[];var t=e._sbzq;t.push(["_setAccount",56457]);var n=e.location.protocol=="https:"?"https:":"http:";var r=document.createElement("script");r.type="text/javascript";r.async=true;r.src=n+"//static.subiz.com/public/js/loader.js";var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)}(window);</script>
+</body>
+</html>

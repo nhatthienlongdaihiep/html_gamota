@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Cẩm Y Thiên Hạ - Trang chủ - Cẩm Y Thi&#234;n Hạ</title>
+
+    <meta name="viewport" content="width=device-width" />
+    <script src="static/js/jquery-1.10.0.min.js" type="text/javascript"></script>
+    <script src="static/js/wow.min.js" type="text/javascript"></script>
+    <script src="static/js/jquery.slide.min.js" type="text/javascript"></script>
+    <script src="static/js/main.js" type="text/javascript"></script>
+    <link href="static/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="static/css/animate.min.css" rel="stylesheet" type="text/css" />
+    <link href="static/css/colorbox.css" rel="stylesheet" type="text/css" />
+    <link href="static/css/batquai.css" rel="stylesheet" type="text/css" />
+	
+    <script type="text/javascript">
+        $(function () {
+            $('[rel=tooltip]').bind('mouseover', function () {
+                if ($(this).hasClass('ajax')) {
+                    var ajax = $(this).attr('ajax');
+                    $.get(ajax, function (msg) {
+                        $('<div class="tooltip">' + msg + '</div>').appendTo('body').fadeIn('fast');
+                    });
+                } else {
+                    var content = $(this).attr('content');
+                    $('<div class="tooltip">' + content + '</div>').appendTo('body').fadeIn('fast');
+                }
+                $(this).bind('mousemove', function (e) {
+                    $('div.tooltip').css({
+                        'top': e.pageY - $('div.tooltip').height() - 20,
+                        'left': e.pageX + -15
+                    });
+                });
+            }).bind('mouseout', function () {
+                $('div.tooltip').fadeOut('fast', function () {
+                    $(this).remove();
+                });
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="header">
+            <div class="navBar">
+                <ul>
+                    <li class="v1"><a href="/">Trang chủ</a></li>
+                    <li class="v2" id="idscrollview1"><a href="/tin-tuc">Tin tức</a></li>
+                    <li class="v3" id="idscrollview2"><a href="/tinh-nang">Tính năng</a></li>
+                    <li class="v4">
+                        <a href="/">
+                            <img src="static/images/logo.png" />
+                        </a>
+                    </li>
+                    <li class="v5" id="idscrollview3"><a href="/thu-vien">Thư viện</a></li>
+                    <li class="v6" id="idscrollview4"><a href="/huong-dan">Hướng dẫn</a></li>
+                    <li class="v7"><a href="#" target="_blank">Diễn đàn</a></li>
+                </ul>
+            </div>
+<script>
+    $(document).ready(function () {
+        $("#idscrollview1, #idscrollview2, #idscrollview3, #idscrollview4").click(function () {
+            $('html, body').animate({
+                scrollTop: $("#offsetView").offset().top
+            }, 2000);
+        });
+    });
+</script>
+            <!--End .navBar-->
+        </div>
+        <!--End .header-->
+        <div class="main-menu zoomIn wow">
+            <ul>
+                <li class="v1">
+                    <a href="" target="_blank">
+                        <img src="static/images/nap-gem.png" />
+                    </a>
+                </li>
+                <li class="v2">
+                    <a href="/gioi-thieu">
+                        <img src="static/images/gioi-thieu.png" />
+                    </a>
+                </li>
+                <li class="v3">
+                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="950" height="700" id="">
+                        <param name="movie" value="play_button.swf" />
+                        <param name="quality" value="high" />
+                        <param name="wmode" value="transparent">
+                        <embed src="static/flash/play_button.swf" quality="high" type="application/x-shockwave-flash" width="236" height="106" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+                    </object>
+                </li>
+                <li class="v4">
+                         <a href="https://www.facebook.com/CamYThienHa/" target="_blank">
+                            <img src="static/images/gif-code.png" />
+                        </a>
+
+                   
+                </li>
+                <li class="v5">
+                    <a href="http://taikhoan.camythienha.com/freetopup.vn" target="_blank">
+                        <img src="static/images/nap-nguyen-bao.png" />
+                    </a>
+                </li>
+                <div style="clear: both;">
+                </div>
+            </ul>
+<script type="text/javascript">
+    ShowModelPopUp = function () {
+        var left = (screen.width / 2) - (600 / 2);
+        var top = (screen.height / 2) - (430 / 2);
+        window.open("#", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top= " + top + ", left= " + left + ", width=600, height=430");
+    };
+</script> 
+        </div>
+        <!--End .main-menu-->
+        <div class="contaner">
+              <div class="bre" id="offsetView">
+    <ul>
+        <li><a href="/">Trang Chủ</a>&gt;</li>
+                <a href="/tin-tuc">Tin tức</a>     </ul>
+
+
+</div>
+
+            <div class="slider-list">
+                <div id="slider6">
+                    <a href="#" class="buttons prev">&lt;</a>
+                    <div class="viewport">
+                            <ul class="overview" style="width: 2430px; left: 0px;">
+                                    <li>
+                                        <div class="main">
+                                            <a href="/chi-tiet/huong-dan-nhan-giftcode-138">
+                                                <img src="http://cms.camythienha.com/Library/Upload/Images/CYTH//giftcode-camythienha.jpg"></a>
+                                            <h3>
+                                                <a href="/chi-tiet/huong-dan-nhan-giftcode-138">Hướng dẫn nhận Giftcode</a></h3>
+                                            <p>
+                                                Giftcode l&#224; c&#225;c m&#227; k&#237;ch hoạt gi&#250;p đại hiệp sỡ hữu những vật phẩm hữu &#237;ch th&#244;ng qua c&#225;c sự kiện ngo&#224;i game được tổ chức tại fanpage hoặc b&#225;o ch&#237;.</p>
+                                            <span class="time">
+                                                    <span>19h </span>
+26/12/2016                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="main">
+                                            <a href="/chi-tiet/bao-chi-game-online-cam-y-thien-ha-mo-cua-tai-viet-nam-ngay-2812-137">
+                                                <img src="http://cms.camythienha.com/Library/Upload/Images/CYTH//4 phai.jpg"></a>
+                                            <h3>
+                                                <a href="/chi-tiet/bao-chi-game-online-cam-y-thien-ha-mo-cua-tai-viet-nam-ngay-2812-137">[B&#225;o ch&#237;] Game online Cẩm Y Thi&#234;n Hạ mở cửa tại Việt Nam ng&#224;y 28/12</a></h3>
+                                            <p>
+                                                Tr&#242; chơi lấy bối cảnh ch&#237;nh ở triều đại nh&#224; Minh, tường thuật lại một giai đoạn biến động v&#224; đầy hỗn loạn của giang hồ, kết hợp với một nền tảng đồ họa đẹp mắt sẽ mang lại những trải nghiệm mới mẻ, đầy th&#250; vị cho game thủ.</p>
+                                            <span class="time">
+                                                    <span>19h </span>
+26/12/2016                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="main">
+                                            <a href="/chi-tiet/bao-chi-cam-y-thien-ha-game-online-3d-kiem-hiep-bat-ngo-cap-ben-viet-nam-136">
+                                                <img src="http://cms.camythienha.com/Library/Upload/Images/CYTH//4 phai.png"></a>
+                                            <h3>
+                                                <a href="/chi-tiet/bao-chi-cam-y-thien-ha-game-online-3d-kiem-hiep-bat-ngo-cap-ben-viet-nam-136">[B&#225;o Ch&#237;] Cẩm Y Thi&#234;n Hạ - Game online 3D kiếm hiệp bất ngờ cập bến Việt Nam</a></h3>
+                                            <p>
+                                                Cẩm Y Thi&#234;n Hạ l&#224; một webgame 3D thuộc thể loại MMORPG c&#243; đề t&#224;i v&#245; hiệp c&#243; nội dung gameplay phong ph&#250;.</p>
+                                            <span class="time">
+                                                    <span>19h </span>
+26/12/2016                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="main">
+                                            <a href="/chi-tiet/he-thong-boss-134">
+                                                <img src="http://cms.camythienha.com/Library/Upload/Images/CYTH//boss 3.jpg"></a>
+                                            <h3>
+                                                <a href="/chi-tiet/he-thong-boss-134">Hệ thống boss</a></h3>
+                                            <p>
+                                                Hệ thống boss trong game rất đặc sắc v&#224; đa dạng, mỗi boss lại c&#243; những bộ chi&#234;u thức kỹ năng ho&#224;nh tr&#225;ng v&#224; bắt mắt.</p>
+                                            <span class="time">
+                                                    <span>22h </span>
+21/11/2016                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="main">
+                                            <a href="/chi-tiet/nang-cap-danh-vong-133">
+                                                <img src="http://cms.camythienha.com/Library/Upload/Images/CYTH//danhvong1.jpg"></a>
+                                            <h3>
+                                                <a href="/chi-tiet/nang-cap-danh-vong-133">N&#226;ng cấp danh vọng</a></h3>
+                                            <p>
+                                                Để c&#243; được danh vọng c&#225;c bạn c&#243; thể tham gia hoạt động boss thế giới.</p>
+                                            <span class="time">
+                                                    <span>22h </span>
+21/11/2016                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="main">
+                                            <a href="/chi-tiet/tinh-nang-long-hinh-kinh-mach-132">
+                                                <img src="http://cms.camythienha.com/Library/Upload/Images/CYTH//kinhmach 2.jpg"></a>
+                                            <h3>
+                                                <a href="/chi-tiet/tinh-nang-long-hinh-kinh-mach-132">T&#237;nh năng Long h&#236;nh kinh mạch</a></h3>
+                                            <p>
+                                                Kinh mạch l&#224; 1 t&#237;nh năng đặc sắc của Cẩm Y Thi&#234;n Hạ. Để thăng cấp được kinh mạch cần số lượng ch&#226;n kh&#237; t&#249;y v&#224;o cấp độ của kinh mạch.</p>
+                                            <span class="time">
+                                                    <span>21h </span>
+21/11/2016                                            </span>
+                                        </div>
+                                    </li>
+                            </ul> 
+                          
+                    </div>
+                    <a href="#" class="buttons next">&gt;</a>
+                </div>
+            </div>  
+            
+<!--End .slider-list-->
+    <div class="list-news">
+        <div class="title">
+            <img src="static/images/title7.png" /></div>
+        <ul>
+                <li>
+                        <div class="img">
+                        <a href="/chi-tiet/ket-qua-dua-top-may-chu-toan-nghe-155" class="border">
+                        </a>
+                        <img src="http://cms.camythienha.com/Library/Upload/Images/CYTH//duatop.jpg" />
+                    </div>
+                   
+                    <h3>
+                        <a href="/chi-tiet/ket-qua-dua-top-may-chu-toan-nghe-155">Kết quả đua Top m&#225;y chủ Toan Ngh&#234;</a></h3>
+                    <p>
+                        Kết quả đua Top m&#225;y chủ Toan Ngh&#234;</p>
+                    <span class="time">
+                            <span>13h ngày </span>
+13/01/2017                    </span>
+                </li>
+                <li>
+                        <div class="img">
+                        <a href="/chi-tiet/thong-bao-tinh-trang-kho-dang-nhap-154" class="border">
+                        </a>
+                        <img src="http://cms.camythienha.com/Library/Upload/Images/CYTH//banner 1.png" />
+                    </div>
+                   
+                    <h3>
+                        <a href="/chi-tiet/thong-bao-tinh-trang-kho-dang-nhap-154">Th&#244;ng b&#225;o t&#236;nh trạng kh&#243; đăng nhập</a></h3>
+                    <p>
+                        Th&#244;ng b&#225;o t&#236;nh trạng kh&#243; đăng nhập khi sử dụng mạng Viettel</p>
+                    <span class="time">
+                            <span>19h ngày </span>
+12/01/2017                    </span>
+                </li>
+                <li>
+                        <div class="img">
+                        <a href="/chi-tiet/11h-111-bao-tri-toan-bo-may-chu-153" class="border">
+                        </a>
+                        <img src="http://cms.camythienha.com/Library/Upload/Images/CYTH//baotrimaychu.jpg" />
+                    </div>
+                   
+                    <h3>
+                        <a href="/chi-tiet/11h-111-bao-tri-toan-bo-may-chu-153">11h 11/1: Bảo tr&#236; to&#224;n bộ m&#225;y chủ</a></h3>
+                    <p>
+                        Để m&#225;y hệ thống hoạt động ổn định hơn, Bổn Trang sẽ tạm thời bảo tr&#236; to&#224;n bộ m&#225;y chủ.</p>
+                    <span class="time">
+                            <span>21h ngày </span>
+10/01/2017                    </span>
+                </li>
+                <li>
+                        <div class="img">
+                        <a href="/chi-tiet/canh-bao-bao-mat-tai-khoan-152" class="border">
+                        </a>
+                        <img src="http://cms.camythienha.com/Library/Upload/Images/CYTH//baomattaikhoan.png" />
+                    </div>
+                   
+                    <h3>
+                        <a href="/chi-tiet/canh-bao-bao-mat-tai-khoan-152">CẢNH B&#193;O: BẢO MẬT T&#192;I KHOẢN</a></h3>
+                    <p>
+                        Bảo mật t&#224;i khoản để kh&#244;ng bị kẻ gian lợi dụng trục lợi.</p>
+                    <span class="time">
+                            <span>23h ngày </span>
+06/01/2017                    </span>
+                </li>
+                <li>
+                        <div class="img">
+                        <a href="/chi-tiet/khai-mo-may-chu-phu-hi-151" class="border">
+                        </a>
+                        <img src="http://cms.camythienha.com/Library/Upload/Images/CYTH//ContentS2.jpg" />
+                    </div>
+                   
+                    <h3>
+                        <a href="/chi-tiet/khai-mo-may-chu-phu-hi-151">Khai mở m&#225;y chủ Phụ H&#237;</a></h3>
+                    <p>
+                        V&#249;ng đất Toan Ngh&#234; đ&#227; qu&#225; đ&#244;ng đ&#250;c dẫn đến t&#236;nh trạng &quot;người đ&#232; chết qu&#225;i&quot;.</p>
+                    <span class="time">
+                            <span>13h ngày </span>
+28/12/2016                    </span>
+                </li>
+                <li>
+                        <div class="img">
+                        <a href="/chi-tiet/chinh-thuc-khai-mo-ngay-2812-141" class="border">
+                        </a>
+                        <img src="http://cms.camythienha.com/Library/Upload/Images/CYTH//Cover S1.jpg" />
+                    </div>
+                   
+                    <h3>
+                        <a href="/chi-tiet/chinh-thuc-khai-mo-ngay-2812-141">Ch&#237;nh thức khai mở ng&#224;y 28/12</a></h3>
+                    <p>
+                        M&#244;̣t th&#234;́ giới đ&#226;̀y ắp sự tranh đ&#226;́u với v&#244; vàn các sự ki&#234;̣n h&#226;́p d&#226;̃n di&#234;̃n ra li&#234;n tục kh&#244;ng ngừng nghỉ đang chờ đón những cao thủ hàng đ&#226;̀u chinh phục. Hãy chơi ngay đ&#234;̉ cảm nh&#226;̣n web game 3D đ&#244;̀ họa hàng đ&#226;̀u Vi&#234;̣t Nam.</p>
+                    <span class="time">
+                            <span>22h ngày </span>
+26/12/2016                    </span>
+                </li>
+                <li>
+                        <div class="img">
+                        <a href="/chi-tiet/tai-va-cai-dat-game-cam-y-thien-ha-140" class="border">
+                        </a>
+                        <img src="http://cms.camythienha.com/Library/Upload/Images/CYTH//cam y ve.png" />
+                    </div>
+                   
+                    <h3>
+                        <a href="/chi-tiet/tai-va-cai-dat-game-cam-y-thien-ha-140">Tải v&#224; c&#224;i đặt game Cẩm Y Thi&#234;n Hạ</a></h3>
+                    <p>
+                        C&#225;c bạn l&#224;m theo hướng dẫn dưới đ&#226;y để c&#224;i đặt v&#224; trải nghiệm Cẩm Y Thi&#234;n Hạ nh&#233;.</p>
+                    <span class="time">
+                            <span>22h ngày </span>
+26/12/2016                    </span>
+                </li>
+        </ul>
+    </div>
+    <!--End .list-news-->
+    <div class="paging">
+        <div class="pager" style="text-align: center">
+            <span class="disabled">«</span><span class="current">1</span><span class="disabled">»</span>
+        </div>
+    </div>
+    <!--End .paging-->
+
+        </div>
+        <!--End .library-->
+        <div class="footer">
+            
+
+            <!--End .main-footer-->
+        </div>
+        <!--End .footer-->
+    </div>
+    <!--End #wrapper-->
+    <div id="toPopup" class="popup-video">
+        <div class="poup">
+            <div class="close">
+                X</div>
+            <div class="video-youtube">
+                <iframe width="704" height="465" src="https://www.youtube.com/embed/1El4QIpq4gc?rel=0&amp;showinfo=0"
+                    frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!--End .poup-->
+    </div>
+    <div class="loader">
+    </div>
+    <div id="backgroundPopup">
+    </div>
+</body>
+</html>
