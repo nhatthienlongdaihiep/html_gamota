@@ -1,0 +1,319 @@
+/*
+  命名空间: wn-gamehead
+  使用范围：蜗牛子游戏频道
+  代码维护：金小佳
+*/
+.j-gamehead-box{
+  width: 100%;
+  height: 55px;
+}
+.wn-gamehead{
+  min-width: 1000px;
+  background-color: #fbfbfb;
+  font-family: "Microsoft Yahei";
+}
+.wn-gamehead-contain{
+  position: relative;
+  margin: auto;
+  width: 1000px;
+  height: 55px;
+  z-index: 70;
+}
+.wn-gamehead-logo{
+  position: absolute;
+  margin: 0;
+  width: 110px;
+  height: 55px;
+  background: url(../images/woniu.png) #fbfbfb no-repeat left center;
+  /*_background: #fbfbfb;
+  _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.woniu.com/static/wnheader/images/woniu.png",sizingMethod="crop");*/
+  z-index: 50;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+@media only screen and (-Webkit-min-device-pixel-ratio:1.5){.wn-gamehead-logo{background-image:url(../images/woniu@2x.png);background-size:110px 55px;}}
+.wn-gamehead-logo a{
+  display: block;
+  width: 110px;
+  height: 55px;
+  text-indent: -9999px;
+}
+.wn-gamehead-gameimg{
+  position: absolute;
+  width: 1000px;
+  height: 55px;
+  overflow: hidden;
+  z-index: 49;
+}
+.wn-gamehead-gamesmallimg{
+  position: absolute;
+  margin-left: 120px;
+  width: 380px;
+  height: 55px;
+  overflow: hidden;
+}
+.wn-gamehead-gamebigimg{
+  width: 1000px;
+  overflow: hidden;
+  display: none;
+}
+.wn-gamehead-gamebigimg img{
+  border: none;
+}
+.wn-gamehead-gameimg.current{
+  height: auto;
+}
+.wn-gamehead-gameimg.current .wn-gamehead-gamesmallimg{
+  display: none;
+}
+.wn-gamehead-gameimg.current .wn-gamehead-gamebigimg{
+  display: block;
+}
+.wn-gamehead-nav{
+  position: absolute;
+  right: 0;
+  height: 55px;
+  background-color: #fbfbfb;
+  z-index: 50;
+  font-size: 12px;
+  color: #333;
+}
+.wn-gamehead-nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.wn-gamehead-nav li{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  float: left;
+  line-height: 55px;
+  color: #333;
+}
+.wn-gamehead-nav li em{
+  font-style: normal;
+  color: #e0e0e0;
+}
+.wn-gamehead-nav li a{
+  color: #333;
+  text-decoration: none;
+}
+.wn-gamehead-nav li a:hover{
+  color: #f08200;
+}
+.wn-gamehead-nav li i{
+  font-style: normal;
+}
+.wn-gamehead-nav a.wn-gamehead-navbtn{
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  padding: 10px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  color: #333;
+  text-decoration: none;
+  _height: 19px;
+  _line-height: 19px;
+  _padding: 18px 10px;
+}
+.wn-gamehead-nav li.current a.wn-gamehead-navbtn{
+  border-bottom: solid 2px #f08200;
+  color: #f08200;
+  padding-bottom: 8px;
+  _padding-bottom: 16px;
+}
+.wn-gamehead-navbtn em{
+  margin-left: 6px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 0;
+  height: 0;
+  border: solid 4px #999;
+  border-style: solid dashed dashed dashed;
+  border-color: #999 transparent transparent;
+  border-bottom: none;
+  vertical-align: middle;
+  overflow: hidden;
+}
+.wn-gamehead-nav li.current a.wn-gamehead-navbtn em{
+  border-color: #f08200 transparent transparent;
+}
+.wn-gamehead-navbtn i{
+  margin-right: 5px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 18px;
+  height: 14px;
+  *height: 12px;
+  vertical-align: middle;
+  overflow: hidden;
+  background: url(../images/wn-gamehead-icon.png) no-repeat left top;
+  /*_background: none;
+  _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.woniu.com/static/wnheader/images/wn-gamehead-icon.png",sizingMethod="crop");*/
+}
+
+.wn-gamehead-navlayermask{
+  position: absolute;
+  top: 55px;
+  right: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: 48;
+  background-color: #fff;
+  opacity: 0.95;
+  filter: alpha(opacity=95);
+  display: none;
+}
+.wn-gamehead-navlayer{
+  position: absolute;
+  top: 55px;
+  right: 0;
+  display: none;
+  border-top: solid 1px #f5f5f5;
+  overflow: hidden;
+  z-index: 49;
+  text-align: left;
+}
+.wn-gamehead-nav li.current .wn-gamehead-navlayer, .wn-gamehead-nav li.current .wn-gamehead-navlayermask{
+  display: block;
+}
+.wn-gamehead-navlayer dl{
+  float: left;
+  margin: 0 0 0 -1px;
+  border-left: solid 1px #f5f5f5;
+}
+.wn-gamehead-navlayer dt{
+  font-size: 12px;
+  font-weight: bold;
+  color: #f08200;
+  padding-left: 15px;
+  line-height: 36px;
+}
+.wn-gamehead-navlayer dd{
+  margin: 0;
+  border-top: solid 1px #f5f5f5;
+  overflow: hidden;
+}
+.wn-gamehead-navlayer-list{
+  float: left;
+  margin: 0 0 0 -1px;
+  border-left: solid 1px #f5f5f5;
+  border-bottom: solid 1px #f5f5f5;
+  width: 120px;
+  padding: 6px 0 6px 15px;
+  color: #666;
+  font-family: NSimSun, SimHei;
+  line-height: 28px;
+}
+.wn-gamehead-navlayer-list a{
+  display: block;
+  padding-left: 9px;
+  color: #666;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wn-gamehead-navlayer-list a:hover{
+  color: #f08200;
+}
+.wn-gamehead-navlayer-list em{
+  position: absolute;
+  margin: 11px 0 0 -9px;
+  *margin-top: 4px;
+  width: 3px;
+  height: 3px;
+  background-color: #999;
+  overflow: hidden;
+}
+.wn-gamehead-navlayer-list a:hover em{
+  background-color: #f08200;
+}
+.wn-gamehead-navlayer-list i{
+  position: absolute;
+  margin: 6px 0 0 84px;
+  *margin-top: 0;
+  width: 12px;
+  height: 12px;
+  background: url(../images/wn-gamehead-icon.png) no-repeat left top;
+  overflow: hidden;
+}
+.wn-gamehead-navlayer-list i.hot{
+  background-position: 0 -20px;
+}
+.wn-gamehead-navlayer-list i.new{
+  background-position: 0 -40px;
+}
+.wn-gamehead-clearfix:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.wn-gamehead-clearfix{
+  *zoom: 1;
+}
+
+.wn-gamehead-clublayer{
+  width: 750px;
+}
+.wn-gamehead-supportlayer{
+  width: 540px;
+}
+.wn-gamehead-gamelayer{
+  width: 810px;
+  min-height: 380px;
+}
+.wn-gamehead-hotgame{
+  width: 705px;
+  height: 85px;
+  padding: 14px 0 4px 105px;
+  border-bottom: solid 1px #f5f5f5;
+  overflow: hidden;
+}
+.wn-gamehead-hotgame .wn-gamehead-hotgametitle{
+  position: absolute;
+  margin-left: -105px;
+  width: 105px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #f08200;
+}
+.wn-gamehead-hotgame a.wn-gamehead-hotgameli{
+  float: left;
+  margin-right: 21px;
+  width: 96px;
+  text-align: center;
+  font-family: NSimSun, SimHei;
+  line-height: 32px;
+  color: #666;
+  text-decoration: none;
+}
+.wn-gamehead-hotgame a.wn-gamehead-hotgameli:hover{
+  color: #f08200;
+}
+.wn-gamehead-hotgame .wn-gamehead-hotgameli img{
+  display: block;
+  width: 100%;
+  border: none;
+}
+.wn-gamehead-gametool{
+  background-color: #f5f5f5;
+}
+.wn-gamehead-gametool a{
+  padding-left: 0;
+}
+.wn-gamehead-mobilelayer{
+  width: 540px;
+}
