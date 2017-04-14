@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* index.css @zhangxiaotong 20150604 */
+
+html{overflow-x:hidden;}
+html,body{-webkit-text-size-adjust:none;}
+body{font-family:"MicroSoft YaHei";}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {padding:0;margin:0}
+img {border:0}
+ol,ul,li {list-style:none}
+i,em{ font-style:normal;}
+
+a{text-decoration:none;outline: none;}
+a:hover{text-decoration:underline;-webkit-transition:color .3s ease-out;-moz-transition:color .3s ease-out;transition:color .3s ease-out;}
+area{blr:expression(this.onFocus=this.blur());outline:none;}
+
+button,input,select,textarea{font-size:100%;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;outline:none;}
+
+body,a:link,a:visited {text-decoration:none;}
+
+.c{*zoom:1}
+.c:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.l{float:left;}
+.r{float:right;}
+.tac {text-align:center;}
+.pr{position:relative}
+
+.zxt_headerbox{height:60px;background:#121212;}
+.zxt_header{width:980px;margin:auto; position:relative;}
+.zxt_header a{display:block;}
+.zxt_eightlogo{width:171px;height:59px;background:url(../images/zxt_8864logo.jpg) no-repeat;}
+.zxt_linekong_logo{width:82px;height:28px;margin-top:18px;background:url(../images/zxt_linfekong_logo.png) no-repeat;}
+.zxt_game{width:321px;height:60px;background:url(../images/zxt_sm_gg_2.jpg) no-repeat;}
+.zxt_header .zxt_smhover{background:url(../images/zxt_smhover_gg_2.jpg) no-repeat}
+
+
+.zxt_smhover_pic{width:980px;height:216px;position:absolute;top:60px;left:-254px;display:none;background:url(../images/zxt_big_gg_2.jpg) no-repeat;z-index:999999999999999999999;}
+.zxt_smhover_pic a{width:980px;height:186px;position:absolute;left:0;top:0;}
+
+.zxt_nav_box{ position:absolute; right:138px;}
+.zxt_nav{width:268px;padding-top:20px;}
+.zxt_nav a{float:right;padding:0 8px;background:url(../images/zxt_xian.jpg) no-repeat right top;color:#d4d4d4;font-size:14px;}
+.zxt_nav a:hover{color:#ffc600}
+.zxt_last{background:none;}
+.zxt_sel_box{padding-top:18px; position:absolute; right:7px;}
+.zxt_sel{width:125px;height:22px;line-height:22px;background:#424242;border:#232323 solid 1px;position:relative;font-size:14px;color:#e6e6e6;font-weight:bold;padding-left:4px;}
+.zxt_sel i{display:block;width:12px;height:7px;background:url(../images/zxt_sj.jpg) no-repeat;position:absolute;top:9px;right:10px;}
+.zxt_conbox{width:954px;height:347px;background:url(../images/zxt_bk.png) repeat;border:#505050 solid 1px;position:absolute;top:60px;right:0px;z-index:9999999;padding:12px;display:none}
+.zxt_khdgame{width:202px;height:342px;border-right:#000 solid 1px;}
+.zxt_khdgame h2{font-size:12px;color:#e6e6e6;position:relative;margin-bottom:25px;}
+.zxt_khdgame h2 a{color:#8e8e8e;right:10px;position:absolute;top:0px;}
+.zxt_khd_list li{height:25px;background:url(../images/zxt_icon.png) no-repeat;padding-left:32px;margin-bottom:4px;}
+.pdt38{padding-top:38px;}
+.zxt_khd_list .zxt_shenshou{background-position:left 4px;}
+.zxt_khd_list .zxt_lm{background-position:left -24px;}
+.zxt_khd_list .zxt_xy{background-position:left -54px;}
+.zxt_khd_list .zxt_yt{background-position:left -84px;}
+.zxt_khd_list .zxt_yb{background-position:left -114px;}
+.zxt_khd_list .zxt_sg{background-position:left -144px;}
+
+
+
+.zxt_khd_list li p{height:25px;line-height:25px;font-size:12px;color:#cfcfcf;}
+.zxt_game_btnbox{display:none}
+.zxt_game_btnbox a{width:74px;height:23px;text-align:center;line-height:23px;background:#1e1e1e;border:#858585 solid 1px;display:block;float:left;color:#858585;font-size:12px;border-radius:5px;margin-right:5px;}
+.zxt_game_btnbox a:hover{background:#f5a100;border:#f5a100 solid 1px;color:white;}
+
+.zxt_telgame{width:506px;height:342px;border-right:#000 solid 1px;}
+.zxt_telgame h2{font-size:12px;color:#e6e6e6;position:relative;margin-bottom:25px;padding-left:13px;}
+.zxt_telgame h2 a{color:#8e8e8e;right:10px;position:absolute;top:0px;}
+.zxt_telgame_list{height:264px;float:left;}
+.pdl12{padding-left:12px;}
+.zxt_telgame_list li{width:220px;margin-bottom:4px;}
+.zxt_odd{margin-right:33px;}
+.zxt_telgame_list p{width:198px;height:25px;font-size:12px;color:#cfcfcf;line-height:25px;background:url(../images/zxt_icon.png) no-repeat;padding-left:29px;}
+.zxt_telgame_list p i{float:left;display:block;position:relative;}
+.zxt_telgame_list p.zxt_110{ background:url(../images/zxt_tel_zyj2.png) no-repeat 0 5px;}
+.zxt_gamehot{width:15px;height:15px;display:inline-block;background:url(../images/zxt_hot.png) no-repeat;position:absolute;right:-18px;top:6px;}
+.zxt_gamenew{width:15px;height:15px;display:inline-block;background:url(../images/zxt_new.png) no-repeat;position:absolute;right:-18px;top:6px;}
+.zxt_telgame_list p em{color:#7b7b7b;float:right;display:block;}
+.zxt_sw_box{display:none}
+.zxt_telgame_list .zxt_sw{background-position:left -174px}
+.zxt_telgame_list .zxt_xx{background-position:left -390px}
+.zxt_telgame_list .zxt_dgr{background-position:left -354px}
+.zxt_telgame_list .zxt_szr{background-position:left -294px}
+.zxt_telgame_list .zxt_k{background-position:left -204px}
+.zxt_telgame_list .zxt_k2{background-position:left -644px}
+.zxt_telgame_list .zxt_y{background-position:left -234px}
+.zxt_telgame_list .zxt_sgz{background-position:left -426px}
+.zxt_telgame_list .zxt_z{background-position:left -264px}
+.zxt_telgame_list .zxt_mj{background-position:left -324px}
+.zxt_telgame_list .zxt_yh{background-position:left -462px;}
+.zxt_telgame_list .zxt_nz{background-position:left -500px;}
+.zxt_telgame_list .zxt_mi{background-position:left -536px;}
+.zxt_telgame_list .zxt_ss{background-position:left -572px;}
+.zxt_telgame_list .zxt_dh{background-position:left -608px;}
+.zxt_telgame_list .zxt_w{background-position:left -644px}
+.zxt_sw_box{width:215px;height:97px;background:#1e1e1e;border:#181818 solid 1px;border-radius:5px;padding:10px 0 0 10px;}
+.zxt_telgame_list dl{width:200px;}
+.zxt_telgame_pic{width:85px;height:83px;float:left;}
+.zxt_telgame_list dt{width:108px;text-align:center;float:right;font-size:12px;color:#cfcfcf;}
+.zxt_telgamebtnbox{float:right;}
+.zxt_telgamebtnbox a{display:block;width:86px;height:25px;background:url(../images/zxt_telgamebtn_bk.jpg) no-repeat;margin-top:10px;}
+.zxt_telgamebtnbox .zxt_telgame_enter{background-position:left 0;}
+.zxt_telgamebtnbox .zxt_telgame_enter:hover{background-position:-86px 0;}
+.zxt_telgamebtnbox .zxt_telgame_download{background-position:left -35px;}
+.zxt_telgamebtnbox .zxt_telgame_download:hover{background-position:-86px -35px;}
+
+
+.zxt_other{}
+.zxt_other h2{font-size:12px;color:#e6e6e6;position:relative;margin-bottom:25px;padding-left:13px;}
+.zxt_other ul{width:227px;}
+.zxt_other ul li{width:103px;height:43px;float:left;margin-bottom:15px;}
+.zxt_other ul a{display:block;width:103px;height:43px;background:url(../images/zxt_ot.png) no-repeat}
+.zxt_other ul a:hover{background:url(../images/zxt_othover.png) no-repeat;}
+.zxt_other .zxt_account{background-position:left 0;}
+.zxt_other .zxt_account:hover{background-position:left 0;}
+.zxt_other .zxt_onlinecard{background-position:-123px 0;}
+.zxt_other .zxt_onlinecard:hover{background-position:-123px 0;}
+.zxt_other .zxt_kf{background-position:left -58px;}
+.zxt_other .zxt_kf:hover{background-position:left -58px;}
+.zxt_other .zxt_linekongbbs{background-position:-123px -58px;}
+.zxt_other .zxt_linekongbbs:hover{background-position:-123px -58px;}
+.zxt_other .zxt_safe_security{background-position:left -116px;}
+.zxt_other .zxt_safe_security:hover{background-position:left -116px;}
+.zxt_other .zxt_Parental_Controls{background-position:-123px -116px;}
+.zxt_other .zxt_Parental_Controls:hover{background-position:-123px -116px;}
+.zxt_other .zxt_know_linekong{background-position:left -174px;}
+.zxt_other .zxt_know_linekong:hover{background-position:left -174px;}
+.zxt_other .zxt_business_cooperation{background-position:-123px -174px;}
+.zxt_other .zxt_business_cooperation:hover{background-position:-123px -174px;}
+.zxt_other .zxt_join_us{background-position:left -232px;}
+.zxt_other .zxt_join_us:hover{background-position:left -232px;}
+.zxt_other .zxt_taobao{background-position:-123px -232px;}
+.zxt_other .zxt_taobao:hover{background-position:-123px -232px;}
+.zxt_a_odd{margin-right:20px;}
+
+.zxt_explain{width:194px;height:15px;position:absolute;right:0px;bottom:10px;}
+.zxt_explain li{font-size:12px;color:#8e8e8e;float:left;height:15px;line-height:15px;padding-left:20px;}
+.zxt_explain .zxt_hot{background:url(../images/zxt_hot.png) no-repeat;margin-right:29px;}
+.zxt_explain .zxt_new{background:url(../images/zxt_new.png) no-repeat;}
