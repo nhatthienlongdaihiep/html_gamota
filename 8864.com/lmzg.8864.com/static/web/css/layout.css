@@ -1,3 +1,4 @@
+html{overflow-x: hidden;}
 /***** 公共框架部分 *****/
 #wrap{ width:100%; position:relative; font-family:'微软雅黑';}
 #header{ position:absolute; top:0px; left:50%; width:1000px; margin-left:-500px; z-index:2;}
