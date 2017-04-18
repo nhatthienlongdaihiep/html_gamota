@@ -1,0 +1,108 @@
+
+<script id="list_content" type="text/x-handlebars-template">
+	{{#each this}}
+		{{#if @first}}
+		<li class="clearfix first"><span>[{{other}}]</span><a href="http://lmzg.8864.com/main/article-{{sort_id}}-{{id}}.shtml" target="_blank">{{title}}</a><span class="date">{{outDateTime}}</span></li>
+		{{else}}
+		<li class="clearfix"><span>[{{other}}]</span><a href="http://lmzg.8864.com/main/article-{{sort_id}}-{{id}}.shtml" target="_blank">{{title}}</a><span class="date">{{outDateTime}}</span></li>
+		{{/if}}
+	{{/each}}
+</script>
+
+<script id="list_content2" type="text/x-handlebars-template">
+	{{#each this}}
+		<li class="clearfix"><span>[{{other}}]</span><a href="{{url}}" target="_blank">{{title}}</a><span class="date">{{outDateTime}}</span></li>
+		
+	{{/each}}
+</script>
+
+
+<script id="downloadList" type="text/x-handlebars-template">
+	{{#each this}}
+	<li>
+		<div class="clearfix">
+			<div class="zxt_list_l">
+				<h2>{{title}}</h2>
+				<p>???:{{version}}</p>
+				<p>????:{{time}}</p>
+				<p>?????:{{mb}}</p>
+			</div>
+			<a href="{{href}}" class="zxt_downloadbtn zxtkhdbtn" target="_blank"></a>
+		</div>
+	</li>
+	{{/each}}
+</script>
+
+<!--??????-->
+<script id="newslist" type="text/x-handlebars-template">
+	{{#each this}}
+	<li>
+		<a href="http://lmzg.8864.com/main/article-{{sort_id}}-{{id}}.shtml">{{title}}</a>
+		<span>{{outDateTime}}</span>
+	</li>
+	{{/each}}
+</script>
+
+<!--??-->
+<script id="newslistLT" type="text/x-handlebars-template">
+	{{#each this}}
+	<li>
+		<a href="{{url}}">{{title}}</a>
+		<span>{{outDateTime}}</span>
+	</li>
+	{{/each}}
+</script>
+
+
+<!--???????-->
+<script id="right_pic" type="text/x-handlebars-template">
+	<div class="advert_right_box">
+		{{#each this}}
+		{{#if @first}}
+		<div class="advert_right_boxT on">
+			<a href="{{url}}" target="_blank"><img src="http://img.linekong.com{{filePath}}"></a>
+		</div>
+		{{else}}
+		<div class="advert_right_boxT">
+			<a href="{{url}}" target="_blank"><img src="http://img.linekong.com{{filePath}}"></a>
+		</div>
+		{{/if}}
+		{{/each}}
+	</div>
+	<div class="advert_right_active">
+		{{#each this}}
+		{{#if @first}}
+		<span class="on"></span>
+		{{else}}
+		<span></span>
+		{{/if}}
+		{{/each}}
+	</div>
+</script>
+
+<!--????-->
+<script id="ori_pic" type="text/x-handlebars-template">
+	{{#each this}}
+	<li>
+		<img src="http://img.linekong.com{{filePath2}}" _src="http://img.linekong.com{{filePath}}">
+		<div class="img_shade">
+			<img src="../main/images/ll_15.png">
+		</div>
+	</li>
+	{{/each}}
+</script>
+
+<!--????-->
+<script id="ori_video" type="text/x-handlebars-template">
+	{{#each this}}
+	<li>
+		<img src="http://img.linekong.com{{filePath}}">
+			<div class="img_video">
+				<span _src="{{url}}">
+					<img src="../main/images/ll_16.png">
+				</span>
+			<p>???????</p>
+		</div>
+	</li>
+	{{/each}}
+</script>

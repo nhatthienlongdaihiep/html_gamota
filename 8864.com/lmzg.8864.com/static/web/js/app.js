@@ -15,6 +15,8 @@ define([
         var DEFAULT_URL = "http://" + window.location.host + "/";
 
         //添加路由规则
+        //START OF IF ===========================================
+    if(0){
         crossroads.addRoute('/{classify}', function(classify){
             classify='page/'+classify+'.html';
             routeService.getMenuCon(classify).then(function(reqData){
@@ -23,6 +25,10 @@ define([
                 //console.log(reason);
             });
         });
+    }
+    //END OF IF ===========================================
+
+
 
         crossroads.bypassed.add(function(request){ //匹配不上时
             hasher.setHash(DEFAULT_HASH);

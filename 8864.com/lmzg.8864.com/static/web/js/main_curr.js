@@ -300,48 +300,56 @@ require(['jquery', 'utils', 'routeService'], function ($, utils, routeService) {
         },
         slide_api: function () {//轮播图接口
 
-            var url = utils.url + 'api_slide'
+            if(0){
+                var url = utils.url + 'api_slide'
 
-            routeService.getListData(url, 'get', '').then(function (data) {
+                routeService.getListData(url, 'get', '').then(function (data) {
 
-                data = JSON.parse(data);
+                    data = JSON.parse(data);
 
-                $.each(data, function (i, e) {
+                    $.each(data, function (i, e) {
 
-                    if (!e.url) e.url = "javascript:void(0);"
+                        if (!e.url) e.url = "javascript:void(0);"
+
+                    });
+
+                    utils.module('right_pic', data, '.l_advert_right');
+                    wrap.first();
 
                 });
 
-                utils.module('right_pic', data, '.l_advert_right');
-                wrap.first();
+            }
 
-            });
+            wrap.first();
 
         },
         down_api: function () {//下载接口
+            if(0){
+                var url = utils.url + 'api_main'
 
-            var url = utils.url + 'api_main'
+                routeService.getListData(url, 'get', '').then(function (data) {
 
-            routeService.getListData(url, 'get', '').then(function (data) {
+                    data = JSON.parse(data);
 
-                data = JSON.parse(data);
+                    $.each(data, function (i, e) {
 
-                $.each(data, function (i, e) {
+                        if (!e.url) e.url = "javascript:alert('敬请期待');";
 
-                    if (!e.url) e.url = "javascript:alert('敬请期待');";
+                    });
+
+                    $('.download_02S1 a').attr('href', data[1].url);
+                    $('.download_02S2 a').attr('href', data[3].url);
+                    $('.dr a:eq(0)').attr('href', data[71].url);
+                    $('.dr a:eq(1)').attr('href', data[73].url);
 
                 });
+            }
 
-                $('.download_02S1 a').attr('href', data[1].url);
-                $('.download_02S2 a').attr('href', data[3].url);
-                $('.dr a:eq(0)').attr('href', data[71].url);
-                $('.dr a:eq(1)').attr('href', data[73].url);
 
-            });
 
         },
         three_down_api: function () {//3个下载接口
-
+            if(0){
             var url = utils.url + 'api_main_down'
 
             routeService.getListData(url, 'get', '').then(function (data) {
@@ -353,9 +361,11 @@ require(['jquery', 'utils', 'routeService'], function ($, utils, routeService) {
                 $('.b_btn3 a').attr('href', data[81].url);
 
             });
+            }
 
         },
         api_three_pic: function () {//三端体验
+            if(0){
 
             var url = utils.url + 'api_three_pic';
 
@@ -375,21 +385,28 @@ require(['jquery', 'utils', 'routeService'], function ($, utils, routeService) {
 
             });
 
+            }
+
         },
         api_down_erweima: function () {//下载二维码
+            if(0){
 
-            var url = utils.url + 'api_down_erweima'
+                var url = utils.url + 'api_down_erweima'
 
-            routeService.getListData(url, 'get', '').then(function (data) {
+                routeService.getListData(url, 'get', '').then(function (data) {
 
-                data = JSON.parse(data);
+                    data = JSON.parse(data);
 
-                $('.download_03S1 img').attr('src', utils.imgUrl + data[0].filePath);
+                    $('.download_03S1 img').attr('src', utils.imgUrl + data[0].filePath);
 
-            });
+                });
+
+            }
 
         },
         api_alls: function () {//最新
+
+            if(0){
 
             var url = utils.url + 'api_alls'
 
@@ -409,9 +426,11 @@ require(['jquery', 'utils', 'routeService'], function ($, utils, routeService) {
 
             });
 
+            }
+
         },
         api_news: function () {//新闻
-
+            if(0){
             var url = utils.url + 'api_news'
 
             routeService.getListData(url, 'get', '').then(function (data) {
@@ -430,8 +449,12 @@ require(['jquery', 'utils', 'routeService'], function ($, utils, routeService) {
 
             });
 
+            }
+
         },
         api_notice: function () {//公告
+
+            if(0){
 
             var url = utils.url + 'api_notice'
 
@@ -449,10 +472,11 @@ require(['jquery', 'utils', 'routeService'], function ($, utils, routeService) {
                 utils.module('newslist', data, '.advert_div1.public');
 
             });
+            }
 
         },
         api_activity: function () {//活动
-
+            if(0){
             var url = utils.url + 'api_activity'
 
             routeService.getListData(url, 'get', '').then(function (data) {
@@ -469,10 +493,11 @@ require(['jquery', 'utils', 'routeService'], function ($, utils, routeService) {
                 utils.module('newslist', data, '.advert_div1.active');
 
             });
+            }
 
         },
         api_luntan: function () {//论坛
-
+            if(0){
             var url = utils.url + 'api_luntan'
 
             routeService.getListData(url, 'get', '').then(function (data) {
@@ -490,9 +515,11 @@ require(['jquery', 'utils', 'routeService'], function ($, utils, routeService) {
 
             });
 
+            }
+
         },
         api_number: function () {//公众号
-
+            if(0){
             var url = utils.url + 'api_number'
 
             routeService.getListData(url, 'get', '').then(function (data) {
@@ -502,6 +529,8 @@ require(['jquery', 'utils', 'routeService'], function ($, utils, routeService) {
                 $('.Tab_02Right_t1 img').attr('src', 'http://img.linekong.com' + data[0].filePath);
 
             });
+
+            }
 
         },
         // api_play: function(){//首页头部视频
@@ -530,7 +559,7 @@ require(['jquery', 'utils', 'routeService'], function ($, utils, routeService) {
 
         // },
         api_pait: function () {//首页原画
-
+            if(0){
             var url = utils.url + 'api_pait'
 
             routeService.getListData(url, 'get', '').then(function (data) {
@@ -557,8 +586,30 @@ require(['jquery', 'utils', 'routeService'], function ($, utils, routeService) {
 
             });
 
+            }
+
+
+            $('.list01').find('li').each(function (i, e) {
+                $(e).hover(function () {
+                    $(this).children('.img_shade').show();
+                }, function () {
+                    $(this).children('.img_shade').hide();
+                });
+            });
+            $('.img_shade').off().on('click', function () {
+                $('.imgShade').show();
+                $('.imgShade img').show();
+                $('.imgShade video').hide();
+                $('.bgShade').show();
+
+                wrap.imgLoad($(this).prev('img').attr('_src'));
+
+            })
+
         },
         api_pic: function () {//首页截图
+
+            if(0){
 
             var url = utils.url + 'api_pic'
 
@@ -587,8 +638,30 @@ require(['jquery', 'utils', 'routeService'], function ($, utils, routeService) {
 
             });
 
+            }
+
+
+            $('.list03').find('li').each(function (i, e) {
+                $(e).hover(function () {
+                    $(this).children('.img_shade').show();
+                }, function () {
+                    $(this).children('.img_shade').hide();
+                });
+            });
+            $('.img_shade').off().on('click', function () {
+                $('.imgShade').show();
+                $('.imgShade img').show();
+                $('.imgShade video').hide();
+                $('.bgShade').show();
+                console.log();
+
+                wrap.imgLoad($(this).prev('img').attr('_src'));
+
+            })
+
         },
         api_video: function () {//首页视频
+            if(0){
 
             var url = utils.url + 'api_video'
 
@@ -612,6 +685,21 @@ require(['jquery', 'utils', 'routeService'], function ($, utils, routeService) {
                 })
 
             });
+
+            }
+
+            $('.img_video').find('span').on('click', function () {
+
+                $('.imgShade').show();
+                $('.imgShade img').hide();
+                $('.imgShade video').show();
+                $('.bgShade').show();
+                $('.imgShade video').attr('src', '');
+                $('.imgShade video').attr('src', $(this).attr('_src'));
+                $('.imgShade video').get(0).play();
+                $('.cloneImg').css('left', $('.imgShade').width() + 'px');
+
+            })
 
         },
         api_pic4: function () {//首页三端体验
@@ -644,6 +732,7 @@ require(['jquery', 'utils', 'routeService'], function ($, utils, routeService) {
 
         },
         api_adtitle: function () {//首页广告图片
+            if(0){
 
             var url = utils.url + 'api_adtitle'
 
@@ -663,6 +752,8 @@ require(['jquery', 'utils', 'routeService'], function ($, utils, routeService) {
                 $('.advert_left_t2 a').attr('href', data[1].url);
 
             });
+
+            }
 
         },
         imgLoad: function (src) {//图片预处理
@@ -716,6 +807,8 @@ require(['jquery', 'utils', 'routeService'], function ($, utils, routeService) {
 
         /*2016.11.09 modified by zhoushuanglong*/
         newsVersion: function () {
+            /* START OF IF ================================= */
+            if(0){
 
             $.ajax({
                 type: 'get',
@@ -740,6 +833,10 @@ require(['jquery', 'utils', 'routeService'], function ($, utils, routeService) {
                     $('#newsQrCode').attr('src', 'http://img.linekong.com' + data[0].filePath)
                 }
             });
+
+            }
+            /* END OF IF ================================= */
+
 
             $('#closeQrCode').click(function () {
                 $('div.news-qr-code').hide();
