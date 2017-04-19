@@ -153,8 +153,8 @@ html {
 
 @font-face {
 	font-family: bottomfont;
-	src: url(http://res.fd.netease.com/m/gw/20160815153640/css/bottomfont_5ff09f0.eot);
-	src: url(http://res.fd.netease.com/m/gw/20160815153640/css/bottomfont_5ff09f0.eot?#iefix) format('embedded-opentype'), url(http://res.fd.netease.com/m/gw/20160815153640/css/bottomfont_3e808cf.woff) format('woff'), url(http://res.fd.netease.com/m/gw/20160815153640/css/bottomfont_d310dd0.ttf) format('truetype'), url(http://res.fd.netease.com/m/gw/20160815153640/css/bottomfont_59157f3.svg#bottomfont) format('svg')
+	src: url(../fonts/bottomfont_5ff09f0.eot);
+	src: url(../fonts/bottomfont_5ff09f0.eot?#iefix) format('embedded-opentype'), url(../fonts/bottomfont_3e808cf.woff) format('woff'), url(../fonts/bottomfont_d310dd0.ttf) format('truetype'), url(../fonts/bottomfont_59157f3.svg#bottomfont) format('svg')
 }
 
 .bottomfont {
@@ -276,7 +276,7 @@ nav ul li a {
 .header .list_logo {
 	width: 1.9rem;
 	height: .8rem;
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/list_logo_4f8b452.png) no-repeat;
+	background: url(../images/list_logo_4f8b452.png) no-repeat;
 	background-size: 100% 100%;
 	margin-left: 1.6rem
 }
@@ -385,35 +385,35 @@ nav ul li a {
 .specile_tit {
 	width: 1.85rem;
 	height: .45rem;
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/specile_tit_681400d.png) no-repeat;
+	background: url(../images/specile_tit_681400d.png) no-repeat;
 	background-size: 100% 100%
 }
 
 .game_tit {
 	width: 1.82rem;
 	height: .46rem;
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/game_tit_e6bff79.png) no-repeat;
+	background: url(../images/game_tit_e6bff79.png) no-repeat;
 	background-size: 100% 100%
 }
 
 .yy_tit {
 	width: 1.87rem;
 	height: .44rem;
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/video_tit_6821d90.png) no-repeat;
+	background: url(../images/video_tit_6821d90.png) no-repeat;
 	background-size: 100% 100%
 }
 
 .mh_tit {
 	width: 1.87rem;
 	height: .44rem;
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/mh_tit_94c4bba.png) no-repeat;
+	background: url(../images/mh_tit_94c4bba.png) no-repeat;
 	background-size: 100% 100%
 }
 
 .news_tit {
 	width: 1.87rem;
 	height: .42rem;
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/new_tit_b8acafc.png) no-repeat;
+	background: url(../images/new_tit_b8acafc.png) no-repeat;
 	background-size: 100% 100%;
 	margin-bottom: .26rem
 }
@@ -421,7 +421,7 @@ nav ul li a {
 .hero_tit {
 	width: 1.84rem;
 	height: .43rem;
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/hero_tit_b089d36.png) no-repeat;
+	background: url(../images/hero_tit_b089d36.png) no-repeat;
 	background-size: 100% 100%
 }
 
@@ -468,7 +468,7 @@ nav ul li a {
 	font-style: normal;
 	width: 1.6rem;
 	height: 1.6rem;
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/default_news_89dc0ad.jpg) center center no-repeat;
+	background: url(../images/default_news_89dc0ad.jpg) center center no-repeat;
 	background-size: 100% 100%;
 	border-radius: 1.6rem;
 	overflow: hidden
@@ -489,7 +489,7 @@ nav ul li a {
 	border: 1px solid #ccc;
 	box-sizing: border-box;
 	padding: .2rem 0;
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/btn_bg_c49d7b5.png) 3.4rem center no-repeat
+	background: url(../images/btn_bg_c49d7b5.png) 3.4rem center no-repeat
 }
 
 .list_view_img li a {
@@ -748,7 +748,7 @@ nav ul li a {
 .i_arrow i {
 	width: .18rem;
 	height: .25rem;
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/go_bak_3022cd4.png) no-repeat;
+	background: url(../images/go_bak_3022cd4.png) no-repeat;
 	background-size: 100% 100%;
 	display: block;
 	margin-right: .1rem
@@ -1348,12 +1348,12 @@ nav ul a {
 }
 
 .topbar {
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/top_bg_a56eb7a.jpg) no-repeat;
+	background: url(../images/top_bg_a56eb7a.jpg) no-repeat;
 	background-size: cover
 }
 
 .topbar .logo {
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/logo_fe4ebea.png) center center no-repeat;
+	background: url(../images/logo_fe4ebea.png) center center no-repeat;
 	background-size: cover
 }
 
@@ -1367,7 +1367,7 @@ nav ul a {
 	width: 1.61rem;
 	height: .52rem;
 	line-height: .52rem;
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/btn-libao_6181127.png) center center no-repeat;
+	background: url(../images/btn-libao_6181127.png) center center no-repeat;
 	background-size: 100%;
 	border: 0;
 	color: #6b321b;
@@ -1379,7 +1379,7 @@ nav ul a {
 	width: 1.61rem;
 	height: .52rem;
 	line-height: .52rem;
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/btn-libao_6181127.png) center center no-repeat;
+	background: url(../images/btn-libao_6181127.png) center center no-repeat;
 	background-size: 100%;
 	border: 0;
 	color: #6b321b;
@@ -1391,7 +1391,7 @@ nav ul a {
 	width: 1.61rem;
 	height: .52rem;
 	line-height: .52rem;
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/btn-libao_6181127.png) center center no-repeat;
+	background: url(../images/btn-libao_6181127.png) center center no-repeat;
 	background-size: 100%;
 	border: 0;
 	color: #6b321b;
@@ -1534,7 +1534,7 @@ nav ul a {
 }
 
 .form_bar a {
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/commit-btn_73290e3.png) no-repeat;
+	background: url(../images/commit-btn_73290e3.png) no-repeat;
 	background-size: 100% 100%;
 	font-size: 0;
 	margin: .25rem auto .6rem
@@ -1583,7 +1583,7 @@ nav ul a {
 #md_libao section {
 	width: 7.02rem;
 	height: 5.03rem;
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/libao_bg_d3ec70a.png) no-repeat;
+	background: url(../images/libao_bg_d3ec70a.png) no-repeat;
 	background-size: 100% 100%;
 	box-sizing: border-box;
 	padding: .8rem .5rem 0;
@@ -1648,7 +1648,7 @@ nav ul a {
 #md_libao section .btn_close {
 	width: .75rem;
 	height: .75rem;
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/libao_close_f221275.png) no-repeat;
+	background: url(../images/libao_close_f221275.png) no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
 	right: 0;
@@ -1658,7 +1658,7 @@ nav ul a {
 #md_order section {
 	width: 6.4rem;
 	height: 7rem;
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/order-bg_96d50a6.png) no-repeat;
+	background: url(../images/order-bg_96d50a6.png) no-repeat;
 	background-size: 100% 100%;
 	box-sizing: border-box;
 	padding: .44rem .63rem 0;
@@ -1736,7 +1736,7 @@ nav ul a {
 }
 
 #md_order section .close_btn {
-	background: url(http://res.fd.netease.com/m/gw/20160815153640/img/close_btn_12cd38d.png) no-repeat;
+	background: url(../images/close_btn_12cd38d.png) no-repeat;
 	background-size: 100% 100%;
 	width: .76rem;
 	height: .75rem;
