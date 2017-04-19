@@ -315,7 +315,7 @@
 .content .party .party_select ul{ position:absolute; left:0; top:0; z-index:2; width:580px; height:54px;}
 .content .party .party_select li{ float:left; width:143px; color:#2696c4; font-size:22px; line-height:47px; text-align:center;}
 .content .party .party_select li span{ cursor:pointer;}
-.content .party .party_con{ background:url(../images/party_bg1.jpg) no-repeat; height:347px; position:absolute; left:0; top:0; width:1000px;}
+.content .party .party_con{ /* background:url(../images/party_bg1.jpg) no-repeat; */ height:347px; position:absolute; left:0; top:0; width:1000px;}
 .content .party .party_con .party_con_long{ width:4000px; height:347px;}
 .content .party .party_con_text{ width:930px; height:232px; padding:30px 35px; float:left; padding-top:85px; position:relative;}
 .content .party .party_con_text .party_con_img{ position:absolute; z-index:1; transition:0.5s ease; transform:translateX(0px);}
