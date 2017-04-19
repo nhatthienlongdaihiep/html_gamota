@@ -140,24 +140,24 @@
 	transform:translateY(300px);*/
 }
 /* 背景 */
-#wrap{ font-family:'微软雅黑'; min-width:1000px; padding-bottom:50px; padding-top:380px; background:url(../images/mian_curr/bg_index.jpg) no-repeat center top #c5e8ff;}
-#wrap.news{ padding-top:555px; background:url(../images/mian_curr/article_bg1.jpg) no-repeat center top #c5e8ff;}
-#wrap.download{ padding-top:555px; background-image:url(../images/mian_curr/bg_news3.jpg);}
+#wrap{ font-family:'微软雅黑'; min-width:1000px; padding-bottom:50px; padding-top:380px; background:url(../images/bg_index.jpg) no-repeat center top #c5e8ff;}
+#wrap.news{ padding-top:555px; background:url(../images/article_bg1.jpg) no-repeat center top #c5e8ff;}
+#wrap.download{ padding-top:555px; background-image:url(../images/bg_news3.jpg);}
 
 @media screen and (min-width:1000px) {
-  #wrap{ background:url(../images/mian_curr/bg_index.jpg) no-repeat center top #c5e8ff;}
-  #wrap.news{ background-image:url(../images/mian_curr/bg_news.jpg);}
-  #wrap.download{ background-image:url(../images/mian_curr/bg_news3.jpg);}
-  #wrap.news.article_page{ background-image:url(../images/mian_curr/article_bg1.jpg); position:relative;}
-  #wrap.news.article_page .article_bottom{ position:absolute; bottom:0; left:0; background:url(../images/mian_curr/article_bg2.jpg) no-repeat center bottom #c5e8ff; width:100%; height:500px;}
+  #wrap{ background:url(../images/bg_index.jpg) no-repeat center top #c5e8ff;}
+  #wrap.news{ background-image:url(../images/bg_news.jpg);}
+  #wrap.download{ background-image:url(../images/bg_news3.jpg);}
+  #wrap.news.article_page{ background-image:url(../images/article_bg1.jpg); position:relative;}
+  #wrap.news.article_page .article_bottom{ position:absolute; bottom:0; left:0; background:url(../images/article_bg2.jpg) no-repeat center bottom #c5e8ff; width:100%; height:500px;}
 }
 
 @media screen and (max-width:1000px) {
-  #wrap{ background:url(../images/mian_curr/bg_index2.jpg) no-repeat center top #c5e8ff;}
-  #wrap.news{ background-image:url(../images/mian_curr/bg_news2.jpg);}
-  #wrap.download{ background-image:url(../images/mian_curr/bg_news3.jpg);}
-  #wrap.news.article_page{ background-image:url(../images/mian_curr/article_bg3.jpg); position:relative;}
-  #wrap.news.article_page .article_bottom{ position:absolute; bottom:0; left:0; background:url(../images/mian_curr/article_bg4.jpg) no-repeat center bottom #c5e8ff; width:100%; height:500px;}
+  #wrap{ background:url(../images/bg_index2.jpg) no-repeat center top #c5e8ff;}
+  #wrap.news{ background-image:url(../images/bg_news2.jpg);}
+  #wrap.download{ background-image:url(../images/bg_news3.jpg);}
+  #wrap.news.article_page{ background-image:url(../images/article_bg3.jpg); position:relative;}
+  #wrap.news.article_page .article_bottom{ position:absolute; bottom:0; left:0; background:url(../images/article_bg4.jpg) no-repeat center bottom #c5e8ff; width:100%; height:500px;}
 
 }
 
@@ -177,8 +177,8 @@
 #d_video img.close{ position:absolute; right:-36px; top:0; cursor:pointer; z-index:5;}
 
 /* 头部导航 */
-.d_header{ background:url(../images/mian_curr/nav_bg.png) repeat-x; min-width:1000px; width:100%; position:absolute; left:0; top:60px;}
-.d_header .d_nav{ margin:0 auto; width:1000px; background:url(../images/mian_curr/nav_logo.png) no-repeat center bottom; height:110px;}
+.d_header{ background:url(../images/nav_bg.png) repeat-x; min-width:1000px; width:100%; position:absolute; left:0; top:60px;}
+.d_header .d_nav{ margin:0 auto; width:1000px; background:url(../images/nav_logo.png) no-repeat center bottom; height:110px;}
 .d_header .d_nav .d_nav_left{ float:left; width:500px;}
 .d_header .d_nav .d_nav_right{ float:right; width:500px;}
 .d_header .d_nav .d_nav_left li{ float:left; font-size:20px; line-height:90px; width:120px; text-align:left; cursor:pointer; text-indent:30px; color:#113254;}
@@ -208,7 +208,7 @@
 .float_obj_hide{ display:none; z-index:4;}
 .float_obj1 img{ position:absolute; left:0; top:0; transform:rotate(0deg);}
 .float_obj p{ text-align:center; width:111px; position:absolute; left:35px; top:33px; z-index:1; color:#fff; font-size:18px; width:40px; cursor:pointer;}
-.float_obj1 p.float_content{ background:url(../images/mian_curr/float_icon.png) no-repeat center top; padding-top:30px; font-size:16px; width:50px; left:30px; top:25px;}
+.float_obj1 p.float_content{ background:url(../images/float_icon.png) no-repeat center top; padding-top:30px; font-size:16px; width:50px; left:30px; top:25px;}
 
 /* 视频 */
 .content .vedio_icon{ width:76px; height:81px; margin:0 auto; position:relative; cursor:pointer; margin-left:480px;}
@@ -225,13 +225,13 @@
 .content .myCode{ width:1000px; margin:0 auto; margin-top:30px;}
 .content .myCode .myCodeLeft{ width:500px; float:left;}
 .content .myCode .myCodeRight{ width:485px; float:right; padding-left:15px;}
-.content .code{ float:right; background:url(../images/mian_curr/codeSide.png) no-repeat; width:132px; height:132px; padding:5px; box-sizing:border-box;}
+.content .code{ float:right; background:url(../images/codeSide.png) no-repeat; width:132px; height:132px; padding:5px; box-sizing:border-box;}
 .content .downLoadBtn{ float:left;}
 .content .downLoadBtn p{ margin-bottom:13px; cursor:pointer; width:203px; height:59px;}
-.content .downLoadBtn p.android{ background:url(../images/mian_curr/android.png) no-repeat;}
-.content .downLoadBtn p.android:hover{ background:url(../images/mian_curr/android2.png) no-repeat;}
-.content .downLoadBtn p.ios{ background:url(../images/mian_curr/ios_download.png) no-repeat;}
-.content .downLoadBtn p.ios:hover{ background:url(../images/mian_curr/ios_download2.png) no-repeat;}
+.content .downLoadBtn p.android{ background:url(../images/android.png) no-repeat;}
+.content .downLoadBtn p.android:hover{ background:url(../images/android2.png) no-repeat;}
+.content .downLoadBtn p.ios{ background:url(../images/ios_download.png) no-repeat;}
+.content .downLoadBtn p.ios:hover{ background:url(../images/ios_download2.png) no-repeat;}
 .content .treasure_close{ float:left; margin-left:20px; text-align:center; margin-top:-10px;}
 .content .treasure_close img{ display:none;}
 .content .treasure_close img.on{ display:block;}
@@ -241,8 +241,8 @@
 .content .imgChange{ width:500px; float:left; overflow:hidden; position:relative; height:242px;}
 .content .imgChange ul.image{ width:2000px; position:absolute; left:0; top:0;}
 .content .imgChange ul.icon{ position:absolute; left:15px; bottom:15px;}
-.content .imgChange ul.icon li{ float:left; width:26px; height:25px; background:url(../images/mian_curr/swiper_icon.png) no-repeat; cursor:pointer; margin:0px 3px;}
-.content .imgChange ul.icon li.on{ background:url(../images/mian_curr/swiper_icon_active.png) no-repeat;}
+.content .imgChange ul.icon li{ float:left; width:26px; height:25px; background:url(../images/swiper_icon.png) no-repeat; cursor:pointer; margin:0px 3px;}
+.content .imgChange ul.icon li.on{ background:url(../images/swiper_icon_active.png) no-repeat;}
 .content .imgChange ul.image li{ float:left;}
 .content .imgChange ul.image li img{ width:500px;}
 .content .infoNews{ width:490px; padding-left:10px; float:right;}
@@ -290,9 +290,9 @@
 /* 游戏资料 */
 .content .gameDocument{ margin-top:30px;}
 .content .gameDocument_header.party_header{ width:100%; position:absolute; height:54px; left:0; top:0; z-index:3;}
-.content .gameDocument_header p.gameDocument_title{ float:left; width:181px; height:47px; text-align:center; font-family:'宋体'; font-size:26px; line-height:47px; background:url(../images/mian_curr/title_bg.png) no-repeat; color:#fff;}
+.content .gameDocument_header p.gameDocument_title{ float:left; width:181px; height:47px; text-align:center; font-family:'宋体'; font-size:26px; line-height:47px; background:url(../images/title_bg.png) no-repeat; color:#fff;}
 .content .gameDocument_header p.gameDocument_addIcon{ width:23px; height:23px; text-align:center; color:#fff; line-height:22px; float:right; font-size:20px; background:#4187c4; margin-top:22px; cursor:pointer;}
-.content .news{ padding:0px 25px; background:url(../images/mian_curr/new_bg.png) no-repeat center center; margin-top:10px; height:320px; padding-right:0px;}
+.content .news{ padding:0px 25px; background:url(../images/new_bg.png) no-repeat center center; margin-top:10px; height:320px; padding-right:0px;}
 .content .news div{ float:left;}
 .content .news div.news_title{ width:30px; text-align:center; height:266px; padding-top:42px; margin-right:5px;}
 .content .news div.news_title img{ margin-left:8px; display:block; float:left;}
@@ -315,7 +315,7 @@
 .content .party .party_select ul{ position:absolute; left:0; top:0; z-index:2; width:580px; height:54px;}
 .content .party .party_select li{ float:left; width:143px; color:#2696c4; font-size:22px; line-height:47px; text-align:center;}
 .content .party .party_select li span{ cursor:pointer;}
-.content .party .party_con{ background:url(../images/mian_curr/party_bg1.jpg) no-repeat; height:347px; position:absolute; left:0; top:0; width:1000px;}
+.content .party .party_con{ background:url(../images/party_bg1.jpg) no-repeat; height:347px; position:absolute; left:0; top:0; width:1000px;}
 .content .party .party_con .party_con_long{ width:4000px; height:347px;}
 .content .party .party_con_text{ width:930px; height:232px; padding:30px 35px; float:left; padding-top:85px; position:relative;}
 .content .party .party_con_text .party_con_img{ position:absolute; z-index:1; transition:0.5s ease; transform:translateX(0px);}
@@ -328,16 +328,16 @@
 .content .party .party_con_text .party_con_img3{ right:-74px; top:-77px;}
 .content .party .party_con_text .party_con_img4{ right:-147px; top:-72px;}
 
-.content .party .party_con_text1{ background:url(../images/mian_curr/party_bg1.png) no-repeat; }
-.content .party .party_con_text2{ background:url(../images/mian_curr/party_bg2.png) no-repeat; }
-.content .party .party_con_text3{ background:url(../images/mian_curr/party_bg3.png) no-repeat; }
-.content .party .party_con_text4{ background:url(../images/mian_curr/party_bg4.png) no-repeat; }
+.content .party .party_con_text1{ background:url(../images/party_bg1.png) no-repeat; }
+.content .party .party_con_text2{ background:url(../images/party_bg2.png) no-repeat; }
+.content .party .party_con_text3{ background:url(../images/party_bg3.png) no-repeat; }
+.content .party .party_con_text4{ background:url(../images/party_bg4.png) no-repeat; }
 .party_con_long .party_con_text{ display:none }
 .party_con_long .party_con_text.on{ display:block;}
-.content .party .party_con_text ul.par1 li.party_con_title{ color:#4e72b8; background:url(../images/mian_curr/party_icon1.png) no-repeat left center;}
-.content .party .party_con_text ul.par2 li.party_con_title{ color:#d41529; background:url(../images/mian_curr/party_icon2.png) no-repeat left center;}
-.content .party .party_con_text ul.par3 li.party_con_title{ color:#e06436; background:url(../images/mian_curr/party_icon3.png) no-repeat left center;}
-.content .party .party_con_text ul.par4 li.party_con_title{ color:#d9539a; background:url(../images/mian_curr/party_icon4.png) no-repeat left center;}
+.content .party .party_con_text ul.par1 li.party_con_title{ color:#4e72b8; background:url(../images/party_icon1.png) no-repeat left center;}
+.content .party .party_con_text ul.par2 li.party_con_title{ color:#d41529; background:url(../images/party_icon2.png) no-repeat left center;}
+.content .party .party_con_text ul.par3 li.party_con_title{ color:#e06436; background:url(../images/party_icon3.png) no-repeat left center;}
+.content .party .party_con_text ul.par4 li.party_con_title{ color:#d9539a; background:url(../images/party_icon4.png) no-repeat left center;}
 
 /* 精美截图 */
 .content .cut{ margin-top:30px;}
@@ -373,8 +373,8 @@
 .content.news{ position:relative;}
 
 /* 头部 */
-.news_header{ padding:0px 20px; background:url(../images/mian_curr/news_header.jpg) no-repeat;}
-.news_header_title{ width:190px; text-align:center; line-height:78px; font-family:'宋体'; font-size:28px; color:#fff; background:url(../images/mian_curr/news_icon.png) no-repeat left center; font-weight:700; float:left;}
+.news_header{ padding:0px 20px; background:url(../images/news_header.jpg) no-repeat;}
+.news_header_title{ width:190px; text-align:center; line-height:78px; font-family:'宋体'; font-size:28px; color:#fff; background:url(../images/news_icon.png) no-repeat left center; font-weight:700; float:left;}
 .news_header_path{ width:240px; float:right; line-height:78px; font-size:14px; color:#fff;}
 .news_header_path a{ color:#fff;}
 .news_header_path span{ color:#ffef99;}
@@ -383,16 +383,16 @@
 .news_content_bg{ height:1046px; background:#fff; opacity:0.7;}
 .news_content{ padding:20px 30px; position:absolute; left:0px; top:78px;}
 .news_content_left{ float:left; width:230px; height:795px;}
-.news_content .downGame{ line-height:35px; padding-left:35px; font-size:22px; color:#4187c4; background:url(../images/mian_curr/downGame.png) no-repeat left center;}
+.news_content .downGame{ line-height:35px; padding-left:35px; font-size:22px; color:#4187c4; background:url(../images/downGame.png) no-repeat left center;}
 .news_content .downGame2{ background:none; padding-left:0px;}
 .news_content .downGame a{ color:#4187c4;}
-.news_content .downAndroid{ background:url(../images/mian_curr/android.png) no-repeat; width:203px; height:59px; margin-top:10px;}
-.news_content .downAndroid:hover{ background-image:url(../images/mian_curr/android2.png)}
-.news_content .downIos{ background:url(../images/mian_curr/ios_download.png) no-repeat; width:203px; height:59px; margin-top:10px;}
-.news_content .downIos:hover{ background-image:url(../images/mian_curr/ios_download2.png)}
+.news_content .downAndroid{ background:url(../images/android.png) no-repeat; width:203px; height:59px; margin-top:10px;}
+.news_content .downAndroid:hover{ background-image:url(../images/android2.png)}
+.news_content .downIos{ background:url(../images/ios_download.png) no-repeat; width:203px; height:59px; margin-top:10px;}
+.news_content .downIos:hover{ background-image:url(../images/ios_download2.png)}
 .news_content .news_code{ width:163px; height:194px; background:#fff; margin-top:20px; padding:20px; padding-bottom:0px;}
 .news_content .news_code span{ text-align:center; display:block; font-size:16px; color:#2a2829; line-height:35px;}
-.news_content .getBox{ line-height:35px; padding-left:35px; font-size:22px; background:url(../images/mian_curr/box_icon.png) no-repeat left center; margin-top:35px;}
+.news_content .getBox{ line-height:35px; padding-left:35px; font-size:22px; background:url(../images/box_icon.png) no-repeat left center; margin-top:35px;}
 .news_content .getBox2{ padding-left:0; background:none;}
 .news_content .tips{ width:203px; margin:15px 0; font-size:14px; color:#777e87;}
 .news_content .getBox a{ color:#4187c4;}
@@ -420,7 +420,7 @@
 .news_content_right .right_page li.on{ border-color:#fff; color:#4187c4;}
 
 .news_content_right .module{ width:635px; height:160px; border-bottom:1px solid #b8d4ec; position:relative;}
-.news_content_right .module p.title{ background:url(../images/mian_curr/cloud.png) no-repeat left center; font-size:22px; color:#4187c4; text-indent:30px; margin-bottom:15px;}
+.news_content_right .module p.title{ background:url(../images/cloud.png) no-repeat left center; font-size:22px; color:#4187c4; text-indent:30px; margin-bottom:15px;}
 .news_content_right .module p{ color:#6a747d; font-size:14px;}
 .news_content_right .module a{ position:absolute; right:25px; top:20px; display:block;}
 .news_content_right .module2{ border-bottom:0px; margin-top:60px;}
@@ -442,22 +442,22 @@
 /*美女玩家*/
 .md .md-ul { width: 1000px; height: 367px; margin: 30px auto 0px; font-size: 0px; position: relative; margin-top:10px;}
 .md li { overflow: hidden; float: left; width: 163px; transition: width 0.5s ease 0s; transform: translateZ(0px); }
-.md li { display: block; width: 163px; height: 367px; text-indent: -9999em; background: transparent url('../images/mian_curr/smallslide.png') no-repeat scroll 0% 0%; transition: all 0.9s ease 0s; }
+.md li { display: block; width: 163px; height: 367px; text-indent: -9999em; background: transparent url('../images/smallslide.png') no-repeat scroll 0% 0%; transition: all 0.9s ease 0s; }
 .md .on { width: 667px; }
 .md .on b { transform: translate3d(-100%, 0px, 0px); opacity: 0; }
 .active .md { animation: 0.3s ease-in 0.3s normal both 1 running fadeInUp; }
 
 .md .md-ul { width: 1000px; height: 367px; }
 .md li { width: 216px; }
-/*.md li b { width: 200px; height: 367px; background: transparent url('../images/mian_curr/s-smallslide.png') no-repeat scroll 0% 0%; }*/
+/*.md li b { width: 200px; height: 367px; background: transparent url('../images/s-smallslide.png') no-repeat scroll 0% 0%; }*/
 .md .on { width: 352px; }
-.md .md-ul-li1 { background: transparent url('../images/mian_curr/girl1.jpg') no-repeat scroll 0% 0%; }
+.md .md-ul-li1 { background: transparent url('../images/girl1.jpg') no-repeat scroll 0% 0%; }
 /*.md .md-ul-li1 b { background-position: 0px 0px; }*/
-.md .md-ul-li2 { background: transparent url('../images/mian_curr/girl2.jpg') no-repeat scroll 0% 0%; }
+.md .md-ul-li2 { background: transparent url('../images/girl2.jpg') no-repeat scroll 0% 0%; }
 /*.md .md-ul-li2 b { background-position: -129px 0px; }*/
-.md .md-ul-li3 { background: transparent url('../images/mian_curr/girl3.jpg') no-repeat scroll 0% 0%; }
+.md .md-ul-li3 { background: transparent url('../images/girl3.jpg') no-repeat scroll 0% 0%; }
 /*.md .md-ul-li3 b { background-position: -258px 0px; }*/
-.md .md-ul-li4 { background: transparent url('../images/mian_curr/girl4.jpg') no-repeat scroll 0% 0%; }
+.md .md-ul-li4 { background: transparent url('../images/girl4.jpg') no-repeat scroll 0% 0%; }
 /*.md .md-ul-li4 b { background-position: -387px 0px; }*/
 
 
