@@ -119,8 +119,8 @@ var Gallery=function(){
 	}
 }();
 
-
 nie.define(function(){
+
 
 	function e(e){
 		$video.show().addClass("show"),
@@ -149,7 +149,7 @@ nie.define(function(){
 		o=$("#share_pic").attr("data-src"),
 		l=$("#share_desc").html(),
 		a=$("#share_title").html();
-	/*
+	/**
 	nie.use(["nie.util.shareV5"],function(){
 		nie.util.share({
 			fat:"#NIE-share",
@@ -161,7 +161,7 @@ nie.define(function(){
 			url:i
 		})
 	});
-	*/
+	**/
 	var s,n=!1,r=60;
 	$video=$("#Jvideo"),
 	$video_con=$("#Jvideo .m-video-con"),
@@ -183,7 +183,7 @@ nie.define(function(){
 	$(".dialog-close,.btn-close").bind("click",function(){
 		u($(this).parents(".pop-dialog")),
 		u($popbg),
-		$(".yuyueForm")[0].reset(),
+		// $(".yuyueForm")[0].reset(),
 		clearInterval(s),
 		$(".getCode").text("获取验证码"),
 		$(".getCode").removeClass("waiting"),
@@ -196,7 +196,7 @@ nie.define(function(){
 		$(this);
 		e($(this).attr("data-src")),c($popbg)
 	}),
-	/*
+	/**
 	nie.define("download",function(){
 		nie.require("nie.util.niedownload");
 		NieDownload.create({
@@ -209,7 +209,7 @@ nie.define(function(){
 			}
 		})
 	}),
-	*/
+	**/
 	$(".libao").click(function(){
 		$("#Jlibao").show().addClass("show"),c($popbg)
 	}),
