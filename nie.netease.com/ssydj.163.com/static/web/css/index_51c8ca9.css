@@ -151,20 +151,20 @@ html, body {width: 100%;min-width: 1200px;height: auto;font-family: "Microsoft Y
 
 .block1 {width: 100%;height: 1275px}
 
-.block1.on {background: url(static/web/images/bg1_1cb1547.jpg) no-repeat center top}
+.block1.on {background: url(../images/bg1_1cb1547.jpg) no-repeat center top}
 
 .block1 .logo {display: block;width: 265px;height: 85px;position: absolute;left: 50%;margin-left: -160px;top: 10px;background-repeat: no-repeat;}
 
-.block1 .slogan {background: url(static/web/images/slogan_caf7664.png) no-repeat;width: 514px;height: 306px;position: absolute;top: 130px;left: 50%;margin-left: -257px}
+.block1 .slogan {background: url(../images/slogan_caf7664.png) no-repeat;width: 514px;height: 306px;position: absolute;top: 130px;left: 50%;margin-left: -257px}
 
 .block1 .play {width: 103px;height: 84px;position: absolute;left: 50%;margin-left: -51px;top: 490px;cursor: pointer;	background-repeat: no-repeat;
 }
 
 .block1 .play .player {width: 22px;height: 35px;position: absolute;top: 18px;left: 27px;-webkit-animation: player 2s ease-out infinite 300ms 0 ease;-moz-animation: player 2s ease-out infinite 300ms 0 ease;-ms-animation: player 2s ease-out infinite 300ms 0 ease;animation: player 2s ease-out infinite 300ms 0 ease;-moz-animation: player 2s ease-out infinite;-webkit-animation: player 2s ease-out infinite;-o-animation: player 2s ease-out infinite;-ms-animation: player 2s ease-out infinite;animation: player 2s ease-out infinite;background-repeat: no-repeat;}
 
-.block2 {background: url(static/web/images/bg2_fd57b02.jpg) no-repeat center top;width: 100%;height: 1356px}
+.block2 {background: url(../images/bg2_fd57b02.jpg) no-repeat center top;width: 100%;height: 1356px}
 
-.topbar {background: url(static/web/images/bg_top_bc933d0.png) no-repeat;position: absolute;right: 0;top: 0;width: 179px;height: 712px}
+.topbar {background: url(../images/bg_top_bc933d0.png) no-repeat;position: absolute;right: 0;top: 0;width: 179px;height: 712px}
 
 .topbar .goindex {display: block;width: 179px;height: 115px;margin: 0 auto;background-repeat: no-repeat;}
 
@@ -188,7 +188,7 @@ html, body {width: 100%;min-width: 1200px;height: auto;font-family: "Microsoft Y
 
 .desc {width: 1200px;height: 530px;position: absolute;top: 730px;left: 0}
 
-.desc .des_title {background: url(static/web/images/h5-title_9389b15.png) no-repeat;width: 1486px;height: 199px;margin-left: 100px}
+.desc .des_title {background: url(../images/h5-title_9389b15.png) no-repeat;width: 1486px;height: 199px;margin-left: 100px}
 
 .desc .des_con>div {margin-right: 6px}
 
@@ -206,11 +206,11 @@ html, body {width: 100%;min-width: 1200px;height: auto;font-family: "Microsoft Y
 
 .banner {width: 1200px;height: 1000px;position: relative}
 
-.banner .nav_bg {background: url(static/web/images/bg_banner_fb4d99b.png) no-repeat;width: 171px;height: 598px;position: absolute;top: 165px;left: 10px}
+.banner .nav_bg {background: url(../images/bg_banner_fb4d99b.png) no-repeat;width: 171px;height: 598px;position: absolute;top: 165px;left: 10px}
 
 .banner .nav {width: 171px;height: 598px;position: absolute;z-index: 10;top: 165px;left: 10px}
 
-.banner .nav a {display: block;background: url(static/web/images/nav_banner_a87a7cb.png) no-repeat;width: 110px;height: 25px;margin-bottom: 78px;margin-left: 7px}
+.banner .nav a {display: block;background: url(../images/nav_banner_a87a7cb.png) no-repeat;width: 110px;height: 25px;margin-bottom: 78px;margin-left: 7px}
 
 .banner .nav .nav1 {margin-top: 120px;background-position: 0 0}
 
@@ -232,35 +232,35 @@ html, body {width: 100%;min-width: 1200px;height: auto;font-family: "Microsoft Y
 
 .banner_detail>div {position: absolute;width: 1491px;height: 868px}
 
-.banner_detail .b_bg1 {background: url(static/web/images/banner/bg3_0962b71.png) no-repeat;-webkit-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-ms-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .4s ease-in-out both;-webkit-animation: fadeInLeft .4s ease-in-out both;-o-animation: fadeInLeft .4s ease-in-out both;-ms-animation: fadeInLeft .4s ease-in-out both;animation: fadeInLeft .4s ease-in-out both}
+.banner_detail .b_bg1 {background: url(../images/bg3_0962b71.png) no-repeat;-webkit-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-ms-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .4s ease-in-out both;-webkit-animation: fadeInLeft .4s ease-in-out both;-o-animation: fadeInLeft .4s ease-in-out both;-ms-animation: fadeInLeft .4s ease-in-out both;animation: fadeInLeft .4s ease-in-out both}
 
-.banner_detail .b_title1 {background: url(static/web/images/banner/title3_6e19500.png) no-repeat;-webkit-animation: fadeInRight .3s .5s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .3s .5s ease-in-out both 300ms 0 ease;-ms-animation: fadeInRight .3s .5s ease-in-out both 300ms 0 ease;animation: fadeInRight .3s .5s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .3s .5s ease-in-out both;-webkit-animation: fadeInRight .3s .5s ease-in-out both;-o-animation: fadeInRight .3s .5s ease-in-out both;-ms-animation: fadeInRight .3s .5s ease-in-out both;animation: fadeInRight .3s .5s ease-in-out both}
+.banner_detail .b_title1 {background: url(../images/title3_6e19500.png) no-repeat;-webkit-animation: fadeInRight .3s .5s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .3s .5s ease-in-out both 300ms 0 ease;-ms-animation: fadeInRight .3s .5s ease-in-out both 300ms 0 ease;animation: fadeInRight .3s .5s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .3s .5s ease-in-out both;-webkit-animation: fadeInRight .3s .5s ease-in-out both;-o-animation: fadeInRight .3s .5s ease-in-out both;-ms-animation: fadeInRight .3s .5s ease-in-out both;animation: fadeInRight .3s .5s ease-in-out both}
 
-.banner_detail .b_person1 {background: url(static/web/images/banner/person3_4af6fb1.png) no-repeat;-webkit-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-ms-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .4s ease-in-out both;-webkit-animation: fadeInRight .4s ease-in-out both;-o-animation: fadeInRight .4s ease-in-out both;-ms-animation: fadeInRight .4s ease-in-out both;animation: fadeInRight .4s ease-in-out both}
+.banner_detail .b_person1 {background: url(../images/person3_4af6fb1.png) no-repeat;-webkit-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-ms-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .4s ease-in-out both;-webkit-animation: fadeInRight .4s ease-in-out both;-o-animation: fadeInRight .4s ease-in-out both;-ms-animation: fadeInRight .4s ease-in-out both;animation: fadeInRight .4s ease-in-out both}
 
-.banner_detail .b_bg2 {background: url(static/web/images/banner/bg1_2ea589b.png) no-repeat;-webkit-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-ms-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .4s ease-in-out both;-webkit-animation: fadeInLeft .4s ease-in-out both;-o-animation: fadeInLeft .4s ease-in-out both;-ms-animation: fadeInLeft .4s ease-in-out both;animation: fadeInLeft .4s ease-in-out both}
+.banner_detail .b_bg2 {background: url(../images/bg1_2ea589b.png) no-repeat;-webkit-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-ms-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .4s ease-in-out both;-webkit-animation: fadeInLeft .4s ease-in-out both;-o-animation: fadeInLeft .4s ease-in-out both;-ms-animation: fadeInLeft .4s ease-in-out both;animation: fadeInLeft .4s ease-in-out both}
 
-.banner_detail .b_title2 {background: url(static/web/images/banner/title1_963851b.png) no-repeat;-webkit-animation: fadeInLeft .3s .5s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .3s .5s ease-in-out both 300ms 0 ease;-ms-animation: fadeInLeft .3s .5s ease-in-out both 300ms 0 ease;animation: fadeInLeft .3s .5s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .3s .5s ease-in-out both;-webkit-animation: fadeInLeft .3s .5s ease-in-out both;-o-animation: fadeInLeft .3s .5s ease-in-out both;-ms-animation: fadeInLeft .3s .5s ease-in-out both;animation: fadeInLeft .3s .5s ease-in-out both}
+.banner_detail .b_title2 {background: url(../images/title1_963851b.png) no-repeat;-webkit-animation: fadeInLeft .3s .5s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .3s .5s ease-in-out both 300ms 0 ease;-ms-animation: fadeInLeft .3s .5s ease-in-out both 300ms 0 ease;animation: fadeInLeft .3s .5s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .3s .5s ease-in-out both;-webkit-animation: fadeInLeft .3s .5s ease-in-out both;-o-animation: fadeInLeft .3s .5s ease-in-out both;-ms-animation: fadeInLeft .3s .5s ease-in-out both;animation: fadeInLeft .3s .5s ease-in-out both}
 
-.banner_detail .b_person2 {background: url(static/web/images/banner/person1_25b7797.png) no-repeat;-webkit-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-ms-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .4s ease-in-out both;-webkit-animation: fadeInRight .4s ease-in-out both;-o-animation: fadeInRight .4s ease-in-out both;-ms-animation: fadeInRight .4s ease-in-out both;animation: fadeInRight .4s ease-in-out both}
+.banner_detail .b_person2 {background: url(../images/person1_25b7797.png) no-repeat;-webkit-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-ms-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .4s ease-in-out both;-webkit-animation: fadeInRight .4s ease-in-out both;-o-animation: fadeInRight .4s ease-in-out both;-ms-animation: fadeInRight .4s ease-in-out both;animation: fadeInRight .4s ease-in-out both}
 
-.banner_detail .b_bg3 {background: url(static/web/images/banner/bg2_27d1254.png) no-repeat;-webkit-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-ms-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .4s ease-in-out both;-webkit-animation: fadeInLeft .4s ease-in-out both;-o-animation: fadeInLeft .4s ease-in-out both;-ms-animation: fadeInLeft .4s ease-in-out both;animation: fadeInLeft .4s ease-in-out both}
+.banner_detail .b_bg3 {background: url(../images/bg2_27d1254.png) no-repeat;-webkit-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-ms-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .4s ease-in-out both;-webkit-animation: fadeInLeft .4s ease-in-out both;-o-animation: fadeInLeft .4s ease-in-out both;-ms-animation: fadeInLeft .4s ease-in-out both;animation: fadeInLeft .4s ease-in-out both}
 
-.banner_detail .b_title3 {background: url(static/web/images/banner/title2_0f6f353.png) no-repeat;-webkit-animation: fadeInRight .3s .5s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .3s .5s ease-in-out both 300ms 0 ease;-ms-animation: fadeInRight .3s .5s ease-in-out both 300ms 0 ease;animation: fadeInRight .3s .5s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .3s .5s ease-in-out both;-webkit-animation: fadeInRight .3s .5s ease-in-out both;-o-animation: fadeInRight .3s .5s ease-in-out both;-ms-animation: fadeInRight .3s .5s ease-in-out both;animation: fadeInRight .3s .5s ease-in-out both}
+.banner_detail .b_title3 {background: url(../images/title2_0f6f353.png) no-repeat;-webkit-animation: fadeInRight .3s .5s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .3s .5s ease-in-out both 300ms 0 ease;-ms-animation: fadeInRight .3s .5s ease-in-out both 300ms 0 ease;animation: fadeInRight .3s .5s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .3s .5s ease-in-out both;-webkit-animation: fadeInRight .3s .5s ease-in-out both;-o-animation: fadeInRight .3s .5s ease-in-out both;-ms-animation: fadeInRight .3s .5s ease-in-out both;animation: fadeInRight .3s .5s ease-in-out both}
 
-.banner_detail .b_person3 {background: url(static/web/images/banner/person2_580ae67.png) no-repeat;-webkit-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-ms-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .4s ease-in-out both;-webkit-animation: fadeInRight .4s ease-in-out both;-o-animation: fadeInRight .4s ease-in-out both;-ms-animation: fadeInRight .4s ease-in-out both;animation: fadeInRight .4s ease-in-out both}
+.banner_detail .b_person3 {background: url(../images/person2_580ae67.png) no-repeat;-webkit-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-ms-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .4s ease-in-out both;-webkit-animation: fadeInRight .4s ease-in-out both;-o-animation: fadeInRight .4s ease-in-out both;-ms-animation: fadeInRight .4s ease-in-out both;animation: fadeInRight .4s ease-in-out both}
 
-.banner_detail .b_bg4 {background: url(static/web/images/banner/bg4_dad751c.png) no-repeat;-webkit-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-ms-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .4s ease-in-out both;-webkit-animation: fadeInLeft .4s ease-in-out both;-o-animation: fadeInLeft .4s ease-in-out both;-ms-animation: fadeInLeft .4s ease-in-out both;animation: fadeInLeft .4s ease-in-out both}
+.banner_detail .b_bg4 {background: url(../images/bg4_dad751c.png) no-repeat;-webkit-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-ms-animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;animation: fadeInLeft .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .4s ease-in-out both;-webkit-animation: fadeInLeft .4s ease-in-out both;-o-animation: fadeInLeft .4s ease-in-out both;-ms-animation: fadeInLeft .4s ease-in-out both;animation: fadeInLeft .4s ease-in-out both}
 
-.banner_detail .b_title4 {background: url(static/web/images/banner/title4_5768d32.png) no-repeat;-webkit-animation: fadeInLeft .3s .5s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .3s .5s ease-in-out both 300ms 0 ease;-ms-animation: fadeInLeft .3s .5s ease-in-out both 300ms 0 ease;animation: fadeInLeft .3s .5s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .3s .5s ease-in-out both;-webkit-animation: fadeInLeft .3s .5s ease-in-out both;-o-animation: fadeInLeft .3s .5s ease-in-out both;-ms-animation: fadeInLeft .3s .5s ease-in-out both;animation: fadeInLeft .3s .5s ease-in-out both}
+.banner_detail .b_title4 {background: url(../images/title4_5768d32.png) no-repeat;-webkit-animation: fadeInLeft .3s .5s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .3s .5s ease-in-out both 300ms 0 ease;-ms-animation: fadeInLeft .3s .5s ease-in-out both 300ms 0 ease;animation: fadeInLeft .3s .5s ease-in-out both 300ms 0 ease;-moz-animation: fadeInLeft .3s .5s ease-in-out both;-webkit-animation: fadeInLeft .3s .5s ease-in-out both;-o-animation: fadeInLeft .3s .5s ease-in-out both;-ms-animation: fadeInLeft .3s .5s ease-in-out both;animation: fadeInLeft .3s .5s ease-in-out both}
 
-.banner_detail .b_person4 {background: url(static/web/images/banner/person4_c09b812.png) no-repeat;-webkit-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-ms-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .4s ease-in-out both;-webkit-animation: fadeInRight .4s ease-in-out both;-o-animation: fadeInRight .4s ease-in-out both;-ms-animation: fadeInRight .4s ease-in-out both;animation: fadeInRight .4s ease-in-out both}
+.banner_detail .b_person4 {background: url(../images/person4_c09b812.png) no-repeat;-webkit-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-ms-animation: fadeInRight .4s ease-in-out both 300ms 0 ease;animation: fadeInRight .4s ease-in-out both 300ms 0 ease;-moz-animation: fadeInRight .4s ease-in-out both;-webkit-animation: fadeInRight .4s ease-in-out both;-o-animation: fadeInRight .4s ease-in-out both;-ms-animation: fadeInRight .4s ease-in-out both;animation: fadeInRight .4s ease-in-out both}
 
 #mask {background: #000;opacity: .75;width: 100%;height: 100%;position: fixed;left: 0;top: 0;right: 0;bottom: 0;z-index: 9999}
 
-#pop {background: url(static/web/images/pop/bg_3431118.png) no-repeat;width: 506px;height: 341px;position: fixed;top: 50%;left: 50%;margin-left: -253px;margin-top: -170px;z-index: 10000;overflow: hidden}
+#pop {background: url(../images/bg_3431118.png) no-repeat;width: 506px;height: 341px;position: fixed;top: 50%;left: 50%;margin-left: -253px;margin-top: -170px;z-index: 10000;overflow: hidden}
 
-#pop .close {display: block;background: url(static/web/images/pop/close_439304b.png) no-repeat;width: 52px;height: 52px;position: absolute;right: 5px;top: 5px;-webkit-transition: all ease-out .5s;-moz-transition: all ease-out .5s;-ms-transition: all ease-out .5s;-o-transition: all ease-out .5s;transition: all ease-out .5s}
+#pop .close {display: block;background: url(../images/close_439304b.png) no-repeat;width: 52px;height: 52px;position: absolute;right: 5px;top: 5px;-webkit-transition: all ease-out .5s;-moz-transition: all ease-out .5s;-ms-transition: all ease-out .5s;-o-transition: all ease-out .5s;transition: all ease-out .5s}
 
 #pop .close:hover {-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);-ms-transform: rotate(180deg);-o-transform: rotate(180deg);transform: rotate(180deg)}
 
@@ -268,9 +268,9 @@ html, body {width: 100%;min-width: 1200px;height: auto;font-family: "Microsoft Y
 
 #pop .f24 {font-size: 24px}
 
-#pop .btn_ok {display: block;background: url(static/web/images/pop/btn_ok_e1fe029.png) no-repeat;width: 184px;height: 48px;margin: 25px auto}
+#pop .btn_ok {display: block;background: url(../images/btn_ok_e1fe029.png) no-repeat;width: 184px;height: 48px;margin: 25px auto}
 
-#pop .btn_ok:hover {background: url(static/web/images/pop/btn_ok2_e99fcdd.png) no-repeat}
+#pop .btn_ok:hover {background: url(../images/btn_ok2_e99fcdd.png) no-repeat}
 
 .pop_video_bg {position: fixed;top: 0;left: 0;background: #000;opacity: .65;filter: alpha(opacity=65);width: 100%;z-index: 9999;min-width: 1200px}
 
@@ -326,4 +326,4 @@ html, body {width: 100%;min-width: 1200px;height: auto;font-family: "Microsoft Y
 
 .order_con .btn_order:hover {background-position: -811px -169px}
 
-.desc .des5, .desc .des3, .desc .des1, .order_con, .topbar .goindex, .topbar .goindex:hover, .block1 .logo, .block1 .play, .arrow, .close_pv, .close_pv:hover, .desc .des2, .desc .des4, .block1 .play .player, .order_con .btn_order, .order_con .btn_order:hover {background-image: url(static/web/images/spriter/index_z_8371160.png)}
+.desc .des5, .desc .des3, .desc .des1, .order_con, .topbar .goindex, .topbar .goindex:hover, .block1 .logo, .block1 .play, .arrow, .close_pv, .close_pv:hover, .desc .des2, .desc .des4, .block1 .play .player, .order_con .btn_order, .order_con .btn_order:hover {background-image: url(../images/index_z_8371160.png)}
