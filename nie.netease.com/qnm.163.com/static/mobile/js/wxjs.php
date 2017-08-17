@@ -1,1 +1,0 @@
-var wx_conf = {"appId":"wx85f583832dbd07e9","nonceStr":"7xuwjw2h4P2iRo1f","timestamp":1502935789,"signature":"ce3f31e005e6c6f26dbd5b2165208e02873b46a1","jsApiList":["onMenuShareTimeline","onMenuShareAppMessage","onMenuShareQQ","onMenuShareWeibo"]};
