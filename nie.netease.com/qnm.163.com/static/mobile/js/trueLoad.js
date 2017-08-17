@@ -51,7 +51,7 @@ var loader = {
 		this.loadId = 'Nie_load_id'+this.startTime;
 		this.loadBgId = 'Nie_loadBg_id'+this.startTime;
 		this.loadTopId = 'Nie_loadTop_id'+this.startTime;
-		$('body').append('<div id="'+this.loadId+'" style="position:absolute;z-index:9999;left:0;top:0;width:100%;height:100%;background:'+this.backColor+';overflow:hidden;margin:0;padding:0;"><div id="'+this.loadBgId+'" style="position:absolute;width:0px;height:0px;left:0px;top:0px;background:url(/qnm.163.com/static/mobile/images/loadres.png) no-repeat;background-size:100%;"><div id="'+this.loadTopId+'" style="position:absolute;width:0px;height:0px;left:0px;top:0px;background:url(/qnm.163.com/static/mobile/images/loadres.png) no-repeat;background-size:100%;"></div></div></div>');
+		$('body').append('<div id="'+this.loadId+'" style="position:absolute;z-index:9999;left:0;top:0;width:100%;height:100%;background:'+this.backColor+';overflow:hidden;margin:0;padding:0;"><div id="'+this.loadBgId+'" style="position:absolute;width:0px;height:0px;left:0px;top:0px;background:url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/loadres.png) no-repeat;background-size:100%;"><div id="'+this.loadTopId+'" style="position:absolute;width:0px;height:0px;left:0px;top:0px;background:url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/loadres.png) no-repeat;background-size:100%;"></div></div></div>');
 		this.isShow = true;
 		this.cbfun = cb;
 		var _self = this;

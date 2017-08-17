@@ -442,7 +442,7 @@ html, body {
 }
 
 .modal .close {
-	background: url(/qnm.163.com/static/mobile/images/close.png) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/close.png) no-repeat;
 	width: .35rem;
 	height: .36rem;
 	position: absolute;
@@ -469,7 +469,7 @@ html, body {
 	content: "";
 	width: .2rem;
 	height: .2rem;
-	background: url(/qnm.163.com/static/mobile/images/stroke.png) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/stroke.png) no-repeat;
 	background-size: 100%;
 	display: inline-block
 }
@@ -483,17 +483,17 @@ html, body {
 }
 
 .pop-award1 .title {
-	background: url(/qnm.163.com/static/mobile/images/pop-title1.png) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/pop-title1.png) no-repeat;
 	background-size: 100%
 }
 
 .pop-award2 .title {
-	background: url(/qnm.163.com/static/mobile/images/pop-title2.png) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/pop-title2.png) no-repeat;
 	background-size: 100%
 }
 
 .pop-award3 .title {
-	background: url(/qnm.163.com/static/mobile/images/pop-title3.png) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/pop-title3.png) no-repeat;
 	background-size: 100%
 }
 
@@ -515,7 +515,7 @@ html, body {
 	width: 7.06rem;
 	height: 5.23rem;
 	margin-left: -3.53rem;
-	background: url(/qnm.163.com/static/mobile/images/pop-gift.png);
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/pop-gift.png);
 	background-size: 100%;
 	border: 0
 }
@@ -542,7 +542,7 @@ html, body {
 .pop-huaweiTip {
 	width: 6.85rem;
 	height: 6.22rem;
-	background: url(/qnm.163.com/static/mobile/images/huawei-tip_270be4a.png) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/huawei-tip_270be4a.png) no-repeat;
 	background-size: 100% auto;
 	margin-left: -3.42rem;
 	margin-top: -3.11rem;
@@ -635,7 +635,7 @@ html, body {
 	display: block;
 	width: 1.54rem;
 	height: 2.34rem;
-	background: url(/qnm.163.com/static/mobile/images/sign_d776211.png) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/sign_d776211.png) no-repeat;
 	background-size: 100%;
 	position: absolute;
 	top: .3rem;
@@ -646,7 +646,7 @@ html, body {
 	position: absolute;
 	width: .53rem;
 	height: .49rem;
-	background: url(/qnm.163.com/static/mobile/images/icon-down3_6495476.png) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/icon-down3_6495476.png) no-repeat;
 	background-size: 100%;
 	left: 50%;
 	margin-left: -.265rem;
@@ -660,7 +660,7 @@ html, body {
 	display: block;
 	width: .92rem;
 	height: 1.07rem;
-	background-image: url(/qnm.163.com/static/mobile/images/index-nav_f711a5e.png);
+	background-image: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/index-nav_f711a5e.png);
 	background-position: bottom;
 	background-size: 100% auto;
 	position: absolute;
@@ -673,7 +673,7 @@ html, body {
 	position: fixed;
 	width: 100%;
 	height: 1.65rem;
-	background: url(/qnm.163.com/static/mobile/images/bottom_854dc60.png) bottom center no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/bottom_854dc60.png) bottom center no-repeat;
 	background-size: 100%;
 	left: 0;
 	bottom: 0;
@@ -791,7 +791,7 @@ html, body {
 }
 
 .index .swiper-slide1 {
-	background: url(/qnm.163.com/static/mobile/images/bg1_cd6c929.jpg) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/bg1_cd6c929.jpg) no-repeat;
 	background-size: 100% 100%;
 	background-color: #f7e2ad
 }
@@ -800,7 +800,7 @@ html, body {
 	width: 2.07rem;
 	height: .53rem;
 	display: block;
-	background: url(/qnm.163.com/static/mobile/images/go-gw_ee7539d.png) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/go-gw_ee7539d.png) no-repeat;
 	background-size: 100%;
 	position: absolute;
 	right: 0;
@@ -815,7 +815,7 @@ html, body {
 	left: 50%;
 	margin-left: -2.5rem;
 	top: 2.88rem;
-	background: url(/qnm.163.com/static/mobile/images/btn-player1_75fed24.png) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/btn-player1_75fed24.png) no-repeat;
 	background-size: 100%;
 	z-index: 4;
 	-webkit-animation: pulse 4s forwards infinite;
@@ -841,18 +841,18 @@ html, body {
 	width: 7.5rem;
 	height: 4.5rem;
 	z-index: 1;
-	background-image: url(/qnm.163.com/static/mobile/images/sprite2_eced73e.png);
+	background-image: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/sprite2_eced73e.png);
 	background-size: 100% auto;
 	background-position: 0 0
 }
 
 .index .swiper-slide3 {
-	background: url(/qnm.163.com/static/mobile/images/bg2_92dcab5.jpg) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/bg2_92dcab5.jpg) no-repeat;
 	background-size: 100% 100%
 }
 
 .index .swiper-slide3 .slide2-bg {
-	background: url(/qnm.163.com/static/mobile/images/bg2-inner_6f947f5.png) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/bg2-inner_6f947f5.png) no-repeat;
 	background-size: 100% 100%;
 	height: 8.91rem;
 	width: 100%
@@ -868,7 +868,7 @@ html, body {
 .index .swiper-slide3 .btn-go {
 	width: 1.55rem;
 	height: .38rem;
-	background: url(/qnm.163.com/static/mobile/images/btn-go_d7b68a3.png) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/btn-go_d7b68a3.png) no-repeat;
 	background-size: 100%;
 	display: block;
 	position: absolute;
@@ -877,22 +877,22 @@ html, body {
 }
 
 .index .swiper-slide3 .t1 {
-	background: url(/qnm.163.com/static/mobile/images/sale1_be2f836.jpg) no-repeat center;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/sale1_be2f836.jpg) no-repeat center;
 	background-size: 100% 100%
 }
 
 .index .swiper-slide3 .t2 {
-	background: url(/qnm.163.com/static/mobile/images/sale2_068d3d7.jpg) no-repeat center;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/sale2_068d3d7.jpg) no-repeat center;
 	background-size: 100% 100%
 }
 
 .index .swiper-slide3 .t3 {
-	background: url(/qnm.163.com/static/mobile/images/sale3_ee9f14d.jpg) no-repeat center;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/sale3_ee9f14d.jpg) no-repeat center;
 	background-size: 100% 100%
 }
 
 .index .swiper-slide3 .t4 {
-	background: url(/qnm.163.com/static/mobile/images/sale4_93a2af0.jpg) no-repeat center;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/sale4_93a2af0.jpg) no-repeat center;
 	background-size: 100% 100%
 }
 
@@ -906,25 +906,25 @@ html, body {
 
 .index .swiper-slide3 .swiper-btn-prev {
 	left: .66rem;
-	background: url(/qnm.163.com/static/mobile/images/icon-left_6b06114.png) no-repeat center;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/icon-left_6b06114.png) no-repeat center;
 	background-size: 100% 100%
 }
 
 .index .swiper-slide3 .swiper-btn-next {
 	right: .9rem;
-	background: url(/qnm.163.com/static/mobile/images/icon-right_0045867.png) no-repeat center;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/icon-right_0045867.png) no-repeat center;
 	background-size: 100% 100%
 }
 
 .index .swiper-slide2 {
-	background: url(/qnm.163.com/static/mobile/images/bg3_e9671bc.jpg) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/bg3_e9671bc.jpg) no-repeat;
 	background-size: 100% 100%
 }
 
 .index .swiper-slide2 .title {
 	width: 7.5rem;
 	height: 1.3rem;
-	background: url(/qnm.163.com/static/mobile/images/title_1f0d806.png) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/title_1f0d806.png) no-repeat;
 	background-size: 100%;
 	margin-bottom: .4rem
 }
@@ -945,7 +945,7 @@ html, body {
 	background-position: left;
 	margin-top: .28rem;
 	opacity: 0;
-	background-image: url(/qnm.163.com/static/mobile/images/award-1_8b4cc8d.png)
+	background-image: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/award-1_8b4cc8d.png)
 }
 
 .index .swiper-slide2 ul .li1 {
@@ -969,14 +969,14 @@ html, body {
 }
 
 .download .bottom {
-	background: url(/qnm.163.com/static/mobile/images/bottom_1_9d7894f.png) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/bottom_1_9d7894f.png) no-repeat;
 	background-size: 100%;
 	bottom: 0;
 	height: 1.63rem
 }
 
 .download .swiper-slide1 {
-	background: url(/qnm.163.com/static/mobile/images/bg1_cd6c929.jpg) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/bg1_cd6c929.jpg) no-repeat;
 	background-size: 100%;
 	background-color: #f7e2ad
 }
@@ -984,7 +984,7 @@ html, body {
 .logo {
 	width: 2.21rem;
 	height: .71rem;
-	background: url(/qnm.163.com/static/mobile/images/logo_f5a394f.png) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/logo_f5a394f.png) no-repeat;
 	background-size: 100%;
 	display: block;
 	position: absolute;
@@ -997,7 +997,7 @@ html, body {
 	display: block;
 	width: 4rem;
 	height: 5.84rem;
-	background: url(/qnm.163.com/static/mobile/images/slogan_beb8f82.png) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/slogan_beb8f82.png) no-repeat;
 	background-size: 100%;
 	position: absolute;
 	top: .5rem;
@@ -1014,7 +1014,7 @@ html, body {
 	left: 50%;
 	margin-left: -.76rem;
 	bottom: 1.8rem;
-	background-image: url(/qnm.163.com/static/mobile/images/download-slogan_1376454.png);
+	background-image: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/download-slogan_1376454.png);
 	background-size: 100% 100%;
 	z-index: 4
 }
@@ -1022,6 +1022,6 @@ html, body {
 .logo1 {
 	width: 2.38rem;
 	height: .68rem;
-	background: url(/qnm.163.com/static/mobile/images/logo1_674855a.png) no-repeat;
+	background: url(/html_appota/nie.netease.com/qnm.163.com/static/mobile/images/logo1_674855a.png) no-repeat;
 	background-size: 100%
 }
