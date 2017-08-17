@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html land="en">
+<head>
+	<meta charset="UTF-8">
+	<title> EFFECT </title>
+</head>
+
+<style type="text/css">
+.spin{width:200px;height:200px;background:#b7b7b7;}
+.border{
+    border-width: 3px;
+    border-style: solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 0, 0 100%, from(black), to(rgba(0, 0, 0, 0))) 4 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(black, rgba(0, 0, 0, 0)) 4 100%;
+    -moz-border-image:
+      -moz-linear-gradient(black, rgba(0, 0, 0, 0)) 4 100%;    
+    -o-border-image:
+      -o-linear-gradient(black, rgba(0, 0, 0, 0)) 4 100%;
+    border-image:
+      linear-gradient(to bottom, black, rgba(0, 0, 0, 0)) 4 100%;
+}
+
+.line{width:300px;height:2px;background:#e0d0ff;float:left;margin: 0 4px;position:relative;overflow:hidden;}
+.line2{
+-ms-transform: rotate(90deg) translateY(157px) translateX(149px); /* IE 9 */
+-webkit-transform: rotate(90deg) translateY(157px) translateX(149px); /* Chrome, Safari, Opera */
+transform: rotate(90deg) translateY(157px) translateX(149px);
+}
+
+.line3{
+-ms-transform: rotate(180deg) translateY(-298px) translateX(616px); /* IE 9 */
+-webkit-transform: rotate(180deg) translateY(-298px) translateX(616px); /* Chrome, Safari, Opera */
+transform: rotate(180deg) translateY(-298px) translateX(616px);
+}
+
+.line4{
+-ms-transform: rotate(270deg) translateY(-151px) translateX(-147px); /* IE 9 */
+-webkit-transform: rotate(270deg) translateY(-151px) translateX(-147px); /* Chrome, Safari, Opera */
+transform: rotate(270deg) translateY(-151px) translateX(-147px);
+}
+
+.line_child{width:20%;height:100%;
+	background: linear-gradient( 20deg, rgba(134, 0, 255, 0), rgba(134, 0, 255, 0.71) );
+	position:absolute;
+}
+
+.line1 .line_child{
+	-webkit-animation: line1 3s linear infinite; 
+    animation: line1 3s linear infinite; 
+}
+
+.line2 .line_child{
+	-webkit-animation: line2 3s linear infinite; 
+    animation: line2 3s linear infinite; 
+}
+
+.line3 .line_child{
+	-webkit-animation: line3 3s linear infinite; 
+    animation: line3 3s linear infinite; 
+}
+
+.line4 .line_child{
+	-webkit-animation: line4 3s linear infinite; 
+    animation: line4 3s linear infinite; 
+}
+
+@-webkit-keyframes line1{
+	0%{-webkit-transform:translateX(-100%);}
+	90%{-webkit-transform:translateX(500%);}
+	100%{-webkit-transform:translateX(500%);}
+	/*100%{-webkit-transform:translateX(200%);}*/
+}
+@keyframes line1{
+	0%{transform:translateX(-100%);}
+	90%{transform:translateX(500%);}
+	100%{transform:translateX(500%);}
+	/*100%{transform:translateX(200%);}*/
+}
+
+
+@-webkit-keyframes line2{
+	0%{-webkit-transform:translateX(20%);}
+	90%{-webkit-transform:translateX(600%);}
+	100%{-webkit-transform:translateX(600%);}
+	/*100%{-webkit-transform:translateX(200%);}*/
+}
+@keyframes line2{
+	0%{transform:translateX(20%);}
+	90%{transform:translateX(600%);}
+	100%{transform:translateX(600%);}
+	/*100%{transform:translateX(200%);}*/
+}
+
+
+</style>
+
+<body>
+	<div class='spin border'>
+
+	</div>
+</body>
+</html>

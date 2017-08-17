@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html land="en">
+<head>
+	<meta charset="UTF-8">
+	<title> EFFECT </title>
+	<script type="text/javascript">
+
+	/*
+	$(document).ready(function{
+		var pathArray = window.location.pathname.split('/');
+		var lastsegment = pathArray[pathArray.length-1];
+
+		$('ul#list_head_menu li').removeClass('active');
+
+		if(lastsegment == 'register.php'){
+			$('ul#list_head_menu li:nth-child(2)').addClass('active');
+		}
+	})
+
+	var pathArray = window.location.pathname.split('/');
+	var lastsegment = pathArray[pathArray.length-1];
+	console.log(lastsegment);
+
+	*/
+
+	</script>
+</head>
+
+<style type="text/css">
+.line{width:300px;height:2px;background:#e0d0ff;float:left;margin: 0 4px;position:relative;overflow:hidden;}
+.line2{
+-ms-transform: rotate(90deg) translateY(157px) translateX(149px); /* IE 9 */
+-webkit-transform: rotate(90deg) translateY(157px) translateX(149px); /* Chrome, Safari, Opera */
+transform: rotate(90deg) translateY(157px) translateX(149px);
+}
+
+.line3{
+-ms-transform: rotate(180deg) translateY(-298px) translateX(616px); /* IE 9 */
+-webkit-transform: rotate(180deg) translateY(-298px) translateX(616px); /* Chrome, Safari, Opera */
+transform: rotate(180deg) translateY(-298px) translateX(616px);
+}
+
+.line4{
+-ms-transform: rotate(270deg) translateY(-151px) translateX(-147px); /* IE 9 */
+-webkit-transform: rotate(270deg) translateY(-151px) translateX(-147px); /* Chrome, Safari, Opera */
+transform: rotate(270deg) translateY(-151px) translateX(-147px);
+}
+
+.line_child{width:20%;height:100%;
+	background: linear-gradient( 20deg, rgba(134, 0, 255, 0), rgba(134, 0, 255, 0.71) );
+	position:absolute;
+}
+
+.line_child2{width:20%;height:100%;
+	background: linear-gradient( 20deg, rgba(134, 0, 255, 0), rgba(134, 0, 255, 0.71) );
+	position:absolute;
+}
+
+.line_child{
+	-webkit-animation: line1 4s linear infinite; 
+    animation: line1 4s linear infinite; 
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+/*.line1 .line_child2{
+	-webkit-animation: line2 3s linear infinite; 
+    animation: line2 3s linear infinite; 
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.line2 .line_child{
+	-webkit-animation: line1 3s linear infinite; 
+    animation: line1 3s linear infinite;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.line2 .line_child2{
+	-webkit-animation: line2 3s linear infinite; 
+    animation: line2 3s linear infinite;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}*/
+
+
+@-webkit-keyframes line1{
+	0%{-webkit-transform:translateX(-90%);}
+	100%{-webkit-transform:translateX(410%);}
+}
+@keyframes line1{
+	0%{transform:translateX(-90%);}
+	100%{transform:translateX(410%);}
+}
+
+
+@-webkit-keyframes line2{
+	0%{-webkit-transform:translateX(400%);}
+	100%{-webkit-transform:translateX(600%);}
+}
+@keyframes line2{
+	0%{transform:translateX(400%);}
+	100%{transform:translateX(600%);}
+}
+
+/*
+@-webkit-keyframes line2{
+	0%{-webkit-transform:translateX(20%);}
+	90%{-webkit-transform:translateX(600%);}
+	100%{-webkit-transform:translateX(600%);}
+}
+@keyframes line2{
+	0%{transform:translateX(20%);}
+	90%{transform:translateX(600%);}
+	100%{transform:translateX(600%);}
+}
+*/
+
+</style>
+
+<body>
+	<div class='line line1'>
+		<div class="line_child"></div>
+	</div> 
+	<div class='line line2'>
+		<div class="line_child"></div>
+	</div> 
+	<div class='line line3'>
+		<div class="line_child"></div>
+	</div> 
+	<div class='line line4'>
+		<div class="line_child"></div>
+	</div> 
+</body>
+</html>
